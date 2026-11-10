@@ -1,0 +1,92 @@
+{
+  "accuracy": 0.8527764815678954,
+  "macro_precision": 0.7437444760954132,
+  "macro_recall": 0.7195070719965034,
+  "macro_f1": 0.7288891770445229,
+  "per_class_precision": [
+    0.6067415730337079,
+    0.8026666666666666,
+    0.7136929460580913,
+    0.9469725460699511,
+    0.6486486486486487
+  ],
+  "per_class_recall": [
+    0.4931506849315068,
+    0.6856492027334852,
+    0.7196652719665272,
+    0.9563235852639574,
+    0.7427466150870407
+  ],
+  "per_class_f1": [
+    0.5440806045340051,
+    0.7395577395577394,
+    0.7166666666666668,
+    0.9516250944822373,
+    0.6925157799819658
+  ],
+  "per_class_support": [
+    219,
+    439,
+    478,
+    2633,
+    517
+  ],
+  "confusion_matrix": [
+    [
+      108,
+      27,
+      13,
+      7,
+      64
+    ],
+    [
+      23,
+      301,
+      26,
+      36,
+      53
+    ],
+    [
+      3,
+      15,
+      344,
+      57,
+      59
+    ],
+    [
+      8,
+      12,
+      63,
+      2518,
+      32
+    ],
+    [
+      36,
+      20,
+      36,
+      41,
+      384
+    ]
+  ],
+  "loss": 0.4213769891191964,
+  "class_names": [
+    "Cassava Bacterial Blight (CBB)",
+    "Cassava Brown Streak Disease (CBSD)",
+    "Cassava Green Mottle (CGM)",
+    "Cassava Mosaic Disease (CMD)",
+    "Healthy"
+  ],
+  "checkpoint": "E:\\vsCodeWorkspace\\JujubeDefectBench\\runs\\Cassava\\resnet18\\seed_2222\\checkpoints\\best.pth",
+  "checkpoint_sha256": "edd3c6a4d543930b6355c86d012f05ffe466ac83f9d9051624c0fc832da766b9",
+  "checkpoint_epoch": 74,
+  "checkpoint_selection": "first_max_validation_macro_f1",
+  "weight_source": "ema",
+  "train_seed": 2222,
+  "evaluation_split": "test",
+  "seconds": 13.674999966984615,
+  "model_name": "resnet18",
+  "classifier_dropout": 0.0,
+  "test_used_for_checkpoint_selection": false,
+  "automatic_adoption": false,
+  "has_training_auxiliary_branch": false
+}
