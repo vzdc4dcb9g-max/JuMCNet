@@ -1,0 +1,13 @@
+model_name: resnet18
+model_source: torchvision
+pretrained: false
+dropout: 0.0
+
+ema:
+  enabled: true
+  decay: 0.9998
+  min_decay: 0.0
+  update_after_step: 0
+  use_warmup: true
+  warmup_gamma: 1.0
+  warmup_power: 0.75

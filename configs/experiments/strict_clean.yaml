@@ -1,0 +1,43 @@
+# Fixed 70/10/20 split with online augmentation on the original training subset.
+# New runs are isolated under runs/Jujube12000/strict_clean/.
+
+experiment_name: strict_clean
+output_namespace: strict_clean
+output_root: runs
+
+epochs: 200
+batch_size: 32
+learning_rate: 0.0005
+weight_decay: 0.05
+optimizer: adamw
+warmup_epochs: 1
+scheduler: cosine
+label_smoothing: 0.0
+amp: true
+
+train_repeat_factor: 1
+
+monitor: macro_f1
+monitor_mode: max
+save_last: true
+# Keep best.pth unchanged. Also average the k EMA snapshots with the best
+# validation scores into topk_ema.pth (not the final k epochs).
+topk_ema: 5
+
+augmentation:
+  random_resized_crop:
+    scale: [0.70, 1.00]
+    ratio: [0.80, 1.25]
+  horizontal_flip: 0.50
+  vertical_flip: 0.50
+  rotation_degrees: 15
+  shear_degrees: 10
+  color_jitter:
+    brightness: 0.20
+    contrast: 0.20
+    saturation: 0.20
+    hue: 0.0
+  random_erasing:
+    probability: 0.25
+    scale: [0.02, 0.20]
+    value: random

@@ -1,0 +1,4 @@
+model_name: mobilevit_xxs
+model_source: timm
+pretrained: false
+dropout: 0.0

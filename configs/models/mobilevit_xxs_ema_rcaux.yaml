@@ -1,0 +1,43 @@
+model_name: mobilevit_xxs_ema_rcaux
+model_source: custom
+architecture_name: mobilevit_xxs
+pretrained: false
+dropout: 0.0
+
+# Pure original MobileViT-XXS main path. These guards document and enforce
+# that this ablation contains no MFF, LocalECA, or other experimental module.
+use_high_frequency: false
+use_mff: false
+use_local_eca: false
+use_tail_enhance: false
+
+# Same residual-codebook head and schedule as the full
+# JuMCNet model. The branch is training-only.
+rcaux:
+  enabled: true
+  reduced_channels: 48
+  num_codewords: 4
+  projection_dim: 64
+  assignment_scale: 1.0
+  max_weight: 0.15
+  warmup_end_epoch: 20
+  decay_start_epoch: 160
+  end_epoch: 200
+
+ema:
+  enabled: true
+  decay: 0.9998
+  min_decay: 0.0
+  update_after_step: 0
+  use_warmup: true
+  warmup_gamma: 1.0
+  warmup_power: 0.75
+
+difficulty_weighted_loss:
+  enabled: false
+
+confusion_loss:
+  enabled: false
+
+global_aux_loss:
+  enabled: false

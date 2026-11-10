@@ -1,0 +1,33 @@
+model_name: mobilevit_xxs_ema_mff_local_eca
+model_source: custom
+pretrained: false
+dropout: 0.0
+
+# XXS + default MFF (Stage2/3/4) + local-branch ECA after conv_kxk / before
+# conv_1x1 (channel recalibration of local_feat only; not a second fusion).
+# Model EMA same recipe as EMA-MFF. No HF / Tail / SE / confusion loss / DWL.
+use_high_frequency: false
+use_mff: true
+mff_variant: default
+use_stage2_mff: true
+use_stage3_mff: true
+use_stage4_mff: true
+use_local_eca: true
+eca_kernel: 3
+use_tail_enhance: false
+tail_reduction: 4
+
+confusion_loss:
+  enabled: false
+
+ema:
+  enabled: true
+  decay: 0.9998
+  min_decay: 0.0
+  update_after_step: 0
+  use_warmup: true
+  warmup_gamma: 1.0
+  warmup_power: 0.75
+
+difficulty_weighted_loss:
+  enabled: false

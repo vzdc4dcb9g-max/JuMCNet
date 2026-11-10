@@ -1,0 +1,16 @@
+{
+  "python.defaultInterpreterPath": "E:\\env\\conda\\2025\\envs\\cnn-learning\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.exclude": [
+    "dataSets",
+    "splits"
+  ],
+  "files.watcherExclude": {
+    "**/dataSets/**": true
+  },
+  "search.exclude": {
+    "**/dataSets/**": true
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
+}

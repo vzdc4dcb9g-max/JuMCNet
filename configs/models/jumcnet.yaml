@@ -1,0 +1,52 @@
+model_name: jumcnet
+model_source: custom
+pretrained: false
+dropout: 0.0
+
+# Scheme 4: LocalECA deployable path remains unchanged. RCAux observes only
+# the Stage3 local descriptor map during scheduled auxiliary supervision; test
+# and benchmark remove the complete residual-codebook branch.
+use_high_frequency: false
+use_mff: true
+mff_variant: default
+use_stage2_mff: true
+use_stage3_mff: true
+use_stage4_mff: true
+use_local_eca: true
+eca_kernel: 3
+use_stage2_local_eca: true
+use_stage3_local_eca: true
+use_stage4_local_eca: true
+use_tail_enhance: false
+tail_reduction: 4
+
+rcaux:
+  enabled: true
+  reduced_channels: 48
+  num_codewords: 4
+  projection_dim: 64
+  # Conservative learnable initialization; scale=10 was too close to hard
+  # assignment at initialization in the CPU diagnostic.
+  assignment_scale: 1.0
+  max_weight: 0.15
+  warmup_end_epoch: 20
+  decay_start_epoch: 160
+  end_epoch: 200
+
+ema:
+  enabled: true
+  decay: 0.9998
+  min_decay: 0.0
+  update_after_step: 0
+  use_warmup: true
+  warmup_gamma: 1.0
+  warmup_power: 0.75
+
+difficulty_weighted_loss:
+  enabled: false
+
+confusion_loss:
+  enabled: false
+
+global_aux_loss:
+  enabled: false

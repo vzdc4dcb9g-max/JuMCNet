@@ -1,0 +1,2 @@
+"""JujubeDefectBench shared training package."""
+

@@ -1,0 +1,9 @@
+-r ../../requirements.txt
+torch==2.6.0
+torchvision==0.21.0
+timm==1.0.28
+onnx==1.19.1
+onnxruntime==1.28.0
+psutil==7.0.0
+numpy==2.4.4
+Pillow==12.2.0

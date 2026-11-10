@@ -1,0 +1,35 @@
+experiment_name: default
+output_root: runs
+
+# Core training settings reported in the Ju-LiteMobileAtt paper.
+epochs: 200
+batch_size: 32
+learning_rate: 0.0005
+weight_decay: 0.05
+optimizer: adamw
+warmup_epochs: 1
+scheduler: cosine
+label_smoothing: 0.0
+amp: true
+
+# Checkpoints are selected using validation metrics only; test.py evaluates the test set separately.
+monitor: macro_f1
+monitor_mode: max
+save_last: true
+
+augmentation:
+  random_resized_crop:
+    scale: [0.70, 1.00]
+    ratio: [0.80, 1.25]
+  horizontal_flip: 0.50
+  vertical_flip: 0.50
+  rotation_degrees: 15
+  shear_degrees: 10
+  color_jitter:
+    brightness: 0.20
+    contrast: 0.20
+    saturation: 0.20
+    hue: 0.0
+  random_erasing:
+    probability: 0.25
+    scale: [0.02, 0.20]

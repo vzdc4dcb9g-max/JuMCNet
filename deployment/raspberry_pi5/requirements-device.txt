@@ -1,0 +1,4 @@
+onnxruntime==1.28.0
+numpy==2.4.4
+Pillow==12.2.0
+psutil==7.0.0

@@ -1,0 +1,31 @@
+dataset_name: Cassava
+data_root: dataSets/Cassava/train_images
+num_classes: 5
+class_names:
+- Cassava Bacterial Blight (CBB)
+- Cassava Brown Streak Disease (CBSD)
+- Cassava Green Mottle (CGM)
+- Cassava Mosaic Disease (CMD)
+- Healthy
+split:
+  seed: 1111
+  train_ratio: 0.7
+  val_ratio: 0.1
+  test_ratio: 0.2
+  output_dir: splits/Cassava/split_seed_1111
+image:
+  input_size: 224
+  channels: 3
+normalization:
+  mean:
+  - 0.485
+  - 0.456
+  - 0.406
+  std:
+  - 0.229
+  - 0.224
+  - 0.225
+loader:
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: true
