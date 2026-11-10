@@ -1,0 +1,26 @@
+{
+  "efficientnet_b0_seed2222_logits.npy": {
+    "sha256": "371257ad00848ce849b0ad8cd03c7ce27970ae2fe330b6c361fc42e2e79aa680",
+    "bytes": 55928
+  },
+  "efficientnet_b0_seed2222_predictions.csv": {
+    "sha256": "232b80345e95934b7d6f35bc6917caf4c0a1363459c64f1cae79e0bad88fce5a",
+    "bytes": 191373
+  },
+  "preflight.json": {
+    "sha256": "ee984895cd00aa56e00e0a24bc71680634797c29f6957ca9748a3b3d95af064c",
+    "bytes": 125
+  },
+  "efficientnet_b0_seed2222_timing.csv": {
+    "sha256": "79eeba3526bfd408a85048fd408f06515e3bd676dd162f2aac05a70a27adb579",
+    "bytes": 25036
+  },
+  "efficientnet_b0_seed2222_result.json": {
+    "sha256": "0f1530b805c29c9fdef86a497404cfdb0a71686d82c5a8c02fdaecae6ad68121",
+    "bytes": 7381
+  },
+  "efficientnet_b0_seed2222_telemetry.json": {
+    "sha256": "5c506a4e1835be384a3efb5aa85f5fab12bc74795e8622717b5f985b0f6eba8d",
+    "bytes": 29825
+  }
+}

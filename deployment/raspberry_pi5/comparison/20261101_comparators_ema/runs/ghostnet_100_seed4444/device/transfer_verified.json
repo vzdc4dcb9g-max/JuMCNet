@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/ghostnet_100_seed4444_timing.csv": {
+      "sha256": "c13157b4c90dcd3f43a247945aa3636527af7dde6c9b74722fe09a785fc047c9",
+      "bytes": 25056
+    },
+    "results/preflight.json": {
+      "sha256": "4ced6fe4585c337f8a504672d42245982da7e35dd913e1cfa1ef4e4fd511f497",
+      "bytes": 125
+    },
+    "results/ghostnet_100_seed4444_predictions.csv": {
+      "sha256": "1c13effb7cb6069d675ad746e81a76cca8343ab6e1c25c6af82a25c381c13452",
+      "bytes": 189445
+    },
+    "results/ghostnet_100_seed4444_telemetry.json": {
+      "sha256": "8d326405e45c60cd3c335f0207ecb3deaf2077669ef9091f417bc905cb07dcbc",
+      "bytes": 15312
+    },
+    "results/artifacts.json": {
+      "sha256": "863ba4da150b5b9bb96d793659be0ea733445656ca3b4edde3d4660ad68b7c1f",
+      "bytes": 868
+    },
+    "results/ghostnet_100_seed4444_logits.npy": {
+      "sha256": "185e5a8b077daedace48ae2b58fb58303114bdda95244213bb15c855d6176328",
+      "bytes": 55928
+    },
+    "results/ghostnet_100_seed4444_result.json": {
+      "sha256": "96fa1639e73c7120638fc880192463ba55f4e4b0d64ad24e9ba7100c942a6c98",
+      "bytes": 7382
+    },
+    "device.log": {
+      "sha256": "fc9306df6bd52ecdf760db26bd8a843a5e05718aa9891119f07be72032b4f811",
+      "bytes": 1253
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T04:06:14.961001+08:00"
+}

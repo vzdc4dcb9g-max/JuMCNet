@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "plan_sha256": "5fbb324803c3a3d66506b9747e1e3a1d39bf7670247439f67b82991b521a975e",
+  "frozen_input_count": 267,
+  "old_protected_count": 58,
+  "preprepared_job": "mobilenet_v2_seed1111",
+  "preprepared_passed": true,
+  "all_frozen_and_old_files_match": true
+}

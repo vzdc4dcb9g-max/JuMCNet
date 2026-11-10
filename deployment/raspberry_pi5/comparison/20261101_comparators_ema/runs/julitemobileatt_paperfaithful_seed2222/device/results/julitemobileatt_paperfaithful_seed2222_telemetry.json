@@ -1,0 +1,772 @@
+[
+  {
+    "monotonic_s": 4165268.937274292,
+    "stage": "loading",
+    "rss_mib": 69.09375,
+    "temperature_c": 42.45,
+    "frequency_khz": "1500000"
+  },
+  {
+    "monotonic_s": 4165269.937968221,
+    "stage": "loading",
+    "rss_mib": 111.921875,
+    "temperature_c": 43.55,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165270.942340968,
+    "stage": "warmup",
+    "rss_mib": 125.796875,
+    "temperature_c": 44.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165271.948400745,
+    "stage": "warmup",
+    "rss_mib": 125.796875,
+    "temperature_c": 44.1,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165272.954483036,
+    "stage": "warmup",
+    "rss_mib": 125.84375,
+    "temperature_c": 46.3,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165273.95806139,
+    "stage": "warmup",
+    "rss_mib": 125.890625,
+    "temperature_c": 44.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165274.964791515,
+    "stage": "warmup",
+    "rss_mib": 125.921875,
+    "temperature_c": 45.75,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165275.973962271,
+    "stage": "warmup",
+    "rss_mib": 98.65625,
+    "temperature_c": 46.3,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165276.980500315,
+    "stage": "warmup",
+    "rss_mib": 106.90625,
+    "temperature_c": 45.75,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165277.989950595,
+    "stage": "evaluation",
+    "rss_mib": 98.578125,
+    "temperature_c": 46.85,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165278.998336939,
+    "stage": "evaluation",
+    "rss_mib": 98.59375,
+    "temperature_c": 47.4,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165280.00648556,
+    "stage": "evaluation",
+    "rss_mib": 98.59375,
+    "temperature_c": 49.05,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165281.011000443,
+    "stage": "evaluation",
+    "rss_mib": 98.609375,
+    "temperature_c": 48.5,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165282.0199106,
+    "stage": "evaluation",
+    "rss_mib": 98.625,
+    "temperature_c": 47.95,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165283.026106507,
+    "stage": "evaluation",
+    "rss_mib": 98.65625,
+    "temperature_c": 47.4,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165284.029926588,
+    "stage": "evaluation",
+    "rss_mib": 98.65625,
+    "temperature_c": 49.6,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165285.035177609,
+    "stage": "evaluation",
+    "rss_mib": 98.65625,
+    "temperature_c": 49.05,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165286.042845761,
+    "stage": "evaluation",
+    "rss_mib": 98.6875,
+    "temperature_c": 49.6,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165287.042869837,
+    "stage": "evaluation",
+    "rss_mib": 98.703125,
+    "temperature_c": 49.05,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165288.042988277,
+    "stage": "evaluation",
+    "rss_mib": 98.71875,
+    "temperature_c": 49.6,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165289.053634581,
+    "stage": "evaluation",
+    "rss_mib": 98.734375,
+    "temperature_c": 49.6,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165290.063193708,
+    "stage": "evaluation",
+    "rss_mib": 98.75,
+    "temperature_c": 50.15,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165291.065887156,
+    "stage": "evaluation",
+    "rss_mib": 98.765625,
+    "temperature_c": 49.6,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165292.066518716,
+    "stage": "evaluation",
+    "rss_mib": 98.796875,
+    "temperature_c": 50.15,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165293.075412299,
+    "stage": "evaluation",
+    "rss_mib": 98.796875,
+    "temperature_c": 49.05,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165294.076059831,
+    "stage": "evaluation",
+    "rss_mib": 98.796875,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165295.081361151,
+    "stage": "evaluation",
+    "rss_mib": 98.828125,
+    "temperature_c": 49.05,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165296.081378105,
+    "stage": "evaluation",
+    "rss_mib": 98.84375,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165297.081466942,
+    "stage": "evaluation",
+    "rss_mib": 98.859375,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165298.089752488,
+    "stage": "evaluation",
+    "rss_mib": 98.875,
+    "temperature_c": 50.15,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165299.099772766,
+    "stage": "evaluation",
+    "rss_mib": 98.890625,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165300.101473659,
+    "stage": "evaluation",
+    "rss_mib": 98.890625,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165301.10180062,
+    "stage": "evaluation",
+    "rss_mib": 98.90625,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165302.102890121,
+    "stage": "evaluation",
+    "rss_mib": 98.921875,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165303.106068627,
+    "stage": "evaluation",
+    "rss_mib": 98.9375,
+    "temperature_c": 50.15,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165304.114328067,
+    "stage": "evaluation",
+    "rss_mib": 98.96875,
+    "temperature_c": 49.6,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165305.121563587,
+    "stage": "evaluation",
+    "rss_mib": 98.96875,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165306.123901014,
+    "stage": "evaluation",
+    "rss_mib": 98.984375,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165307.133676566,
+    "stage": "evaluation",
+    "rss_mib": 99.0,
+    "temperature_c": 50.15,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165308.134415186,
+    "stage": "evaluation",
+    "rss_mib": 99.03125,
+    "temperature_c": 50.15,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165309.137519012,
+    "stage": "evaluation",
+    "rss_mib": 99.03125,
+    "temperature_c": 49.6,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165310.146244246,
+    "stage": "evaluation",
+    "rss_mib": 99.046875,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165311.150388788,
+    "stage": "evaluation",
+    "rss_mib": 99.046875,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165312.158443389,
+    "stage": "evaluation",
+    "rss_mib": 99.0625,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165313.160934496,
+    "stage": "evaluation",
+    "rss_mib": 99.078125,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165314.170456457,
+    "stage": "evaluation",
+    "rss_mib": 99.078125,
+    "temperature_c": 50.15,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165315.176591268,
+    "stage": "evaluation",
+    "rss_mib": 99.109375,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165316.180027031,
+    "stage": "evaluation",
+    "rss_mib": 99.109375,
+    "temperature_c": 51.8,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165317.187258446,
+    "stage": "evaluation",
+    "rss_mib": 99.109375,
+    "temperature_c": 51.8,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165318.197194768,
+    "stage": "evaluation",
+    "rss_mib": 99.15625,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165319.206936253,
+    "stage": "evaluation",
+    "rss_mib": 99.15625,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165320.216660936,
+    "stage": "evaluation",
+    "rss_mib": 99.171875,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165321.227575599,
+    "stage": "evaluation",
+    "rss_mib": 99.1875,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165322.228973573,
+    "stage": "evaluation",
+    "rss_mib": 99.203125,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165323.230853258,
+    "stage": "evaluation",
+    "rss_mib": 99.203125,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165324.234554934,
+    "stage": "evaluation",
+    "rss_mib": 99.234375,
+    "temperature_c": 50.7,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165325.241055237,
+    "stage": "evaluation",
+    "rss_mib": 99.25,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165326.246529824,
+    "stage": "evaluation",
+    "rss_mib": 99.25,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165327.257447007,
+    "stage": "evaluation",
+    "rss_mib": 99.28125,
+    "temperature_c": 51.8,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165328.257543109,
+    "stage": "evaluation",
+    "rss_mib": 99.28125,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165329.266940131,
+    "stage": "evaluation",
+    "rss_mib": 99.296875,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165330.278050682,
+    "stage": "evaluation",
+    "rss_mib": 99.3125,
+    "temperature_c": 51.25,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165331.278305819,
+    "stage": "evaluation",
+    "rss_mib": 99.328125,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165332.280961162,
+    "stage": "evaluation",
+    "rss_mib": 99.34375,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165333.290751025,
+    "stage": "evaluation",
+    "rss_mib": 99.375,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165334.292503051,
+    "stage": "evaluation",
+    "rss_mib": 99.375,
+    "temperature_c": 51.8,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165335.295381558,
+    "stage": "evaluation",
+    "rss_mib": 99.375,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165336.303620976,
+    "stage": "evaluation",
+    "rss_mib": 99.40625,
+    "temperature_c": 53.45,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165337.307110778,
+    "stage": "evaluation",
+    "rss_mib": 99.40625,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165338.317850728,
+    "stage": "evaluation",
+    "rss_mib": 99.421875,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165339.327439612,
+    "stage": "evaluation",
+    "rss_mib": 99.4375,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165340.33674066,
+    "stage": "evaluation",
+    "rss_mib": 99.46875,
+    "temperature_c": 52.9,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165341.34403091,
+    "stage": "evaluation",
+    "rss_mib": 99.46875,
+    "temperature_c": 53.45,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165342.348129172,
+    "stage": "evaluation",
+    "rss_mib": 99.484375,
+    "temperature_c": 54.0,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165343.357010187,
+    "stage": "evaluation",
+    "rss_mib": 99.5,
+    "temperature_c": 54.0,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165344.360353945,
+    "stage": "evaluation",
+    "rss_mib": 99.5,
+    "temperature_c": 52.35,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165345.362787819,
+    "stage": "evaluation",
+    "rss_mib": 99.53125,
+    "temperature_c": 54.0,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165346.364631508,
+    "stage": "benchmark",
+    "rss_mib": 113.203125,
+    "temperature_c": 54.55,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165347.365044688,
+    "stage": "benchmark",
+    "rss_mib": 113.203125,
+    "temperature_c": 54.55,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165348.370040901,
+    "stage": "benchmark",
+    "rss_mib": 113.21875,
+    "temperature_c": 54.55,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165349.380301138,
+    "stage": "benchmark",
+    "rss_mib": 113.21875,
+    "temperature_c": 55.1,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165350.384674938,
+    "stage": "benchmark",
+    "rss_mib": 113.21875,
+    "temperature_c": 56.2,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165351.393340125,
+    "stage": "benchmark",
+    "rss_mib": 113.234375,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165352.395679231,
+    "stage": "benchmark",
+    "rss_mib": 113.25,
+    "temperature_c": 53.45,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165353.403668246,
+    "stage": "benchmark",
+    "rss_mib": 113.28125,
+    "temperature_c": 55.1,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165354.411328758,
+    "stage": "benchmark",
+    "rss_mib": 113.28125,
+    "temperature_c": 54.55,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165355.420721799,
+    "stage": "benchmark",
+    "rss_mib": 113.28125,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165356.428876422,
+    "stage": "benchmark",
+    "rss_mib": 113.296875,
+    "temperature_c": 55.1,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165357.434759176,
+    "stage": "benchmark",
+    "rss_mib": 114.234375,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165358.441573116,
+    "stage": "benchmark",
+    "rss_mib": 114.234375,
+    "temperature_c": 54.55,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165359.442422247,
+    "stage": "benchmark",
+    "rss_mib": 114.234375,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165360.442446621,
+    "stage": "benchmark",
+    "rss_mib": 114.25,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165361.448503716,
+    "stage": "benchmark",
+    "rss_mib": 114.265625,
+    "temperature_c": 55.1,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165362.44931166,
+    "stage": "benchmark",
+    "rss_mib": 114.265625,
+    "temperature_c": 54.55,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165363.450919366,
+    "stage": "benchmark",
+    "rss_mib": 114.296875,
+    "temperature_c": 56.75,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165364.455250682,
+    "stage": "benchmark",
+    "rss_mib": 114.296875,
+    "temperature_c": 56.2,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165365.465830641,
+    "stage": "benchmark",
+    "rss_mib": 114.3125,
+    "temperature_c": 55.1,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165366.474882407,
+    "stage": "benchmark",
+    "rss_mib": 114.3125,
+    "temperature_c": 56.75,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165367.48125766,
+    "stage": "benchmark",
+    "rss_mib": 114.328125,
+    "temperature_c": 56.2,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165368.489240109,
+    "stage": "benchmark",
+    "rss_mib": 114.359375,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165369.48936379,
+    "stage": "benchmark",
+    "rss_mib": 114.359375,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165370.489418205,
+    "stage": "benchmark",
+    "rss_mib": 114.359375,
+    "temperature_c": 56.75,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165371.490777857,
+    "stage": "benchmark",
+    "rss_mib": 114.375,
+    "temperature_c": 56.2,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165372.499933135,
+    "stage": "benchmark",
+    "rss_mib": 114.375,
+    "temperature_c": 56.75,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165373.50808801,
+    "stage": "benchmark",
+    "rss_mib": 114.375,
+    "temperature_c": 57.3,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165374.516030362,
+    "stage": "benchmark",
+    "rss_mib": 114.40625,
+    "temperature_c": 56.2,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165375.518432789,
+    "stage": "benchmark",
+    "rss_mib": 114.421875,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165376.523635435,
+    "stage": "benchmark",
+    "rss_mib": 114.4375,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165377.524522883,
+    "stage": "benchmark",
+    "rss_mib": 114.4375,
+    "temperature_c": 57.3,
+    "frequency_khz": "2400000"
+  },
+  {
+    "monotonic_s": 4165378.52797596,
+    "stage": "benchmark",
+    "rss_mib": 114.453125,
+    "temperature_c": 55.65,
+    "frequency_khz": "2400000"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/ghostnet_100_seed1111_predictions.csv": {
+      "sha256": "53d20218b0ae02cddecdcdda554ef6de602bdee4b5b1fb78d13bfc60d9baae9d",
+      "bytes": 189597
+    },
+    "results/ghostnet_100_seed1111_result.json": {
+      "sha256": "80695df874498b4f889e29197c3be13001da3e2e6ac977324ff0f6a851fd3a01",
+      "bytes": 7343
+    },
+    "results/ghostnet_100_seed1111_telemetry.json": {
+      "sha256": "2a2bf946a238314162154ff8ebca5d7004e75796c93bdab58e44f68318ab5743",
+      "bytes": 15135
+    },
+    "results/preflight.json": {
+      "sha256": "e0d21e346c352d84e134629479a3c9d805a9133d7f234b06df9a6c4d9d28f970",
+      "bytes": 125
+    },
+    "results/artifacts.json": {
+      "sha256": "7ddd0cca1c961956a334c3e2d19ec5ea3fd24ad499dbe3203e8555c5c55449c2",
+      "bytes": 868
+    },
+    "results/ghostnet_100_seed1111_timing.csv": {
+      "sha256": "8b7b779a0f15e7e3ff89740a328ff265525ca0bb42099c6da815c5e31212e01d",
+      "bytes": 25015
+    },
+    "results/ghostnet_100_seed1111_logits.npy": {
+      "sha256": "9796e6b76f0942f6c8740ac0ca6641623692a8af6c58e6ec0baf8c4c2bc89cfb",
+      "bytes": 55928
+    },
+    "device.log": {
+      "sha256": "56df4a9925c09e1ce062e2ddc4bc773157243cbd7cab9704b4b56149d9d6e277",
+      "bytes": 1253
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T03:50:55.432334+08:00"
+}

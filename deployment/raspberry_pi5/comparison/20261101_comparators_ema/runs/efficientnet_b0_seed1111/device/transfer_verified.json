@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/efficientnet_b0_seed1111_result.json": {
+      "sha256": "3fe1b7b612bb324c7f261b2d4bfa50fb779036a7744c2a5564ed30c9842b92ea",
+      "bytes": 7341
+    },
+    "results/efficientnet_b0_seed1111_predictions.csv": {
+      "sha256": "846389cdb048dc3fe031556be582a4589b995c9a6da86554c886b49ac55cc446",
+      "bytes": 187364
+    },
+    "results/efficientnet_b0_seed1111_logits.npy": {
+      "sha256": "bfd91634fabff51765918663ed6f96ab092cd2b693e97f86085477891aa4f29a",
+      "bytes": 55928
+    },
+    "results/efficientnet_b0_seed1111_telemetry.json": {
+      "sha256": "dd061ab728709e6d9f1ec38e01e0e6ca000eeee8568c399297795c029dfeffb0",
+      "bytes": 29832
+    },
+    "results/preflight.json": {
+      "sha256": "d252fa2ef0b090af577a9a7a5575dc6236e31326f835df4c142f7c79ec564f72",
+      "bytes": 124
+    },
+    "results/artifacts.json": {
+      "sha256": "a4efde0a8b503c2cd300a687e6d3b62bd79f6471373cfdf7d6dea124a37688b6",
+      "bytes": 883
+    },
+    "results/efficientnet_b0_seed1111_timing.csv": {
+      "sha256": "8aba2ebe1e4aa4222dfec3d939393ffd64f3f2ea3d84cb30598b99412eff082d",
+      "bytes": 25036
+    },
+    "device.log": {
+      "sha256": "94f06a6a1e362aafa72dda23062a8feaba8b6168b2a80e720ce1f03dc2f121a6",
+      "bytes": 1296
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-01T22:02:22.479043+08:00"
+}

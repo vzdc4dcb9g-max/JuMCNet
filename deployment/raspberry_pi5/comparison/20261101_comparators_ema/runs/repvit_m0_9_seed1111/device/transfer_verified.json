@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/repvit_m0_9_seed1111_result.json": {
+      "sha256": "f3671b3617d46920557044b897db6400c1ddf7d0039f1d6ef60853044dd8c09e",
+      "bytes": 7334
+    },
+    "results/repvit_m0_9_seed1111_timing.csv": {
+      "sha256": "0695f224343bbbaaeb228470d431ec4d7ff11948f624dab2711d16afb05d127d",
+      "bytes": 25030
+    },
+    "results/preflight.json": {
+      "sha256": "abb2c34b67f4fd77570409eb6461223d122f0e39e37b5db5aa0daf7ef66868fa",
+      "bytes": 125
+    },
+    "results/artifacts.json": {
+      "sha256": "578bf67a5dc77648c9495efe104d1b565b4fb03d7b561cd168a2af5efc80a7a3",
+      "bytes": 863
+    },
+    "results/repvit_m0_9_seed1111_predictions.csv": {
+      "sha256": "f7444678d7e0093999e2ee43f0c6537586f1f7b912a9f6c995c1bc1b9cd6ba8b",
+      "bytes": 190541
+    },
+    "results/repvit_m0_9_seed1111_telemetry.json": {
+      "sha256": "bd35aa211d6541d5857cd0c8ce5f5290b2a2b855902b039e787284506115acaf",
+      "bytes": 23524
+    },
+    "results/repvit_m0_9_seed1111_logits.npy": {
+      "sha256": "de462071baedb2e015c103dee8a7b9159322e22a12d33ca1575ed77cc1672ca9",
+      "bytes": 55928
+    },
+    "device.log": {
+      "sha256": "a42d79732ed5c7b4e8b85f8a4322278ee8d6d76424887c18713e4a1d58dce653",
+      "bytes": 1239
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T03:08:39.152418+08:00"
+}

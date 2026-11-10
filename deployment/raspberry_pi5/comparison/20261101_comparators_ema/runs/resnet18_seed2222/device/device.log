@@ -1,0 +1,16 @@
+[0;93m2026-11-01 20:54:01.344253943 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-01 20:54:01.344357258 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL resnet18_seed2222 250/2325 elapsed=14.2s
+EVAL resnet18_seed2222 500/2325 elapsed=28.3s
+EVAL resnet18_seed2222 750/2325 elapsed=42.5s
+EVAL resnet18_seed2222 1000/2325 elapsed=56.7s
+EVAL resnet18_seed2222 1250/2325 elapsed=70.8s
+EVAL resnet18_seed2222 1500/2325 elapsed=84.9s
+EVAL resnet18_seed2222 1750/2325 elapsed=99.1s
+EVAL resnet18_seed2222 2000/2325 elapsed=113.2s
+EVAL resnet18_seed2222 2250/2325 elapsed=127.4s
+BENCH resnet18_seed2222 round=1 mean_ms=50.489
+BENCH resnet18_seed2222 round=2 mean_ms=50.497
+BENCH resnet18_seed2222 round=3 mean_ms=50.504
+MODEL_DONE resnet18_seed2222 {"accuracy": 0.9440860215053763, "macro_f1": 0.9443359437440804}
+JOB_COMPLETE resnet18_seed2222

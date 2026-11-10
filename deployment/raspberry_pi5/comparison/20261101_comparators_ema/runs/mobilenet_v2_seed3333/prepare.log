@@ -1,0 +1,6 @@
+EXPORT mobilenet_v2_seed3333
+PC_REFERENCE mobilenet_v2_seed3333 500/2325 33s
+PC_REFERENCE mobilenet_v2_seed3333 1000/2325 63s
+PC_REFERENCE mobilenet_v2_seed3333 1500/2325 93s
+PC_REFERENCE mobilenet_v2_seed3333 2000/2325 124s
+PREPARED mobilenet_v2_seed3333

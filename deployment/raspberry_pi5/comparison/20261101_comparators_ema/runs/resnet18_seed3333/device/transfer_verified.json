@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/resnet18_seed3333_telemetry.json": {
+      "sha256": "7d7562f352ea1cbad95bdb476570523279df1f6e55e8a87eb3e18f3ee70ad36e",
+      "bytes": 34466
+    },
+    "results/resnet18_seed3333_timing.csv": {
+      "sha256": "99f5dea97dbc59ece057fa7859738697359ce8d60cdcdadb833f0893d9bee76d",
+      "bytes": 25039
+    },
+    "results/preflight.json": {
+      "sha256": "70bd483bfcf07e69f90a617b0602e230f5e074ad078bd5eb81e381f82560ffd2",
+      "bytes": 125
+    },
+    "results/artifacts.json": {
+      "sha256": "60bfa53e40013a2aa139c54c5456ccad2a9977ec73582d46e2d7cfacb37b55b7",
+      "bytes": 848
+    },
+    "results/resnet18_seed3333_predictions.csv": {
+      "sha256": "6cf46c37232989681b5ebb6335c0f34caf6d4d85bc48531fc52148fee5e31429",
+      "bytes": 192250
+    },
+    "results/resnet18_seed3333_result.json": {
+      "sha256": "9b8deffeac85b545c3c71c3ba5df704e9487dddf7e5554e34ed03a987ce6efe6",
+      "bytes": 7330
+    },
+    "results/resnet18_seed3333_logits.npy": {
+      "sha256": "7cf67d7f54add45e8746e33a3dc44939c52c0dc41cb303488b1df4c8d2077e01",
+      "bytes": 55928
+    },
+    "device.log": {
+      "sha256": "82bdd94ca6f921c236803e829beb5b82e1e2aa7a6bbef3d08eacfe30fe3dfea9",
+      "bytes": 1200
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-01T21:09:12.873528+08:00"
+}

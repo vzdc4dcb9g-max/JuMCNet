@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/julitemobileatt_paperfaithful_seed2222_predictions.csv": {
+      "sha256": "59bdddc91db67d35c18156c7409dd3a8aa420f3ad49bf6933dfbaa7f75866b70",
+      "bytes": 191796
+    },
+    "results/julitemobileatt_paperfaithful_seed2222_telemetry.json": {
+      "sha256": "899157e145e4a1ffeb19c7df99b544c621ba67ed807e9361743998a4cd9f19de",
+      "bytes": 17292
+    },
+    "results/preflight.json": {
+      "sha256": "7106a2c30278fdb39a8248008f284c46189b348bda4bd3c39fde8e4f3f3edd6d",
+      "bytes": 124
+    },
+    "results/artifacts.json": {
+      "sha256": "96912a92371e3a9860e61d7733eaa408f4407d7fafeea65b37a3a01347062873",
+      "bytes": 953
+    },
+    "results/julitemobileatt_paperfaithful_seed2222_timing.csv": {
+      "sha256": "e2ef3c2cd1aedc92e5525829ac6bfd79e3209eef837eac92b2ef2979b1dc2cc5",
+      "bytes": 25023
+    },
+    "results/julitemobileatt_paperfaithful_seed2222_logits.npy": {
+      "sha256": "056c999b94709bb03edf4189c0f2679fa0d47f2387189bba2557ff71a705d247",
+      "bytes": 55928
+    },
+    "results/julitemobileatt_paperfaithful_seed2222_result.json": {
+      "sha256": "a8b70c3db60ef1c10165e8eb04006b1ef3a89b2a0c855a4a4e543e09c6830a2f",
+      "bytes": 7371
+    },
+    "device.log": {
+      "sha256": "a5960f5cf96d6eb92d72f1b7a0c6edb85c42e5412dd85dabc37d822227055b6d",
+      "bytes": 1491
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T05:48:54.422463+08:00"
+}

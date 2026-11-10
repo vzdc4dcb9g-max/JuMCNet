@@ -1,0 +1,6 @@
+EXPORT efficientnet_b0_seed3333
+PC_REFERENCE efficientnet_b0_seed3333 500/2325 57s
+PC_REFERENCE efficientnet_b0_seed3333 1000/2325 114s
+PC_REFERENCE efficientnet_b0_seed3333 1500/2325 172s
+PC_REFERENCE efficientnet_b0_seed3333 2000/2325 229s
+PREPARED efficientnet_b0_seed3333

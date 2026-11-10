@@ -1,0 +1,6 @@
+EXPORT mobilenet_v3_large_seed1111
+PC_REFERENCE mobilenet_v3_large_seed1111 500/2325 30s
+PC_REFERENCE mobilenet_v3_large_seed1111 1000/2325 61s
+PC_REFERENCE mobilenet_v3_large_seed1111 1500/2325 95s
+PC_REFERENCE mobilenet_v3_large_seed1111 2000/2325 130s
+PREPARED mobilenet_v3_large_seed1111

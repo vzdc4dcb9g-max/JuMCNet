@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/efficientnet_b0_seed4444_timing.csv": {
+      "sha256": "96c0ac233fd7e64ce0b5002b51808ba1fe4a2aa95134102c004f49483058194b",
+      "bytes": 25042
+    },
+    "results/efficientnet_b0_seed4444_logits.npy": {
+      "sha256": "30a793e245f70f3e6739fd5e743f61310852cceed8f84172bf78f3ebeae05ec5",
+      "bytes": 55928
+    },
+    "results/preflight.json": {
+      "sha256": "cf6858dcfa9e29351e567007219a90b39476bd6359e4c14e67290fec64a21e2e",
+      "bytes": 125
+    },
+    "results/efficientnet_b0_seed4444_result.json": {
+      "sha256": "551bcd299222c9e64bcc713469d75af4d497cc2be48d9f7f3fb7e9a8c968a404",
+      "bytes": 7356
+    },
+    "results/artifacts.json": {
+      "sha256": "8bdb13b0416429a42448459a54870c1e7f3814e0c61a9974dba0a108a4af180f",
+      "bytes": 883
+    },
+    "results/efficientnet_b0_seed4444_predictions.csv": {
+      "sha256": "9b1936d8765a746b51a42df64f0203ce7ccba28ebb293388e7f50718e3f6f991",
+      "bytes": 189166
+    },
+    "results/efficientnet_b0_seed4444_telemetry.json": {
+      "sha256": "a93048254a315cb8667518e8af60460d2666d8d22d86be9c5f6e8608118ab0cc",
+      "bytes": 30105
+    },
+    "device.log": {
+      "sha256": "e1fe485eedd398db8c437f4cf70da6bc0f83b43940ed3fb79cba677f485f966c",
+      "bytes": 1296
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T02:51:30.515521+08:00"
+}

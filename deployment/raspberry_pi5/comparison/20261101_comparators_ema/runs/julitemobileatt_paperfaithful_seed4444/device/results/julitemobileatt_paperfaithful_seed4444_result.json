@@ -1,0 +1,267 @@
+{
+  "model": "Ju-LiteMobileAtt",
+  "id": "julitemobileatt_paperfaithful_seed4444",
+  "seed": 4444,
+  "checkpoint_epoch": 115,
+  "model_sha256": "bddc1e82ea3e3a3b8ba7ad3e228dc9fd77647bc7a084171043f2e07bbd528e61",
+  "test_count": 2325,
+  "metrics": {
+    "accuracy": 0.9410752688172043,
+    "macro_precision": 0.9420224870317737,
+    "macro_recall": 0.9415911901191983,
+    "macro_f1": 0.941592328959071,
+    "per_class_precision": [
+      0.9549071618037135,
+      0.9607843137254902,
+      0.9296116504854369,
+      0.9547738693467337,
+      0.8926829268292683,
+      0.959375
+    ],
+    "per_class_recall": [
+      0.8977556109725686,
+      0.9775561097256857,
+      0.9575,
+      0.9476309226932669,
+      0.912718204488778,
+      0.956386292834891
+    ],
+    "per_class_f1": [
+      0.9254498714652957,
+      0.9690976514215079,
+      0.9433497536945813,
+      0.951188986232791,
+      0.9025893958076447,
+      0.9578783151326054
+    ],
+    "per_class_support": [
+      401,
+      401,
+      400,
+      401,
+      401,
+      321
+    ],
+    "confusion_matrix": [
+      [
+        360,
+        4,
+        21,
+        6,
+        8,
+        2
+      ],
+      [
+        3,
+        392,
+        1,
+        0,
+        5,
+        0
+      ],
+      [
+        4,
+        6,
+        383,
+        2,
+        5,
+        0
+      ],
+      [
+        5,
+        0,
+        2,
+        380,
+        14,
+        0
+      ],
+      [
+        5,
+        6,
+        4,
+        9,
+        366,
+        11
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        12,
+        307
+      ]
+    ]
+  },
+  "original_record_metrics": {
+    "accuracy": 0.941505376344086,
+    "macro_precision": 0.942443197896079,
+    "macro_recall": 0.9420068177168708,
+    "macro_f1": 0.9420208894549957
+  },
+  "original_amp_prediction_mismatches": [
+    2162
+  ],
+  "consistency": {
+    "preprocessing_max_abs": 0,
+    "desktop_onnx_logit_max_abs": 1.430511474609375e-05,
+    "desktop_onnx_prediction_mismatches": [],
+    "passed": true
+  },
+  "settings": {
+    "backend": "ONNX Runtime CPUExecutionProvider",
+    "precision": "FP32",
+    "input": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "intra_threads": 4,
+    "inter_threads": 1,
+    "execution_mode": "sequential",
+    "graph_optimization": "all",
+    "thread_spinning": false,
+    "warmup_iterations": 100,
+    "benchmark_rounds": 3,
+    "iterations_per_round": 500,
+    "speed_input": "24 deterministic class-stratified real test tensors, cyclic; no random synthetic inputs"
+  },
+  "load_ms": 50.30986201018095,
+  "classification_run": {
+    "model_only": {
+      "n": 2325,
+      "mean_ms": 23.79729786408602,
+      "sd_ms": 0.8753939549218801,
+      "median_ms": 23.639344,
+      "p95_ms": 24.370175399999994,
+      "min_ms": 23.145349,
+      "max_ms": 33.55712,
+      "throughput_images_per_s": 42.021577647652265
+    },
+    "preprocessing": {
+      "n": 2325,
+      "mean_ms": 5.759837089892472,
+      "sd_ms": 0.28874924186644946,
+      "median_ms": 5.892568,
+      "p95_ms": 6.056140999999999,
+      "min_ms": 5.176591,
+      "max_ms": 7.041373,
+      "throughput_images_per_s": 173.61602149387676
+    },
+    "end_to_end": {
+      "n": 2325,
+      "mean_ms": 29.64382013978495,
+      "sd_ms": 0.9676981218567514,
+      "median_ms": 29.565242,
+      "p95_ms": 30.2590336,
+      "min_ms": 28.571643,
+      "max_ms": 40.16167,
+      "throughput_images_per_s": 33.733843859681926
+    },
+    "scope": "End-to-end includes PIL open/decode/RGB/resize/crop/normalize, CPU inference, softmax and argmax; excludes CSV writing, network, model load and startup; warmed OS cache"
+  },
+  "benchmark": {
+    "pooled": {
+      "n": 1500,
+      "mean_ms": 22.399939456000002,
+      "sd_ms": 0.7273211813462748,
+      "median_ms": 22.320412,
+      "p95_ms": 22.7137483,
+      "min_ms": 21.824398,
+      "max_ms": 33.635442,
+      "throughput_images_per_s": 44.642977806448584
+    },
+    "rounds": [
+      {
+        "n": 500,
+        "mean_ms": 22.39638758,
+        "sd_ms": 0.7604818361240145,
+        "median_ms": 22.315431,
+        "p95_ms": 22.686501099999997,
+        "min_ms": 21.843305,
+        "max_ms": 33.635442,
+        "throughput_images_per_s": 44.65005780186628
+      },
+      {
+        "n": 500,
+        "mean_ms": 22.406405006,
+        "sd_ms": 0.7115173600085928,
+        "median_ms": 22.326024,
+        "p95_ms": 22.737123,
+        "min_ms": 21.824398,
+        "max_ms": 33.11104,
+        "throughput_images_per_s": 44.63009571290974
+      },
+      {
+        "n": 500,
+        "mean_ms": 22.397025781999996,
+        "sd_ms": 0.7102506008192931,
+        "median_ms": 22.316923,
+        "p95_ms": 22.71391275,
+        "min_ms": 21.868509,
+        "max_ms": 32.341064,
+        "throughput_images_per_s": 44.6487855009605
+      }
+    ],
+    "round_mean_sd_ms": 0.005608415823571716
+  },
+  "memory": {
+    "baseline_rss_mib": 57.421875,
+    "post_warmup_rss_mib": 98.5,
+    "sampled_peak_rss_mib": 125.9375,
+    "process_peak_rss_mib": 124.015625,
+    "scope": "Fresh process per model; RSS includes Python, imports, ONNX session, input/reference data, monitoring and result arrays; Linux ru_maxrss high-water mark, not model weights alone",
+    "sampling_interval_s": 0.01
+  },
+  "hardware_start": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "1500000",
+    "temperature_c": 41.35,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "hardware_end": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "2400000",
+    "temperature_c": 56.75,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "power_measurement": {
+    "status": "not_measured",
+    "reason": "External board-input power meter not connected; no power or energy value inferred from software flags"
+  },
+  "max_temperature_c": 57.3,
+  "onnx_bytes": 8852694,
+  "checkpoint_sha256": "ddc77c49bc344b6a298c8a60bc2c13db821425c6c2317e636ccf25011c931d84",
+  "params_deployed": 2217302,
+  "finished_utc": "2026-11-01T22:00:03Z",
+  "disk_free_after_bytes": 51196563456
+}

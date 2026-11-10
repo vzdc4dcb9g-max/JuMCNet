@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/mobilevit_xxs_ema_seed5555_telemetry.json": {
+      "sha256": "af8eba862f6ea40fe94f6e10d002698c37f42638f77744d81b288388bff6d29d",
+      "bytes": 21704
+    },
+    "results/mobilevit_xxs_ema_seed5555_result.json": {
+      "sha256": "f957592864c3ff63fa1ba12a78987814e21d0d445edf970551b7376f8f6ae10b",
+      "bytes": 7380
+    },
+    "results/preflight.json": {
+      "sha256": "a74583461ade9d23f0cf44479bbe113aa0596d31dd2d489efd6b3eac3453a6f8",
+      "bytes": 126
+    },
+    "results/mobilevit_xxs_ema_seed5555_predictions.csv": {
+      "sha256": "925858ccbb0af5f52f3e94326d22cd4d2b9c228daab5a1a1f73dc22647fd25c8",
+      "bytes": 194112
+    },
+    "results/artifacts.json": {
+      "sha256": "b2f3b7960d605fb6179db6e6f3b1aa0647fd35d6d665adbb1ea8603b4f737d45",
+      "bytes": 893
+    },
+    "results/mobilevit_xxs_ema_seed5555_logits.npy": {
+      "sha256": "2003955a658bae83b832e8bc6738abe46c8bc8662d1c4eb26bb570c2154669e7",
+      "bytes": 55928
+    },
+    "results/mobilevit_xxs_ema_seed5555_timing.csv": {
+      "sha256": "67e5a83e4b6080ec332d4229a787c7f1079216b87c10dd1b380cf44780004479",
+      "bytes": 25021
+    },
+    "device.log": {
+      "sha256": "db2bc4991df28f5fa28d01c95a2c9feb0d2dba9ae62b547c78e7db678139da7e",
+      "bytes": 1323
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T05:37:53.280267+08:00"
+}

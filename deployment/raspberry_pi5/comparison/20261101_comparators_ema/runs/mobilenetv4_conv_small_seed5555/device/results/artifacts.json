@@ -1,0 +1,26 @@
+{
+  "mobilenetv4_conv_small_seed5555_predictions.csv": {
+    "sha256": "2baec8515795034eb11bfca85724838df95f351edf95b80a1bba2247f55101a4",
+    "bytes": 191930
+  },
+  "mobilenetv4_conv_small_seed5555_logits.npy": {
+    "sha256": "1b4416de7c80df8ff9c7a6b1eec1df299059164e7b83eb9a2813c5f71e17dcaf",
+    "bytes": 55928
+  },
+  "mobilenetv4_conv_small_seed5555_telemetry.json": {
+    "sha256": "5f01152e67148ea729ebc009ca151c849f094b169e786d363050832f2d37158a",
+    "bytes": 8488
+  },
+  "preflight.json": {
+    "sha256": "d88afb697795ac92248d69278e4e99f7dd51c4a3fe58161317b29b5a0684d9c5",
+    "bytes": 125
+  },
+  "mobilenetv4_conv_small_seed5555_timing.csv": {
+    "sha256": "cb25f28b29436ecfd8d6a21fc441c6d36c5b14b25f632735369aa336222c43df",
+    "bytes": 23546
+  },
+  "mobilenetv4_conv_small_seed5555_result.json": {
+    "sha256": "cc43f607f00aa786ad5d2c173cf1c5bb435721ce4763684da93afd70396e0812",
+    "bytes": 7361
+  }
+}

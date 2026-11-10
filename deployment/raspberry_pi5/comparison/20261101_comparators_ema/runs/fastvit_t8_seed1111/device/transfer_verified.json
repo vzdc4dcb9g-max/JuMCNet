@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/fastvit_t8_seed1111_result.json": {
+      "sha256": "085987717e602cf0cfe4eca181102b848a54930ee7b074e7330abd37571c0d84",
+      "bytes": 7335
+    },
+    "results/fastvit_t8_seed1111_logits.npy": {
+      "sha256": "4925e8901007109b4d18247fa6a309300e6d5f41799d7288bc6ad1bf96825dac",
+      "bytes": 55928
+    },
+    "results/fastvit_t8_seed1111_telemetry.json": {
+      "sha256": "564de5ac441353e9927ac3ef1db05a821615dbd56158a259aede396e3b42cdc7",
+      "bytes": 21460
+    },
+    "results/preflight.json": {
+      "sha256": "aaec1247b893bbe4b70ee6ebf2dee87e6df885ee49da0a317dcb6914b5369d7f",
+      "bytes": 126
+    },
+    "results/fastvit_t8_seed1111_predictions.csv": {
+      "sha256": "6f09868b30cd7e94c8a63bbd74d93ea7539b0705b9244e05a4733c3e0182c584",
+      "bytes": 192838
+    },
+    "results/artifacts.json": {
+      "sha256": "03b23ffe87ed3b2213fc5509cda5c92d1345dcb4c50d5c62c9de2de21957f75e",
+      "bytes": 858
+    },
+    "results/fastvit_t8_seed1111_timing.csv": {
+      "sha256": "6660851569e35e9a5f1697550a28f3d49ceba083337f2c73184c674c40aa695d",
+      "bytes": 25026
+    },
+    "device.log": {
+      "sha256": "f06b414ad420f591b7ce1657349eb42a3a7a92f3f7ca44e9a109a56bf3d96c0e",
+      "bytes": 1225
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T04:34:05.863437+08:00"
+}

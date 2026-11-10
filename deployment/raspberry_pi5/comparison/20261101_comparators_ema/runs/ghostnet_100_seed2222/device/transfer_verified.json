@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/preflight.json": {
+      "sha256": "e920c35e084241a65a26a8a03f3088088bf9e65625b8b0200ccd589a3118954d",
+      "bytes": 126
+    },
+    "results/ghostnet_100_seed2222_result.json": {
+      "sha256": "8983be50c23e04b730ea08d3dda962f61a1b26381b8afdacc7a1b39868d1f5e2",
+      "bytes": 7332
+    },
+    "results/artifacts.json": {
+      "sha256": "d63515f1df22847efdc47d6e512a70507ba249e923e91e3dd13c543df1834aba",
+      "bytes": 868
+    },
+    "results/ghostnet_100_seed2222_predictions.csv": {
+      "sha256": "22ee8c4b16148c165d449beb76ceb0de9e35ee46473113701e47962a632313e4",
+      "bytes": 188186
+    },
+    "results/ghostnet_100_seed2222_telemetry.json": {
+      "sha256": "e176e9d54b71e22c995be917bd6eb03437b9e55e9021d2b148dcaa33a64159d7",
+      "bytes": 15299
+    },
+    "results/ghostnet_100_seed2222_logits.npy": {
+      "sha256": "efb6868424ab7a404d7c45dad8be41e6a6857cadfea9d66e7495f48ab2e44467",
+      "bytes": 55928
+    },
+    "results/ghostnet_100_seed2222_timing.csv": {
+      "sha256": "0ee8be3d1b8f0fefa53e5767cff27a2b3fe9fb40a07712c834fd99de63ba3e7a",
+      "bytes": 25027
+    },
+    "device.log": {
+      "sha256": "1911d1e385b4a1e9e1cf23f67cc20089b00b16af418c6ef02154bbd09d40f0e5",
+      "bytes": 1253
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T03:56:01.894280+08:00"
+}

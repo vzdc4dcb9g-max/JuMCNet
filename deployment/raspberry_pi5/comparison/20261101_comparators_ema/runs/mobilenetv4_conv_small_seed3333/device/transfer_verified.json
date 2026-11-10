@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/mobilenetv4_conv_small_seed3333_logits.npy": {
+      "sha256": "f348313f83568ae2d9a84a2d9efc567f5fa42ea7c06d1c823767638961cc0677",
+      "bytes": 55928
+    },
+    "results/preflight.json": {
+      "sha256": "5a59dbe66f6e3e72533d6d434f39d3c7f1d7410835f7402f0c62c8703e33d4c7",
+      "bytes": 125
+    },
+    "results/mobilenetv4_conv_small_seed3333_result.json": {
+      "sha256": "cdc1405cdd2f8dcca0b855a7f040ccd582c9fbaecd78b6bc3ad96f3537f57e52",
+      "bytes": 7331
+    },
+    "results/mobilenetv4_conv_small_seed3333_predictions.csv": {
+      "sha256": "36b7a1da8c50ac920bf6b5b8f64b235919e78c3f30a5854d57418d66065b6fc9",
+      "bytes": 191510
+    },
+    "results/artifacts.json": {
+      "sha256": "858d447dcf5d72580d194f7d6c33438db6245f2a52fc6978a6783698fd6b47f5",
+      "bytes": 917
+    },
+    "results/mobilenetv4_conv_small_seed3333_timing.csv": {
+      "sha256": "fa1a00ec6dc7235601d6b6c454be04d43bc6e9c09d488ac7869f234f9e5be39c",
+      "bytes": 23524
+    },
+    "results/mobilenetv4_conv_small_seed3333_telemetry.json": {
+      "sha256": "35c1d9bc23a98fd06fe9a349b95901859c2952355e3f9f12331f5a50924a6e57",
+      "bytes": 8478
+    },
+    "device.log": {
+      "sha256": "cba65589000c98e47bee5c3886f91ca29b9840611179cbe4f8690f138b6b03db",
+      "bytes": 1389
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T04:19:57.423662+08:00"
+}

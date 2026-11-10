@@ -1,0 +1,16 @@
+[0;93m2026-11-02 05:57:57.316071740 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-02 05:57:57.316214331 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL julitemobileatt_paperfaithful_seed4444 250/2325 elapsed=7.4s
+EVAL julitemobileatt_paperfaithful_seed4444 500/2325 elapsed=14.8s
+EVAL julitemobileatt_paperfaithful_seed4444 750/2325 elapsed=22.2s
+EVAL julitemobileatt_paperfaithful_seed4444 1000/2325 elapsed=29.6s
+EVAL julitemobileatt_paperfaithful_seed4444 1250/2325 elapsed=37.0s
+EVAL julitemobileatt_paperfaithful_seed4444 1500/2325 elapsed=44.4s
+EVAL julitemobileatt_paperfaithful_seed4444 1750/2325 elapsed=51.9s
+EVAL julitemobileatt_paperfaithful_seed4444 2000/2325 elapsed=59.3s
+EVAL julitemobileatt_paperfaithful_seed4444 2250/2325 elapsed=66.7s
+BENCH julitemobileatt_paperfaithful_seed4444 round=1 mean_ms=22.396
+BENCH julitemobileatt_paperfaithful_seed4444 round=2 mean_ms=22.406
+BENCH julitemobileatt_paperfaithful_seed4444 round=3 mean_ms=22.397
+MODEL_DONE julitemobileatt_paperfaithful_seed4444 {"accuracy": 0.9410752688172043, "macro_f1": 0.941592328959071}
+JOB_COMPLETE julitemobileatt_paperfaithful_seed4444

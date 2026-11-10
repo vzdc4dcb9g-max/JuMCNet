@@ -1,0 +1,26 @@
+{
+  "resnet18_seed5555_timing.csv": {
+    "sha256": "6c5b706f7fb512bbadbbdb5372a07f113baf3e8ec7812466cff1185c7a45822e",
+    "bytes": 25024
+  },
+  "preflight.json": {
+    "sha256": "e537d3a4e356c04db1501547d5eb47347330b60c60ccd07b36e32bc80462f798",
+    "bytes": 123
+  },
+  "resnet18_seed5555_result.json": {
+    "sha256": "4453ebde2ad6b507b58284a68471feaf83ff24ed66fecf1a9a02a224fee56690",
+    "bytes": 7331
+  },
+  "resnet18_seed5555_predictions.csv": {
+    "sha256": "844508973e07f12d88b54e722eccb4d5569b12394f1607193000ba15660649bb",
+    "bytes": 193214
+  },
+  "resnet18_seed5555_telemetry.json": {
+    "sha256": "5ded73a955118db7af1f1938ae21ba2a8b5893dc3e9b9cb22b125aed86aaeb94",
+    "bytes": 34596
+  },
+  "resnet18_seed5555_logits.npy": {
+    "sha256": "9fa147c82fbc612742fb1512872a1427e02ea0dfe078ebcbe2ac01a118899e26",
+    "bytes": 55928
+  }
+}

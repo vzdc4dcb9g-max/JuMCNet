@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/mobilevit_xxs_ema_seed4444_timing.csv": {
+      "sha256": "5e11ce15aa2c2af5f303c179fd66f0e9006b6d90492aba3050a5c0d9969f8bfe",
+      "bytes": 25043
+    },
+    "results/preflight.json": {
+      "sha256": "1ee29c4b370afb5e256871a7a33a475b49f6947c6a933d81f0fc5976efe834f9",
+      "bytes": 125
+    },
+    "results/mobilevit_xxs_ema_seed4444_predictions.csv": {
+      "sha256": "ae230988398aaa7c3fc0cc9524ab7210283a7b8072cb2178f480b0f6006bee52",
+      "bytes": 194049
+    },
+    "results/mobilevit_xxs_ema_seed4444_logits.npy": {
+      "sha256": "0e3c9161e789144401e7a1bf9822220b9d68a254b2830941377622acd49dbcc1",
+      "bytes": 55928
+    },
+    "results/mobilevit_xxs_ema_seed4444_telemetry.json": {
+      "sha256": "ea4ebc9ddf905fe0dadb7c9d34c29ed58c7bc70785c8ae2fd069a1f2a6ebf09d",
+      "bytes": 21230
+    },
+    "results/artifacts.json": {
+      "sha256": "ec9b677bf9fc90931a231bea413aca74e73e7e55245c3d64f716bd1d07c4651d",
+      "bytes": 893
+    },
+    "results/mobilevit_xxs_ema_seed4444_result.json": {
+      "sha256": "9d55649cae462625a7d1445adb2a120b9dc4eccdb049c03b63f64b8f29638ff9",
+      "bytes": 7343
+    },
+    "device.log": {
+      "sha256": "9f0d18f071d77d38171c74e1fcf9970319a57683f5e0e93311b6e857646f9304",
+      "bytes": 1323
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T05:31:27.947865+08:00"
+}

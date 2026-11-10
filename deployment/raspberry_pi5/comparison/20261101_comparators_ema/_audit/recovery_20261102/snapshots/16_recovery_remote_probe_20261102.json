@@ -1,0 +1,99 @@
+{
+  "utc": "2026-11-01T18:41:59Z",
+  "runs": [
+    {
+      "id": "efficientnet_b0_seed3333",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v3_large_seed1111",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v2_seed4444",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "efficientnet_b0_seed1111",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v2_seed2222",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v2_seed1111",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v3_large_seed5555",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v2_seed5555",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "resnet18_seed5555",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v3_large_seed3333",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "resnet18_seed2222",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "efficientnet_b0_seed2222",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v3_large_seed2222",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "resnet18_seed3333",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v2_seed3333",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "resnet18_seed1111",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "resnet18_seed4444",
+      "exit": "0",
+      "result_count": 1
+    },
+    {
+      "id": "mobilenet_v3_large_seed4444",
+      "exit": "0",
+      "result_count": 1
+    }
+  ],
+  "active": [],
+  "free_bytes": 51603546112,
+  "throttled": "throttled=0x0",
+  "temperature": "temp=36.2'C"
+}

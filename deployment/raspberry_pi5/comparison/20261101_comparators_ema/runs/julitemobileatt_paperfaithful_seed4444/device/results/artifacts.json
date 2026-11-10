@@ -1,0 +1,26 @@
+{
+  "julitemobileatt_paperfaithful_seed4444_timing.csv": {
+    "sha256": "d327ce6496adb488570165855bdc497bfe1c8fc39f89b46f06dbb4a07c54af7d",
+    "bytes": 25053
+  },
+  "julitemobileatt_paperfaithful_seed4444_predictions.csv": {
+    "sha256": "b801f3fb20758fb27579aa55bb38cd5ec5d6915b9e4997a33d03cfa436f3347c",
+    "bytes": 192851
+  },
+  "preflight.json": {
+    "sha256": "6ed34ba79b213d2122ad71293b4aadb71c8cc41560ffcee7e9806e2cc419d59d",
+    "bytes": 126
+  },
+  "julitemobileatt_paperfaithful_seed4444_logits.npy": {
+    "sha256": "10ef57b096e86741cd7ca3073404bbafd0bd5271a821b54035f8eead2a7b9508",
+    "bytes": 55928
+  },
+  "julitemobileatt_paperfaithful_seed4444_result.json": {
+    "sha256": "e5323f36444fdb1f158c67416b5c76a8cd49c6192a054b3ff9d230827263c861",
+    "bytes": 7359
+  },
+  "julitemobileatt_paperfaithful_seed4444_telemetry.json": {
+    "sha256": "7f0843cc5858faebfbdb03e3d9add0833573ec02b7b6771ab6d69b8752a465cf",
+    "bytes": 17448
+  }
+}

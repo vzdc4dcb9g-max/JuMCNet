@@ -1,0 +1,16 @@
+[0;93m2026-11-02 04:55:46.597200512 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-02 04:55:46.597306771 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL fastvit_t8_seed4444 250/2325 elapsed=9.0s
+EVAL fastvit_t8_seed4444 500/2325 elapsed=17.9s
+EVAL fastvit_t8_seed4444 750/2325 elapsed=26.9s
+EVAL fastvit_t8_seed4444 1000/2325 elapsed=35.9s
+EVAL fastvit_t8_seed4444 1250/2325 elapsed=44.9s
+EVAL fastvit_t8_seed4444 1500/2325 elapsed=53.9s
+EVAL fastvit_t8_seed4444 1750/2325 elapsed=62.9s
+EVAL fastvit_t8_seed4444 2000/2325 elapsed=71.9s
+EVAL fastvit_t8_seed4444 2250/2325 elapsed=80.9s
+BENCH fastvit_t8_seed4444 round=1 mean_ms=29.358
+BENCH fastvit_t8_seed4444 round=2 mean_ms=29.374
+BENCH fastvit_t8_seed4444 round=3 mean_ms=29.316
+MODEL_DONE fastvit_t8_seed4444 {"accuracy": 0.9363440860215054, "macro_f1": 0.936521414349714}
+JOB_COMPLETE fastvit_t8_seed4444

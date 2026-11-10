@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/mobilenet_v2_seed4444_telemetry.json": {
+      "sha256": "0929497ca7c77b04e47248d2cb92d2588b43659c1b220ab949c74d66b1afefc2",
+      "bytes": 15737
+    },
+    "results/mobilenet_v2_seed4444_predictions.csv": {
+      "sha256": "3c6c5ce2d2730bdc202079acbcb43579d130df4005340e8c9a67ee88d2484bb2",
+      "bytes": 193326
+    },
+    "results/preflight.json": {
+      "sha256": "69e231c8092fe094df8ab2f5af18599f3b4d6686f6e5daf94040a453c4070845",
+      "bytes": 126
+    },
+    "results/artifacts.json": {
+      "sha256": "17115de6e2971c903a04dc3734899b038a1bfcfc92f08cb3177eac9be191bade",
+      "bytes": 868
+    },
+    "results/mobilenet_v2_seed4444_logits.npy": {
+      "sha256": "a46d44a11ba92d6c75e714f4d49308302ac580d0dd80301a72ba2f0129d63341",
+      "bytes": 55928
+    },
+    "results/mobilenet_v2_seed4444_result.json": {
+      "sha256": "8bde22daee305ae769492a80cadf55a3d2f6869cea5b5d2d4c41f2c32999951a",
+      "bytes": 7358
+    },
+    "results/mobilenet_v2_seed4444_timing.csv": {
+      "sha256": "ec1cf8f068c039079497b59a7ba6f15c4361a11d0670bfa7a970957a302886df",
+      "bytes": 25006
+    },
+    "device.log": {
+      "sha256": "b565580e6d310ca36643157101382d4e5697abae880dd82b0d5eb30660d0fad0",
+      "bytes": 1252
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-01T20:32:33.297712+08:00"
+}

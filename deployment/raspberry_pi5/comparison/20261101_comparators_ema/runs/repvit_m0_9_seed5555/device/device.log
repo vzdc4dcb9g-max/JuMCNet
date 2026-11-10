@@ -1,0 +1,16 @@
+[0;93m2026-11-02 03:43:00.464913941 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-02 03:43:00.465015032 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL repvit_m0_9_seed5555 250/2325 elapsed=9.7s
+EVAL repvit_m0_9_seed5555 500/2325 elapsed=19.5s
+EVAL repvit_m0_9_seed5555 750/2325 elapsed=29.3s
+EVAL repvit_m0_9_seed5555 1000/2325 elapsed=39.0s
+EVAL repvit_m0_9_seed5555 1250/2325 elapsed=48.8s
+EVAL repvit_m0_9_seed5555 1500/2325 elapsed=58.6s
+EVAL repvit_m0_9_seed5555 1750/2325 elapsed=68.5s
+EVAL repvit_m0_9_seed5555 2000/2325 elapsed=78.2s
+EVAL repvit_m0_9_seed5555 2250/2325 elapsed=88.1s
+BENCH repvit_m0_9_seed5555 round=1 mean_ms=32.616
+BENCH repvit_m0_9_seed5555 round=2 mean_ms=32.490
+BENCH repvit_m0_9_seed5555 round=3 mean_ms=32.579
+MODEL_DONE repvit_m0_9_seed5555 {"accuracy": 0.9432258064516129, "macro_f1": 0.9436558935676002}
+JOB_COMPLETE repvit_m0_9_seed5555

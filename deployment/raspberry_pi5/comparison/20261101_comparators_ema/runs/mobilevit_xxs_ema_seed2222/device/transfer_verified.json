@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/mobilevit_xxs_ema_seed2222_logits.npy": {
+      "sha256": "6c9adcd93afe53c1aa7f107d24a69ae84306e3901cc440e08cc8a32f54b969c9",
+      "bytes": 55928
+    },
+    "results/mobilevit_xxs_ema_seed2222_predictions.csv": {
+      "sha256": "db595d49167d51155fd1ca70302cfae4e72fcbc42b5bb828721546a6cc2c933b",
+      "bytes": 194143
+    },
+    "results/mobilevit_xxs_ema_seed2222_result.json": {
+      "sha256": "a7c42de2a9b3a0e23484dc575df0a59c2ce7c70e827b14deaecddae366115bcb",
+      "bytes": 7331
+    },
+    "results/preflight.json": {
+      "sha256": "d4a6a6bfa6de72fca74003c0e946885534b44b7dc4be862cae5ea04c3263fc03",
+      "bytes": 126
+    },
+    "results/mobilevit_xxs_ema_seed2222_telemetry.json": {
+      "sha256": "9451ce49e8609eed2d5bb88c0d5f03b036af054c336bfdd54ed003fcd4bdc740",
+      "bytes": 21400
+    },
+    "results/artifacts.json": {
+      "sha256": "64ef12a8b447d1e71abf5252605583be8b98bcb72f21f1a694f1e670fed3c912",
+      "bytes": 893
+    },
+    "results/mobilevit_xxs_ema_seed2222_timing.csv": {
+      "sha256": "b79c097019a26869984b5807edf1bebcd340a08572c46645fb93de6f54d50248",
+      "bytes": 25046
+    },
+    "device.log": {
+      "sha256": "65964c2dfc1864297788480356261bb533e32fd3e4bc2cafb97df5e8a8513c7e",
+      "bytes": 1323
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T05:19:05.020509+08:00"
+}

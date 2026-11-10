@@ -1,0 +1,558 @@
+{
+  "scope": "Current batch only; every completed seed retained. Sample SD across distinct five seeds, not across timing iterations.",
+  "updated_at": "2026-11-02T06:05:14.534437+08:00",
+  "completed_runs": 50,
+  "planned_runs": 50,
+  "models": [
+    {
+      "model": "MobileNetV2",
+      "model_key": "mobilenet_v2",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 93.5225806451613,
+          "sample_sd": 0.2830225183030055
+        },
+        "macro_precision_percent": {
+          "mean": 93.66349475592189,
+          "sample_sd": 0.29956522405203334
+        },
+        "macro_recall_percent": {
+          "mean": 93.53935799131455,
+          "sample_sd": 0.26864355259432854
+        },
+        "macro_f1_percent": {
+          "mean": 93.5919397395599,
+          "sample_sd": 0.2816133706534398
+        },
+        "pure_inference_ms": {
+          "mean": 20.070363609733334,
+          "sample_sd": 0.13561132525963115
+        },
+        "total_latency_ms": {
+          "mean": 26.562862239741936,
+          "sample_sd": 0.20210780503107462
+        },
+        "preprocessing_ms": {
+          "mean": 5.532482607225806,
+          "sample_sd": 0.06095064399764439
+        },
+        "peak_rss_mib": {
+          "mean": 122.45625,
+          "sample_sd": 0.22025154298551464
+        },
+        "parameters": {
+          "mean": 2231558,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 8898999,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "ResNet18",
+      "model_key": "resnet18",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 94.30537634408603,
+          "sample_sd": 0.24819850402156793
+        },
+        "macro_precision_percent": {
+          "mean": 94.43424122348188,
+          "sample_sd": 0.23837028131795485
+        },
+        "macro_recall_percent": {
+          "mean": 94.27978800402938,
+          "sample_sd": 0.24812371460205454
+        },
+        "macro_f1_percent": {
+          "mean": 94.34383267642599,
+          "sample_sd": 0.2426831635880088
+        },
+        "pure_inference_ms": {
+          "mean": 50.223394692266666,
+          "sample_sd": 0.33096781248682605
+        },
+        "total_latency_ms": {
+          "mean": 56.30866015088172,
+          "sample_sd": 0.3288065619342341
+        },
+        "preprocessing_ms": {
+          "mean": 5.57469334055914,
+          "sample_sd": 0.06331723412764834
+        },
+        "peak_rss_mib": {
+          "mean": 148.65,
+          "sample_sd": 0.22387958886977616
+        },
+        "parameters": {
+          "mean": 11179590,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 44708855,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "MobileNetV3-Large",
+      "model_key": "mobilenet_v3_large",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 94.1247311827957,
+          "sample_sd": 0.44344899505486557
+        },
+        "macro_precision_percent": {
+          "mean": 94.2701098578552,
+          "sample_sd": 0.45082636355375505
+        },
+        "macro_recall_percent": {
+          "mean": 94.11322012984154,
+          "sample_sd": 0.44173960665725626
+        },
+        "macro_f1_percent": {
+          "mean": 94.17831714019987,
+          "sample_sd": 0.4457999500517727
+        },
+        "pure_inference_ms": {
+          "mean": 18.925157614,
+          "sample_sd": 0.16332169316935854
+        },
+        "total_latency_ms": {
+          "mean": 25.56661829023656,
+          "sample_sd": 0.08386296749695031
+        },
+        "preprocessing_ms": {
+          "mean": 5.641348252301075,
+          "sample_sd": 0.03780411945128729
+        },
+        "peak_rss_mib": {
+          "mean": 133.346875,
+          "sample_sd": 0.006987712429686843
+        },
+        "parameters": {
+          "mean": 4209718,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 16828871,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "EfficientNet-B0",
+      "model_key": "efficientnet_b0",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 94.3225806451613,
+          "sample_sd": 0.46123893740919136
+        },
+        "macro_precision_percent": {
+          "mean": 94.43427463555724,
+          "sample_sd": 0.49118561923704157
+        },
+        "macro_recall_percent": {
+          "mean": 94.32106526259636,
+          "sample_sd": 0.44822449638954553
+        },
+        "macro_f1_percent": {
+          "mean": 94.36217033807415,
+          "sample_sd": 0.46562434292212174
+        },
+        "pure_inference_ms": {
+          "mean": 42.87138149,
+          "sample_sd": 0.14033161859037904
+        },
+        "total_latency_ms": {
+          "mean": 49.5496131255914,
+          "sample_sd": 0.20715249944289263
+        },
+        "preprocessing_ms": {
+          "mean": 5.896472132387097,
+          "sample_sd": 0.06165150854115486
+        },
+        "peak_rss_mib": {
+          "mean": 146.259375,
+          "sample_sd": 0.35692096901835285
+        },
+        "parameters": {
+          "mean": 4015234,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 16050930,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "RepViT-M0.9",
+      "model_key": "repvit_m0_9",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 94.22795698924732,
+          "sample_sd": 0.22224534507981017
+        },
+        "macro_precision_percent": {
+          "mean": 94.34824734491262,
+          "sample_sd": 0.23125187997042346
+        },
+        "macro_recall_percent": {
+          "mean": 94.23799697278093,
+          "sample_sd": 0.22676988572030424
+        },
+        "macro_f1_percent": {
+          "mean": 94.27576355177989,
+          "sample_sd": 0.2284402113302446
+        },
+        "pure_inference_ms": {
+          "mean": 32.33455982506666,
+          "sample_sd": 0.17272966556409633
+        },
+        "total_latency_ms": {
+          "mean": 39.05461767922581,
+          "sample_sd": 0.2002878951367662
+        },
+        "preprocessing_ms": {
+          "mean": 5.882668518193548,
+          "sample_sd": 0.10262626114876451
+        },
+        "peak_rss_mib": {
+          "mean": 142.603125,
+          "sample_sd": 0.00855816496101822
+        },
+        "parameters": {
+          "mean": 4723948,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 18994338,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "GhostNet",
+      "model_key": "ghostnet_100",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 94.36559139784946,
+          "sample_sd": 0.2062723235833411
+        },
+        "macro_precision_percent": {
+          "mean": 94.45734358939407,
+          "sample_sd": 0.227830341317383
+        },
+        "macro_recall_percent": {
+          "mean": 94.367145415278,
+          "sample_sd": 0.19650004923382516
+        },
+        "macro_f1_percent": {
+          "mean": 94.40159952232814,
+          "sample_sd": 0.2053843648566427
+        },
+        "pure_inference_ms": {
+          "mean": 19.249949373333333,
+          "sample_sd": 0.15711918887871704
+        },
+        "total_latency_ms": {
+          "mean": 25.62093080619355,
+          "sample_sd": 0.13134540698498579
+        },
+        "preprocessing_ms": {
+          "mean": 5.579310122580646,
+          "sample_sd": 0.05981998289974659
+        },
+        "peak_rss_mib": {
+          "mean": 131.05,
+          "sample_sd": 0.025674494883054663
+        },
+        "parameters": {
+          "mean": 3909194,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 15687173,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "MobileNetV4-Small",
+      "model_key": "mobilenetv4_conv_small",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 93.6258064516129,
+          "sample_sd": 0.36672815049104984
+        },
+        "macro_precision_percent": {
+          "mean": 93.738184567654,
+          "sample_sd": 0.35147819427742477
+        },
+        "macro_recall_percent": {
+          "mean": 93.66865222716832,
+          "sample_sd": 0.3555066205901126
+        },
+        "macro_f1_percent": {
+          "mean": 93.688417236903,
+          "sample_sd": 0.35891632746082996
+        },
+        "pure_inference_ms": {
+          "mean": 8.508913618266666,
+          "sample_sd": 0.07886750672725862
+        },
+        "total_latency_ms": {
+          "mean": 14.72284530107527,
+          "sample_sd": 0.05804147688989768
+        },
+        "preprocessing_ms": {
+          "mean": 5.572808587698924,
+          "sample_sd": 0.07862045073748127
+        },
+        "peak_rss_mib": {
+          "mean": 113.028125,
+          "sample_sd": 0.22545526856784695
+        },
+        "parameters": {
+          "mean": 2500710,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 9975756,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "FastViT-T8",
+      "model_key": "fastvit_t8",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 94.01290322580645,
+          "sample_sd": 0.35126910948980816
+        },
+        "macro_precision_percent": {
+          "mean": 94.10158241390744,
+          "sample_sd": 0.37275468848309784
+        },
+        "macro_recall_percent": {
+          "mean": 93.99283087711666,
+          "sample_sd": 0.3583150311954781
+        },
+        "macro_f1_percent": {
+          "mean": 94.03467992178155,
+          "sample_sd": 0.3642066776429457
+        },
+        "pure_inference_ms": {
+          "mean": 29.4224677524,
+          "sample_sd": 0.10452625038693378
+        },
+        "total_latency_ms": {
+          "mean": 35.97229609393548,
+          "sample_sd": 0.11241052286913608
+        },
+        "preprocessing_ms": {
+          "mean": 5.760508640688172,
+          "sample_sd": 0.06954155818281252
+        },
+        "peak_rss_mib": {
+          "mean": 134.5625,
+          "sample_sd": 0.13212136347881065
+        },
+        "parameters": {
+          "mean": 3231654,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 12967769,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "MobileViT-XXS",
+      "model_key": "mobilevit_xxs_ema",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 93.58279569892473,
+          "sample_sd": 0.18095212015451667
+        },
+        "macro_precision_percent": {
+          "mean": 93.70899308862441,
+          "sample_sd": 0.16471862917592062
+        },
+        "macro_recall_percent": {
+          "mean": 93.5954326281907,
+          "sample_sd": 0.18308053943762853
+        },
+        "macro_f1_percent": {
+          "mean": 93.64061479595416,
+          "sample_sd": 0.17744272383352205
+        },
+        "pure_inference_ms": {
+          "mean": 29.341678916266666,
+          "sample_sd": 0.17302996394936032
+        },
+        "total_latency_ms": {
+          "mean": 35.87853049066667,
+          "sample_sd": 0.33568174452867056
+        },
+        "preprocessing_ms": {
+          "mean": 5.593844228559139,
+          "sample_sd": 0.044418970940132856
+        },
+        "peak_rss_mib": {
+          "mean": 119.36875,
+          "sample_sd": 0.21326837186394987
+        },
+        "parameters": {
+          "mean": 952950,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 3955151,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "model": "Ju-LiteMobileAtt",
+      "model_key": "julitemobileatt_paperfaithful",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ],
+      "run_count": 5,
+      "status": "complete",
+      "metrics": {
+        "accuracy_percent": {
+          "mean": 94.3741935483871,
+          "sample_sd": 0.36672815049104934
+        },
+        "macro_precision_percent": {
+          "mean": 94.45533846616038,
+          "sample_sd": 0.3656432350253277
+        },
+        "macro_recall_percent": {
+          "mean": 94.40211944179012,
+          "sample_sd": 0.35526244388999684
+        },
+        "macro_f1_percent": {
+          "mean": 94.41564371100905,
+          "sample_sd": 0.3651718075718964
+        },
+        "pure_inference_ms": {
+          "mean": 22.49429294746667,
+          "sample_sd": 0.2936763155766523
+        },
+        "total_latency_ms": {
+          "mean": 29.500286338752687,
+          "sample_sd": 0.1334389214299402
+        },
+        "preprocessing_ms": {
+          "mean": 5.6668470486021505,
+          "sample_sd": 0.07105505312523672
+        },
+        "peak_rss_mib": {
+          "mean": 124.1,
+          "sample_sd": 0.15452169143845146
+        },
+        "parameters": {
+          "mean": 2217302,
+          "sample_sd": 0.0
+        },
+        "onnx_bytes": {
+          "mean": 8852694,
+          "sample_sd": 0.0
+        }
+      }
+    }
+  ]
+}

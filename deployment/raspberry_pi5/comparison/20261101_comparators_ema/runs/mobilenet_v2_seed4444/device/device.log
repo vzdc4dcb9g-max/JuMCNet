@@ -1,0 +1,16 @@
+[0;93m2026-11-01 20:30:34.453180235 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-01 20:30:34.453280291 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL mobilenet_v2_seed4444 250/2325 elapsed=6.6s
+EVAL mobilenet_v2_seed4444 500/2325 elapsed=13.3s
+EVAL mobilenet_v2_seed4444 750/2325 elapsed=19.9s
+EVAL mobilenet_v2_seed4444 1000/2325 elapsed=26.5s
+EVAL mobilenet_v2_seed4444 1250/2325 elapsed=33.1s
+EVAL mobilenet_v2_seed4444 1500/2325 elapsed=39.8s
+EVAL mobilenet_v2_seed4444 1750/2325 elapsed=46.4s
+EVAL mobilenet_v2_seed4444 2000/2325 elapsed=53.1s
+EVAL mobilenet_v2_seed4444 2250/2325 elapsed=59.7s
+BENCH mobilenet_v2_seed4444 round=1 mean_ms=20.273
+BENCH mobilenet_v2_seed4444 round=2 mean_ms=20.164
+BENCH mobilenet_v2_seed4444 round=3 mean_ms=20.156
+MODEL_DONE mobilenet_v2_seed4444 {"accuracy": 0.9324731182795699, "macro_f1": 0.933374059713541}
+JOB_COMPLETE mobilenet_v2_seed4444

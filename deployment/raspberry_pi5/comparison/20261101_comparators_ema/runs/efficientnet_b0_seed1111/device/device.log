@@ -1,0 +1,16 @@
+[0;93m2026-11-01 21:58:52.389018299 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-01 21:58:52.389117743 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL efficientnet_b0_seed1111 250/2325 elapsed=12.4s
+EVAL efficientnet_b0_seed1111 500/2325 elapsed=24.8s
+EVAL efficientnet_b0_seed1111 750/2325 elapsed=37.1s
+EVAL efficientnet_b0_seed1111 1000/2325 elapsed=49.4s
+EVAL efficientnet_b0_seed1111 1250/2325 elapsed=61.8s
+EVAL efficientnet_b0_seed1111 1500/2325 elapsed=74.1s
+EVAL efficientnet_b0_seed1111 1750/2325 elapsed=86.5s
+EVAL efficientnet_b0_seed1111 2000/2325 elapsed=98.8s
+EVAL efficientnet_b0_seed1111 2250/2325 elapsed=111.2s
+BENCH efficientnet_b0_seed1111 round=1 mean_ms=42.712
+BENCH efficientnet_b0_seed1111 round=2 mean_ms=42.721
+BENCH efficientnet_b0_seed1111 round=3 mean_ms=42.675
+MODEL_DONE efficientnet_b0_seed1111 {"accuracy": 0.941505376344086, "macro_f1": 0.9419205212977761}
+JOB_COMPLETE efficientnet_b0_seed1111

@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/fastvit_t8_seed2222_predictions.csv": {
+      "sha256": "4a8bb6001f2c4b8e1515eee14968173e9745f2f10e0d68b09ee1cf2cf054564d",
+      "bytes": 191790
+    },
+    "results/fastvit_t8_seed2222_result.json": {
+      "sha256": "dbaaf4952499507bedbb8068641d6ec344a0d2e90ead9505ac490bc0b09af7b9",
+      "bytes": 7330
+    },
+    "results/fastvit_t8_seed2222_telemetry.json": {
+      "sha256": "aaf1c4a64fb8aab50742c5ce1fa784edf8b42fdac3bb4fd500e6ede631df5bed",
+      "bytes": 21655
+    },
+    "results/preflight.json": {
+      "sha256": "5d73b35def26179a890995a04ba255e166500f58a895e1c66206aeddf259e8e8",
+      "bytes": 126
+    },
+    "results/artifacts.json": {
+      "sha256": "94565a097e30d689335347fd8c86a213f55315c166752749fc6a7b024902a071",
+      "bytes": 858
+    },
+    "results/fastvit_t8_seed2222_logits.npy": {
+      "sha256": "d4551c77bfb671a753c1bdbac67930d7312b5412273b4272f41eb9464a4533a9",
+      "bytes": 55928
+    },
+    "results/fastvit_t8_seed2222_timing.csv": {
+      "sha256": "a19c177b9caf9b47e3831792f19c434e90a253f009185fc56f9073605d2c453d",
+      "bytes": 25040
+    },
+    "device.log": {
+      "sha256": "232cb783a41dd129f732d93b133835f21f6d78b287bdc300ed044d7311aeeda1",
+      "bytes": 1225
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T04:42:12.218990+08:00"
+}

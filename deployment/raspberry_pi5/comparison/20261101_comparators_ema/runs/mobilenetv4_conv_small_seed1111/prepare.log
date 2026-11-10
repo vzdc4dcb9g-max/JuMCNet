@@ -1,0 +1,6 @@
+EXPORT mobilenetv4_conv_small_seed1111
+PC_REFERENCE mobilenetv4_conv_small_seed1111 500/2325 21s
+PC_REFERENCE mobilenetv4_conv_small_seed1111 1000/2325 42s
+PC_REFERENCE mobilenetv4_conv_small_seed1111 1500/2325 64s
+PC_REFERENCE mobilenetv4_conv_small_seed1111 2000/2325 83s
+PREPARED mobilenetv4_conv_small_seed1111

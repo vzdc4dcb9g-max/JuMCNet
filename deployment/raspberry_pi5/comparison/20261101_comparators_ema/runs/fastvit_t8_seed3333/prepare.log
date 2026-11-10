@@ -1,0 +1,6 @@
+EXPORT fastvit_t8_seed3333
+PC_REFERENCE fastvit_t8_seed3333 500/2325 66s
+PC_REFERENCE fastvit_t8_seed3333 1000/2325 131s
+PC_REFERENCE fastvit_t8_seed3333 1500/2325 200s
+PC_REFERENCE fastvit_t8_seed3333 2000/2325 264s
+PREPARED fastvit_t8_seed3333

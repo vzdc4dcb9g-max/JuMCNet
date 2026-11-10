@@ -1,0 +1,473 @@
+{
+  "time": "2026-11-02T02:41:46.322193+08:00",
+  "queue_status": "attention_required",
+  "complete": false,
+  "completed_runs": 18,
+  "planned_runs": 50,
+  "failed_runs": 1,
+  "pending_runs": 31,
+  "completed_result_integrity_passed": true,
+  "checks": [
+    {
+      "check": "Both state copies equal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "18complete1failed31pending",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Complete CSV contains exactly18 successful IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All18 results independently valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Summary MobileNetV2",
+      "passed": true,
+      "detail": {
+        "n": 5,
+        "status": "complete"
+      }
+    },
+    {
+      "check": "Summary ResNet18",
+      "passed": true,
+      "detail": {
+        "n": 5,
+        "status": "complete"
+      }
+    },
+    {
+      "check": "Summary MobileNetV3-Large",
+      "passed": true,
+      "detail": {
+        "n": 5,
+        "status": "complete"
+      }
+    },
+    {
+      "check": "Summary EfficientNet-B0",
+      "passed": true,
+      "detail": {
+        "n": 3,
+        "status": "partial"
+      }
+    },
+    {
+      "check": "Summary RepViT-M0.9",
+      "passed": true,
+      "detail": {
+        "n": 0,
+        "status": "partial"
+      }
+    },
+    {
+      "check": "Summary GhostNet",
+      "passed": true,
+      "detail": {
+        "n": 0,
+        "status": "partial"
+      }
+    },
+    {
+      "check": "Summary MobileNetV4-Small",
+      "passed": true,
+      "detail": {
+        "n": 0,
+        "status": "partial"
+      }
+    },
+    {
+      "check": "Summary FastViT-T8",
+      "passed": true,
+      "detail": {
+        "n": 0,
+        "status": "partial"
+      }
+    },
+    {
+      "check": "Summary MobileViT-XXS",
+      "passed": true,
+      "detail": {
+        "n": 0,
+        "status": "partial"
+      }
+    },
+    {
+      "check": "Summary Ju-LiteMobileAtt",
+      "passed": true,
+      "detail": {
+        "n": 0,
+        "status": "partial"
+      }
+    },
+    {
+      "check": "58 protected old files unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Failed transfer has completed CPU preparation, no local remote-launch marker",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "run_reviews": [
+    {
+      "id": "mobilenet_v2_seed1111",
+      "passed": true,
+      "seed": 1111,
+      "model": "MobileNetV2",
+      "accuracy_percent": 93.80645161290323,
+      "macro_f1_percent": 93.85431163598764,
+      "pure_inference_ms": 19.922752221333333,
+      "total_latency_ms": 26.687363447311828,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "48d0b28a344ddf0eb2d9037da59f32d6b413a2ce9befafc755e47cfab4bc7df0"
+    },
+    {
+      "id": "mobilenet_v2_seed2222",
+      "passed": true,
+      "seed": 2222,
+      "model": "MobileNetV2",
+      "accuracy_percent": 93.76344086021506,
+      "macro_f1_percent": 93.84586832867242,
+      "pure_inference_ms": 20.230363954,
+      "total_latency_ms": 26.602099061505378,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "62afe6ac645bd2d09c56d5c79b6ab71a977cdd2db06c41fdc596ea30b58d9971"
+    },
+    {
+      "id": "mobilenet_v2_seed3333",
+      "passed": true,
+      "seed": 3333,
+      "model": "MobileNetV2",
+      "accuracy_percent": 93.59139784946237,
+      "macro_f1_percent": 93.66703851046991,
+      "pure_inference_ms": 19.991804369333334,
+      "total_latency_ms": 26.756971425376346,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "73a5ef888e4f1dfa10a5a918268e035a651c9a5b4a4fcca7a15cfe036587c6e5"
+    },
+    {
+      "id": "mobilenet_v2_seed4444",
+      "passed": true,
+      "seed": 4444,
+      "model": "MobileNetV2",
+      "accuracy_percent": 93.24731182795699,
+      "macro_f1_percent": 93.3374059713541,
+      "pure_inference_ms": 20.197819527333333,
+      "total_latency_ms": 26.53334494064516,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "8bde22daee305ae769492a80cadf55a3d2f6869cea5b5d2d4c41f2c32999951a"
+    },
+    {
+      "id": "mobilenet_v2_seed5555",
+      "passed": true,
+      "seed": 5555,
+      "model": "MobileNetV2",
+      "accuracy_percent": 93.20430107526882,
+      "macro_f1_percent": 93.25507425131546,
+      "pure_inference_ms": 20.009077976666667,
+      "total_latency_ms": 26.23453232387097,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "8ffadeb5bea7256f8a31f35f9c6e2444cfdaa6540f14840912caa7a470566a6e"
+    },
+    {
+      "id": "resnet18_seed1111",
+      "passed": true,
+      "seed": 1111,
+      "model": "ResNet18",
+      "accuracy_percent": 93.89247311827957,
+      "macro_f1_percent": 93.93671905862759,
+      "pure_inference_ms": 49.814858438,
+      "total_latency_ms": 55.97194243483871,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "d1fc00042e9000b0135cae453e0c06177024e9cdf420a1b29416a38e644fb98b"
+    },
+    {
+      "id": "resnet18_seed2222",
+      "passed": true,
+      "seed": 2222,
+      "model": "ResNet18",
+      "accuracy_percent": 94.40860215053763,
+      "macro_f1_percent": 94.43359437440803,
+      "pure_inference_ms": 50.49658728866667,
+      "total_latency_ms": 56.59017905505377,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "7fdbf8de5dba50e17c8edce57bbe947fafd9b1dae1d243e38dc77e2bd9654fc5"
+    },
+    {
+      "id": "resnet18_seed3333",
+      "passed": true,
+      "seed": 3333,
+      "model": "ResNet18",
+      "accuracy_percent": 94.53763440860216,
+      "macro_f1_percent": 94.56175634374802,
+      "pure_inference_ms": 50.350662039333336,
+      "total_latency_ms": 56.367984632258064,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "9b8deffeac85b545c3c71c3ba5df704e9487dddf7e5554e34ed03a987ce6efe6"
+    },
+    {
+      "id": "resnet18_seed4444",
+      "passed": true,
+      "seed": 4444,
+      "model": "ResNet18",
+      "accuracy_percent": 94.40860215053763,
+      "macro_f1_percent": 94.46191381905787,
+      "pure_inference_ms": 49.927105430666664,
+      "total_latency_ms": 55.96287111526882,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "a59b2010cc7a63c61680a2a9fff3edebf77e5aae4dd0b1c19d579be7e419fbd0"
+    },
+    {
+      "id": "resnet18_seed5555",
+      "passed": true,
+      "seed": 5555,
+      "model": "ResNet18",
+      "accuracy_percent": 94.27956989247312,
+      "macro_f1_percent": 94.32517978628844,
+      "pure_inference_ms": 50.52776026466667,
+      "total_latency_ms": 56.650323516989246,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "4453ebde2ad6b507b58284a68471feaf83ff24ed66fecf1a9a02a224fee56690"
+    },
+    {
+      "id": "mobilenet_v3_large_seed1111",
+      "passed": true,
+      "seed": 1111,
+      "model": "MobileNetV3-Large",
+      "accuracy_percent": 93.54838709677419,
+      "macro_f1_percent": 93.58517168094288,
+      "pure_inference_ms": 18.839806285333335,
+      "total_latency_ms": 25.50476962494624,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "071717108a4fadfa5b94729a2749f972211589f4380c8c63196f3b9bebbe7458"
+    },
+    {
+      "id": "mobilenet_v3_large_seed2222",
+      "passed": true,
+      "seed": 2222,
+      "model": "MobileNetV3-Large",
+      "accuracy_percent": 94.06451612903226,
+      "macro_f1_percent": 94.1100000740871,
+      "pure_inference_ms": 19.210627656,
+      "total_latency_ms": 25.708982670537633,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "0f8a9c290945a5ef10c628f8bda56dfaaf790836326e5f466e62e3ffd117feb4"
+    },
+    {
+      "id": "mobilenet_v3_large_seed3333",
+      "passed": true,
+      "seed": 3333,
+      "model": "MobileNetV3-Large",
+      "accuracy_percent": 94.10752688172043,
+      "macro_f1_percent": 94.1695715766789,
+      "pure_inference_ms": 18.874796512666666,
+      "total_latency_ms": 25.50598311655914,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "73bc1382c3e7e507d00e6a3f858517d6185b3a597e4e1574fe8072a19d3eb5cf"
+    },
+    {
+      "id": "mobilenet_v3_large_seed4444",
+      "passed": true,
+      "seed": 4444,
+      "model": "MobileNetV3-Large",
+      "accuracy_percent": 94.79569892473118,
+      "macro_f1_percent": 94.84037354999577,
+      "pure_inference_ms": 18.89592963466667,
+      "total_latency_ms": 25.547598569032257,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "ff369ea888d9f5fa672cf161c1334e925aaa14c26714125f77b22fd43a071a78"
+    },
+    {
+      "id": "mobilenet_v3_large_seed5555",
+      "passed": true,
+      "seed": 5555,
+      "model": "MobileNetV3-Large",
+      "accuracy_percent": 94.10752688172043,
+      "macro_f1_percent": 94.18646881929469,
+      "pure_inference_ms": 18.804627981333333,
+      "total_latency_ms": 25.565757470107528,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "5e88acc25fcfd47fd34692cd2eabd10c313528b58e256ecccf262f46b0a8fb4c"
+    },
+    {
+      "id": "efficientnet_b0_seed1111",
+      "passed": true,
+      "seed": 1111,
+      "model": "EfficientNet-B0",
+      "accuracy_percent": 94.15053763440861,
+      "macro_f1_percent": 94.19205212977761,
+      "pure_inference_ms": 42.70274409133334,
+      "total_latency_ms": 49.400383141935485,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "3fe1b7b612bb324c7f261b2d4bfa50fb779036a7744c2a5564ed30c9842b92ea"
+    },
+    {
+      "id": "efficientnet_b0_seed2222",
+      "passed": true,
+      "seed": 2222,
+      "model": "EfficientNet-B0",
+      "accuracy_percent": 94.10752688172043,
+      "macro_f1_percent": 94.15276587664601,
+      "pure_inference_ms": 42.881332386666664,
+      "total_latency_ms": 49.298218786666666,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "0f1530b805c29c9fdef86a497404cfdb0a71686d82c5a8c02fdaecae6ad68121"
+    },
+    {
+      "id": "efficientnet_b0_seed3333",
+      "passed": true,
+      "seed": 3333,
+      "model": "EfficientNet-B0",
+      "accuracy_percent": 95.05376344086022,
+      "macro_f1_percent": 95.0929769250211,
+      "pure_inference_ms": 42.77225569466667,
+      "total_latency_ms": 49.540815890322584,
+      "cross_device_argmax_mismatches": 0,
+      "throttled_start": "throttled=0x0",
+      "throttled_end": "throttled=0x0",
+      "result_sha256": "5625ed25be6c93cf9953a95957fa1ad709310d11c829b5dbe2ff532af1ea3e35"
+    }
+  ],
+  "model_counts": [
+    {
+      "model": "MobileNetV2",
+      "run_count": 5,
+      "status": "complete",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ]
+    },
+    {
+      "model": "ResNet18",
+      "run_count": 5,
+      "status": "complete",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ]
+    },
+    {
+      "model": "MobileNetV3-Large",
+      "run_count": 5,
+      "status": "complete",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333,
+        4444,
+        5555
+      ]
+    },
+    {
+      "model": "EfficientNet-B0",
+      "run_count": 3,
+      "status": "partial",
+      "completed_seeds": [
+        1111,
+        2222,
+        3333
+      ]
+    },
+    {
+      "model": "RepViT-M0.9",
+      "run_count": 0,
+      "status": "partial",
+      "completed_seeds": []
+    },
+    {
+      "model": "GhostNet",
+      "run_count": 0,
+      "status": "partial",
+      "completed_seeds": []
+    },
+    {
+      "model": "MobileNetV4-Small",
+      "run_count": 0,
+      "status": "partial",
+      "completed_seeds": []
+    },
+    {
+      "model": "FastViT-T8",
+      "run_count": 0,
+      "status": "partial",
+      "completed_seeds": []
+    },
+    {
+      "model": "MobileViT-XXS",
+      "run_count": 0,
+      "status": "partial",
+      "completed_seeds": []
+    },
+    {
+      "model": "Ju-LiteMobileAtt",
+      "run_count": 0,
+      "status": "partial",
+      "completed_seeds": []
+    }
+  ],
+  "interruption": {
+    "at": "2026-11-01T22:23:27.832062+08:00",
+    "model": "EfficientNet-B0",
+    "seed": 4444,
+    "error": "SSH session not active",
+    "stage": "First remote mkdir/free-space command in upload, SSH channel could not open; no remote launch/upload success marker exists locally. Remote state was not contacted by this audit.",
+    "prepared_at": "2026-11-01T22:23:21+0800",
+    "remaining_uncompleted": 32
+  },
+  "controller_pid": 173984,
+  "controller_pid_seen_in_local_get_process": false,
+  "protected_old_file_count": 58,
+  "scope": "Read-only local review. No remote request, restart, queue changes, training or E-drive writes."
+}

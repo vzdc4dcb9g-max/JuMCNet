@@ -1,0 +1,16 @@
+[0;93m2026-11-02 04:18:49.651654589 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-02 04:18:49.651765700 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL mobilenetv4_conv_small_seed3333 250/2325 elapsed=3.7s
+EVAL mobilenetv4_conv_small_seed3333 500/2325 elapsed=7.3s
+EVAL mobilenetv4_conv_small_seed3333 750/2325 elapsed=11.0s
+EVAL mobilenetv4_conv_small_seed3333 1000/2325 elapsed=14.7s
+EVAL mobilenetv4_conv_small_seed3333 1250/2325 elapsed=18.3s
+EVAL mobilenetv4_conv_small_seed3333 1500/2325 elapsed=22.0s
+EVAL mobilenetv4_conv_small_seed3333 1750/2325 elapsed=25.7s
+EVAL mobilenetv4_conv_small_seed3333 2000/2325 elapsed=29.3s
+EVAL mobilenetv4_conv_small_seed3333 2250/2325 elapsed=33.0s
+BENCH mobilenetv4_conv_small_seed3333 round=1 mean_ms=8.381
+BENCH mobilenetv4_conv_small_seed3333 round=2 mean_ms=8.448
+BENCH mobilenetv4_conv_small_seed3333 round=3 mean_ms=8.378
+MODEL_DONE mobilenetv4_conv_small_seed3333 {"accuracy": 0.9393548387096774, "macro_f1": 0.9400889917630524}
+JOB_COMPLETE mobilenetv4_conv_small_seed3333

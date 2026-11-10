@@ -1,0 +1,16 @@
+[0;93m2026-11-02 05:28:59.284233707 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-02 05:28:59.284336071 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL mobilevit_xxs_ema_seed4444 250/2325 elapsed=8.9s
+EVAL mobilevit_xxs_ema_seed4444 500/2325 elapsed=17.8s
+EVAL mobilevit_xxs_ema_seed4444 750/2325 elapsed=26.7s
+EVAL mobilevit_xxs_ema_seed4444 1000/2325 elapsed=35.6s
+EVAL mobilevit_xxs_ema_seed4444 1250/2325 elapsed=44.5s
+EVAL mobilevit_xxs_ema_seed4444 1500/2325 elapsed=53.4s
+EVAL mobilevit_xxs_ema_seed4444 1750/2325 elapsed=62.3s
+EVAL mobilevit_xxs_ema_seed4444 2000/2325 elapsed=71.2s
+EVAL mobilevit_xxs_ema_seed4444 2250/2325 elapsed=80.1s
+BENCH mobilevit_xxs_ema_seed4444 round=1 mean_ms=29.187
+BENCH mobilevit_xxs_ema_seed4444 round=2 mean_ms=29.170
+BENCH mobilevit_xxs_ema_seed4444 round=3 mean_ms=29.132
+MODEL_DONE mobilevit_xxs_ema_seed4444 {"accuracy": 0.9354838709677419, "macro_f1": 0.9359936125016625}
+JOB_COMPLETE mobilevit_xxs_ema_seed4444

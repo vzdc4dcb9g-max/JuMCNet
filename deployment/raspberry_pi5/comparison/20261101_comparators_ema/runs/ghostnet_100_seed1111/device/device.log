@@ -1,0 +1,16 @@
+[0;93m2026-11-02 03:48:57.024401522 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card1": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[0;93m2026-11-02 03:48:57.024498250 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+EVAL ghostnet_100_seed1111 250/2325 elapsed=6.4s
+EVAL ghostnet_100_seed1111 500/2325 elapsed=12.8s
+EVAL ghostnet_100_seed1111 750/2325 elapsed=19.2s
+EVAL ghostnet_100_seed1111 1000/2325 elapsed=25.6s
+EVAL ghostnet_100_seed1111 1250/2325 elapsed=32.0s
+EVAL ghostnet_100_seed1111 1500/2325 elapsed=38.4s
+EVAL ghostnet_100_seed1111 1750/2325 elapsed=44.8s
+EVAL ghostnet_100_seed1111 2000/2325 elapsed=51.3s
+EVAL ghostnet_100_seed1111 2250/2325 elapsed=57.7s
+BENCH ghostnet_100_seed1111 round=1 mean_ms=19.268
+BENCH ghostnet_100_seed1111 round=2 mean_ms=19.388
+BENCH ghostnet_100_seed1111 round=3 mean_ms=19.426
+MODEL_DONE ghostnet_100_seed1111 {"accuracy": 0.9458064516129032, "macro_f1": 0.9459511131460383}
+JOB_COMPLETE ghostnet_100_seed1111

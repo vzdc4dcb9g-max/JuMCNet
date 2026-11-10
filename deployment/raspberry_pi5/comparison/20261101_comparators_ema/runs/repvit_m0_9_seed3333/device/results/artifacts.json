@@ -1,0 +1,26 @@
+{
+  "repvit_m0_9_seed3333_result.json": {
+    "sha256": "09b6d8a57b410ccb05ebc811cf06b39129cdea7edfdf155a842fd575a7153d78",
+    "bytes": 7365
+  },
+  "repvit_m0_9_seed3333_predictions.csv": {
+    "sha256": "959a99831c0e78e8ae707a63482bc8966d7237b42a8733a5606307f3a8ae1dc7",
+    "bytes": 190451
+  },
+  "repvit_m0_9_seed3333_telemetry.json": {
+    "sha256": "cab1a3122520d95ea6d28d9b068baa4f9d0b83189c341aec839981e479399b14",
+    "bytes": 23489
+  },
+  "preflight.json": {
+    "sha256": "0a5892e85e61534e1c08a1b7cee6aadd5a66dcaddb791c831045071105d7d091",
+    "bytes": 125
+  },
+  "repvit_m0_9_seed3333_timing.csv": {
+    "sha256": "bcbb8822a232f23cce6d251e406dd40409c9caf42de387d80d4f2cbab3f01fb1",
+    "bytes": 24999
+  },
+  "repvit_m0_9_seed3333_logits.npy": {
+    "sha256": "c37254ccdef48fad0412d774b8b04f238c6b7fedb0d8e9750d6f4ce417265540",
+    "bytes": 55928
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "mobilevit_xxs_ema_seed3333_timing.csv": {
+    "sha256": "12136659beb25ae95d13ff4a622eff9facaa95c74781485e0fe1a92b980df327",
+    "bytes": 25031
+  },
+  "mobilevit_xxs_ema_seed3333_logits.npy": {
+    "sha256": "07a3b239a1b5f190903dca78f3f5e9bf7bf5ea12296081efb8c978d298ce8464",
+    "bytes": 55928
+  },
+  "preflight.json": {
+    "sha256": "45feb9c5f260f8c619e9c76d8dcbaa7400981e9d37e33e1afe6ea56d0669e882",
+    "bytes": 126
+  },
+  "mobilevit_xxs_ema_seed3333_predictions.csv": {
+    "sha256": "9033309f961c0e462aa0c93acd30f7f7eede73260609f9dfbf2431756ff59f99",
+    "bytes": 194151
+  },
+  "mobilevit_xxs_ema_seed3333_telemetry.json": {
+    "sha256": "b2ded45adf6a53b2a29ba3fa2919e412edf2e49283c59fd67a80750fadd39b3a",
+    "bytes": 21523
+  },
+  "mobilevit_xxs_ema_seed3333_result.json": {
+    "sha256": "39cb24823fc8fdb03791ed13ec1dcdafe1d681a76906a5006f5c623129557c9e",
+    "bytes": 7294
+  }
+}

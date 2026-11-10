@@ -1,0 +1,43 @@
+{
+  "files": {
+    "results/repvit_m0_9_seed4444_logits.npy": {
+      "sha256": "1bfb76c751605633bc733cd6a9ba7db4459b352dcbf5e535dfbfbae91beede89",
+      "bytes": 55928
+    },
+    "results/repvit_m0_9_seed4444_timing.csv": {
+      "sha256": "1eab3420919c83c64547f63b58d13e23daa88d68d3457aad200f4b655d62bc0f",
+      "bytes": 25056
+    },
+    "results/preflight.json": {
+      "sha256": "f1993f040004f4d1b569ec9576ed7fdb4aa2e1c2bb28a4814817b1512028d389",
+      "bytes": 126
+    },
+    "results/artifacts.json": {
+      "sha256": "40c1ece22260bb92748a5c56cdbaf293e519d871939dd7e1735f2aeafc4954be",
+      "bytes": 863
+    },
+    "results/repvit_m0_9_seed4444_telemetry.json": {
+      "sha256": "c7f1bd0bcf1fee718b66eab86b80ce1a3b28c3dd7911b5890246ff45d36d20d6",
+      "bytes": 23373
+    },
+    "results/repvit_m0_9_seed4444_result.json": {
+      "sha256": "12ed898a138a8b43ab2feb20f6bb316944b75f93978abe27c90d8165bc880688",
+      "bytes": 7337
+    },
+    "results/repvit_m0_9_seed4444_predictions.csv": {
+      "sha256": "0c67d025eed1b0cb0cb117de65d11ffede413191601d5118780eeec4bf23cf1a",
+      "bytes": 190057
+    },
+    "device.log": {
+      "sha256": "514a13a6f365694393538b58235d607aa50d20c6bffb0c8ec01d163130a0acc0",
+      "bytes": 1239
+    },
+    "exit_code": {
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    }
+  },
+  "all_hashes_passed": true,
+  "remote_exit_code": 0,
+  "verified_at": "2026-11-02T03:36:22.051666+08:00"
+}
