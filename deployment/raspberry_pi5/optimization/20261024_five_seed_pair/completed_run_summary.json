@@ -1,0 +1,146 @@
+{
+  "seed1111/plain_1": {
+    "pure_ms": 31.117921472000003,
+    "total_ms": 37.58887440860215,
+    "preprocess_ms": 5.598814010322581,
+    "consistency_passed": true,
+    "temperature_start": 35.85,
+    "temperature_end": 51.25,
+    "throttle": "throttled=0x0"
+  },
+  "seed1111/optimized_1": {
+    "pure_ms": 18.713542676000003,
+    "total_ms": 22.85883544860215,
+    "preprocess_ms": 3.9491730292473113,
+    "consistency_passed": true,
+    "temperature_start": 43.0,
+    "temperature_end": 58.95,
+    "throttle": "throttled=0x0"
+  },
+  "seed1111/optimized_2": {
+    "pure_ms": 18.56393391,
+    "total_ms": 23.10155530623656,
+    "preprocess_ms": 3.942080480860215,
+    "consistency_passed": true,
+    "temperature_start": 46.3,
+    "temperature_end": 59.5,
+    "throttle": "throttled=0x0"
+  },
+  "seed1111/plain_2": {
+    "pure_ms": 31.026926605999996,
+    "total_ms": 37.20737292989247,
+    "preprocess_ms": 5.523143381505376,
+    "consistency_passed": true,
+    "temperature_start": 49.6,
+    "temperature_end": 58.95,
+    "throttle": "throttled=0x0"
+  },
+  "seed3333/plain_1": {
+    "pure_ms": 31.102456974,
+    "total_ms": 37.277068571182795,
+    "preprocess_ms": 5.507182981075269,
+    "consistency_passed": true,
+    "temperature_start": 48.5,
+    "temperature_end": 59.5,
+    "throttle": "throttled=0x0"
+  },
+  "seed3333/optimized_1": {
+    "pure_ms": 18.456068787999996,
+    "total_ms": 22.95959523096774,
+    "preprocess_ms": 3.9292605617204295,
+    "consistency_passed": true,
+    "temperature_start": 49.6,
+    "temperature_end": 62.25,
+    "throttle": "throttled=0x0"
+  },
+  "seed3333/optimized_2": {
+    "pure_ms": 18.675487178,
+    "total_ms": 22.875930570752686,
+    "preprocess_ms": 4.008174415483872,
+    "consistency_passed": true,
+    "temperature_start": 49.05,
+    "temperature_end": 65.55,
+    "throttle": "throttled=0x0"
+  },
+  "seed3333/plain_2": {
+    "pure_ms": 31.138411612,
+    "total_ms": 37.29592090494624,
+    "preprocess_ms": 5.5071282572043,
+    "consistency_passed": true,
+    "temperature_start": 50.7,
+    "temperature_end": 60.6,
+    "throttle": "throttled=0x0"
+  },
+  "seed4444/plain_1": {
+    "pure_ms": 30.835484388000005,
+    "total_ms": 37.31791882494623,
+    "preprocess_ms": 5.595894836989247,
+    "consistency_passed": true,
+    "temperature_start": 50.7,
+    "temperature_end": 61.15,
+    "throttle": "throttled=0x0"
+  },
+  "seed4444/optimized_1": {
+    "pure_ms": 18.512859324,
+    "total_ms": 22.948455627956992,
+    "preprocess_ms": 3.940539852043011,
+    "consistency_passed": true,
+    "temperature_start": 49.05,
+    "temperature_end": 62.8,
+    "throttle": "throttled=0x0"
+  },
+  "seed4444/optimized_2": {
+    "pure_ms": 18.53229896,
+    "total_ms": 22.90348447870968,
+    "preprocess_ms": 3.934260259354839,
+    "consistency_passed": true,
+    "temperature_start": 49.6,
+    "temperature_end": 64.45,
+    "throttle": "throttled=0x0"
+  },
+  "seed4444/plain_2": {
+    "pure_ms": 31.090803614000002,
+    "total_ms": 37.27325525677419,
+    "preprocess_ms": 5.499423012903225,
+    "consistency_passed": true,
+    "temperature_start": 49.6,
+    "temperature_end": 61.15,
+    "throttle": "throttled=0x0"
+  },
+  "seed5555/plain_1": {
+    "pure_ms": 31.422944240000003,
+    "total_ms": 37.69172897806451,
+    "preprocess_ms": 5.592273780215054,
+    "consistency_passed": true,
+    "temperature_start": 49.6,
+    "temperature_end": 60.05,
+    "throttle": "throttled=0x0"
+  },
+  "seed5555/optimized_1": {
+    "pure_ms": 18.979150796000003,
+    "total_ms": 23.102460124731184,
+    "preprocess_ms": 3.9387361501075278,
+    "consistency_passed": true,
+    "temperature_start": 49.6,
+    "temperature_end": 64.45,
+    "throttle": "throttled=0x0"
+  },
+  "seed5555/optimized_2": {
+    "pure_ms": 18.54191687,
+    "total_ms": 22.827766449462366,
+    "preprocess_ms": 3.9470695208602145,
+    "consistency_passed": true,
+    "temperature_start": 49.6,
+    "temperature_end": 64.45,
+    "throttle": "throttled=0x0"
+  },
+  "seed5555/plain_2": {
+    "pure_ms": 31.117195326,
+    "total_ms": 37.429551753978494,
+    "preprocess_ms": 5.621118619354839,
+    "consistency_passed": true,
+    "temperature_start": 51.25,
+    "temperature_end": 60.6,
+    "throttle": "throttled=0x0"
+  }
+}

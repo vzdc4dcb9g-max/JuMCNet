@@ -1,0 +1,345 @@
+{
+  "samples": [
+    {
+      "path": "bianxing/bianxing (577).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "708a825e4450aa65ac3873d11fec1548e6f308680097c3969614ed465bc2f77f",
+      "bytes": 71953
+    },
+    {
+      "path": "bianxing/bianxing (268).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "66d5a04cd6716b3f0caf9566f3f6bf1a7c0e69e01ba1209e3b9d932a1b916417",
+      "bytes": 76691
+    },
+    {
+      "path": "bianxing/bianxing (123).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "6e4ae5b13c7ea33d10790b85d0cbc512fad8a1ea510ba1e774401d86bff25c1f",
+      "bytes": 72370
+    },
+    {
+      "path": "bianxing/bianxing (662).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "7766a01b29d7507021981a9d9133bc1eaa06e3c9352d61ea7a0b341dca6f09e4",
+      "bytes": 75400
+    },
+    {
+      "path": "bianxing/bianxing (147).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "61bacb49468fd2872c6804a203ec17b855e1d70adc963b326c310bab4089bb88",
+      "bytes": 75854
+    },
+    {
+      "path": "bianxing/bianxing (1440).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "7435236f52a3d62da3ef462e249eef300eb1f158e33699719c301b92683e6f16",
+      "bytes": 74136
+    },
+    {
+      "path": "bianxing/bianxing (1630).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "7cc803ef0c3611f42f42f5a23f7b796d0db14f5fd88028ab6737f0b2ea3f4c65",
+      "bytes": 76814
+    },
+    {
+      "path": "bianxing/bianxing (1618).png",
+      "target": 0,
+      "class_name": "bianxing",
+      "sha256": "7acc7e6a1f556c602c444dcd9c68bb11a28a864285ac05044a31c4a7ee035a65",
+      "bytes": 72471
+    },
+    {
+      "path": "gantiao/gantiao (1545).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "d3d0ca2c1a0f94b73724f0b9fd144e577b1abfed68e39c833a780cd1f8657d21",
+      "bytes": 76903
+    },
+    {
+      "path": "gantiao/gantiao (1309).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "7af109f5ff96483a8f308c2ccb8085ae3c2a7b8176034cb20301d8ace6e48554",
+      "bytes": 74434
+    },
+    {
+      "path": "gantiao/gantiao (1957).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "add2509b63d815ce12f9c3713c6f070e85461b5b4e9aacc2bdea4476a987a53a",
+      "bytes": 103933
+    },
+    {
+      "path": "gantiao/gantiao (576).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "32b16197e9ce13cc4f5d464cd592d35a58efaa06de60c355f918453acb1463c5",
+      "bytes": 76585
+    },
+    {
+      "path": "gantiao/gantiao (1507).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "26cc2c0a626a467f0829b60b0f9aba070da2129fa7376099d138690d03b158b9",
+      "bytes": 75860
+    },
+    {
+      "path": "gantiao/gantiao (1314).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "d2e19dfd1cc382ea878074dded22b04e33b1bdc12fb71b391c883859cbb9a6d0",
+      "bytes": 73301
+    },
+    {
+      "path": "gantiao/gantiao (1533).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "300c4c4d45a32d152fba63d6cbd5b663cfdf1989a174721e54b39b11ef44a8f0",
+      "bytes": 76050
+    },
+    {
+      "path": "gantiao/gantiao (1963).png",
+      "target": 1,
+      "class_name": "gantiao",
+      "sha256": "b645086677753f34fc2a6a5664dbce00bd62682afa57f136157eac13980d1a89",
+      "bytes": 103656
+    },
+    {
+      "path": "haozao/haozao (1897).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "0496a0d7d138ca7fe0fcad75d508dc3bf443b3d8d08840046e585670877aa381",
+      "bytes": 98365
+    },
+    {
+      "path": "haozao/haozao (521).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "5dc548e9c1e4f760b5569ff7d42ac681f8fac90838c169127563394adaab4f67",
+      "bytes": 105530
+    },
+    {
+      "path": "haozao/haozao (641).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "a22b926f474685ac5c6ad2fe1e6e8902169846934292c707c86156fd596cfd82",
+      "bytes": 98628
+    },
+    {
+      "path": "haozao/haozao (1961).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "3737ffe0c331501850f31b6ea650c12a3b7106ea0d786c76f4331b194a4fdd81",
+      "bytes": 98254
+    },
+    {
+      "path": "haozao/haozao (346).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "2c0b07d578d8d30ef6333b29b703640a8f22a95bf1787311156b484ca15a92d2",
+      "bytes": 97529
+    },
+    {
+      "path": "haozao/haozao (810).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "c9ac0ee65403c6abaf5e912c3d487e473f639ad460c1ddc30e50fa45838afe32",
+      "bytes": 100955
+    },
+    {
+      "path": "haozao/haozao (1712).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "9843d06e0b59306c4772330837b984c157ae17e5ff365b7c053cad0a9a0e37dd",
+      "bytes": 105720
+    },
+    {
+      "path": "haozao/haozao (374).png",
+      "target": 2,
+      "class_name": "haozao",
+      "sha256": "920478e8763e0086bf13d4c145abb1387a3080c00930df6e5a2a87be21af8e76",
+      "bytes": 104729
+    },
+    {
+      "path": "liekou/liekou (1456).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "5f915ddfa05db2dd19755e1b491d053f7647dd5d8e426798fcbfbea58c408a55",
+      "bytes": 73883
+    },
+    {
+      "path": "liekou/liekou (141).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "2125b1451cef1c3cf24a533e6baf90295448b2cf12dc04a3cd5cf7588305d37d",
+      "bytes": 100131
+    },
+    {
+      "path": "liekou/liekou (926).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "57204dc24702b4bf13ae3dd4e1976f2cd9415c5c4e78fc157c9508435bafb690",
+      "bytes": 72477
+    },
+    {
+      "path": "liekou/liekou (1202).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "7711a32e5ad9528f19ba19b07c488aeffd4793780172348201fc7ffeb4e9d6c5",
+      "bytes": 73959
+    },
+    {
+      "path": "liekou/liekou (252).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "5e3a06a4fd1c17c8f641ad044ceaa86b4e3ac8add10735e46932e4d10906a41c",
+      "bytes": 70605
+    },
+    {
+      "path": "liekou/liekou (72).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "4606f4f5acc63863c781d935f555fd9ba432e05c3febe6ff7a15573e70a403db",
+      "bytes": 71873
+    },
+    {
+      "path": "liekou/liekou (1036).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "17534f49dc0cf70fcb19c2ffd5ead658955608e4c25310b0f46525c65e5eaff7",
+      "bytes": 70837
+    },
+    {
+      "path": "liekou/liekou (1000).png",
+      "target": 3,
+      "class_name": "liekou",
+      "sha256": "31348106a10441f9eb23a9b3eeb33867f2ac7ee4d47ab56b81d95bcb16934136",
+      "bytes": 71761
+    },
+    {
+      "path": "meibian/meibian (532).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "1ec1cefe6d9a89a4c8a982557f7c47966024f63e7d1fb59831141b1de6f0e68a",
+      "bytes": 98982
+    },
+    {
+      "path": "meibian/meibian (1295).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "5feecc9f272d92eb09ba5f75d5121314cd51b22935d4af898c25cfde5c10e563",
+      "bytes": 101787
+    },
+    {
+      "path": "meibian/meibian (1641).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "81f64ea89006e72ad3e8cdd00d7c386bb06316f8881c778dd0202fdb9f2296a2",
+      "bytes": 71705
+    },
+    {
+      "path": "meibian/meibian (889).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "cb37eef9f90301215541a5039ef15c278578f1a907265057313f609f24243c7b",
+      "bytes": 104710
+    },
+    {
+      "path": "meibian/meibian (223).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "ffac22707c4f81ad1c9db8cf57851d91073a152dd8ef1bce776d1081dc327f54",
+      "bytes": 70896
+    },
+    {
+      "path": "meibian/meibian (1297).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "65da3dfe29f450f7aa4e8bc440b1fb6d0ce3edb359564195d90c1554aa0e9ba3",
+      "bytes": 97962
+    },
+    {
+      "path": "meibian/meibian (659).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "b2360625ce38ba47be35b677ce7baa9ae90d5fcb9eadef6e8055111cb7cfce76",
+      "bytes": 77935
+    },
+    {
+      "path": "meibian/meibian (563).png",
+      "target": 4,
+      "class_name": "meibian",
+      "sha256": "79aa822b25a918a0d15e444ba054b098535ba272fa02df7718deaa395b260788",
+      "bytes": 104103
+    },
+    {
+      "path": "niaozhuo/niaozhuo (34).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "ee94bd53fb106c7f8f469338ef7aca23d4fa25cc4b83cc88ed5fc96984682df8",
+      "bytes": 102551
+    },
+    {
+      "path": "niaozhuo/niaozhuo (1901).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "b4ceabe6dfc25084f852f4e55114df822c72f468b6f1a3f114df3c4659efbe9a",
+      "bytes": 72839
+    },
+    {
+      "path": "niaozhuo/niaozhuo (12).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "d91ee12bcb29d4d588fa66a2a66543c30061d6ec29eb3f2f2c0d641ede148f49",
+      "bytes": 72252
+    },
+    {
+      "path": "niaozhuo/niaozhuo (736).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "479bb09d9bbb3b7120a0e5be89e0e181449860c4a64a26568c45eca9ac5804f8",
+      "bytes": 74215
+    },
+    {
+      "path": "niaozhuo/niaozhuo (605).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "f5d58c85ed438d34cfa88e32f2957a03c80e82cc3cfe745ba5cff552e8a1413b",
+      "bytes": 74482
+    },
+    {
+      "path": "niaozhuo/niaozhuo (1515).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "a49221fe088c961d3076298984165c009604ed400c67b44860c82af9a571d484",
+      "bytes": 74629
+    },
+    {
+      "path": "niaozhuo/niaozhuo (544).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "96e1f0c6de4b8919f59f21b30e66cf50976d3d8e31b8edb55a7710220a7f3137",
+      "bytes": 71270
+    },
+    {
+      "path": "niaozhuo/niaozhuo (454).png",
+      "target": 5,
+      "class_name": "niaozhuo",
+      "sha256": "abc022b0ca2416f1c20efe23d6498f291bc8606d0f5a5504bdf993df11e38b0d",
+      "bytes": 74571
+    }
+  ],
+  "n": 48,
+  "full_validation_count": 1155,
+  "validation_split_sha256": "4895a5dd8e08002964d84d06cd33559abbff1ab74cf443c76eafe2ce02cd50f4",
+  "test_disjoint": true,
+  "selection": "Eight per class, ascending SHA256(round2:path); fixed without model predictions."
+}

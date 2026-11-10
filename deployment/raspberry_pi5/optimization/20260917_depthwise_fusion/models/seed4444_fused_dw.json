@@ -1,0 +1,53 @@
+{
+  "fused_nodes": [
+    {
+      "name": "/stages.0/stages.0.0/conv2_kxk/conv/Conv",
+      "stride": 1,
+      "channels": 32,
+      "weight_sha256": "8c6148edd4eba45a0e31c457871a6ea30dba9a20baf85cad652ad98dbf2a415d"
+    },
+    {
+      "name": "/stages.1/stages.1.0/conv2_kxk/conv/Conv",
+      "stride": 2,
+      "channels": 32,
+      "weight_sha256": "55c43432c733b64d8609f58206941541e1dd93117ccaca34176d4460e1e23722"
+    },
+    {
+      "name": "/stages.1/stages.1.1/conv2_kxk/conv/Conv",
+      "stride": 1,
+      "channels": 48,
+      "weight_sha256": "f537d8c4c0307108cf64892eafbfb30a26931680a9b830bde99aa50393323f31"
+    },
+    {
+      "name": "/stages.1/stages.1.2/conv2_kxk/conv/Conv",
+      "stride": 1,
+      "channels": 48,
+      "weight_sha256": "51386f0b9b9c03eea30edd8cf111cfad895034560e2b3df2e2fee6623070882d"
+    },
+    {
+      "name": "/stages.2/stages.2.0/conv2_kxk/conv/Conv",
+      "stride": 2,
+      "channels": 48,
+      "weight_sha256": "79758013b24c59425711d420b878bf097f9456604116bb367cdfbddebabf28a2"
+    },
+    {
+      "name": "/stages.3/stages.3.0/conv2_kxk/conv/Conv",
+      "stride": 2,
+      "channels": 96,
+      "weight_sha256": "f15ac7958c98ac7c41b343102d905ceedf9a25783d4e7bce7356e48d3c97eb64"
+    },
+    {
+      "name": "/stages.4/stages.4.0/conv2_kxk/conv/Conv",
+      "stride": 2,
+      "channels": 128,
+      "weight_sha256": "b9fc4a476078f89eacdba3f61f79746ab038d77812722946bfede8b411c41148"
+    }
+  ],
+  "count": 7,
+  "source": "../../20260915_attention_fusion/models/seed4444_attention_fp32.onnx",
+  "source_sha256": "5e0802eb6836b1a9e93ef69ef9312e09e99ba56898885d35ab86f132b5fac043",
+  "output_sha256": "09e7a66f296b9eeae0d60ff3b774d7617508bd9a4f324981f657e5254a3fa43a",
+  "initializers_byte_identical": true,
+  "attention_nodes_unchanged": true,
+  "contract": "FP32 NEON 3x3 depthwise Conv plus SiLU, one output pass, ORT thread pool"
+}

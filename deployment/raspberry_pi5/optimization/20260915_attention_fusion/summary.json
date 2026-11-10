@@ -1,0 +1,118 @@
+[
+  {
+    "variant": "original",
+    "name": "Original implementation (remeasured)",
+    "n": 5,
+    "accuracy": {
+      "mean": 0.9449462365591398,
+      "sample_sd": 0.0022141140088144224
+    },
+    "macro_f1": {
+      "mean": 0.9454312986284551,
+      "sample_sd": 0.0022694959750837853
+    },
+    "onnx_mib": {
+      "mean": 4.81561279296875,
+      "sample_sd": 0.0
+    },
+    "pure_ms": {
+      "mean": 31.181278025333334,
+      "sample_sd": 0.15971704730837735
+    },
+    "e2e_ms": {
+      "mean": 37.65918470726882,
+      "sample_sd": 0.21427304831916036
+    },
+    "peak_rss_mib": {
+      "mean": 107.859375,
+      "sample_sd": 0.2781952158557009
+    }
+  },
+  {
+    "variant": "method2",
+    "name": "Method 2: Input/output buffer reuse",
+    "n": 5,
+    "accuracy": {
+      "mean": 0.9449462365591398,
+      "sample_sd": 0.0022141140088144224
+    },
+    "macro_f1": {
+      "mean": 0.9454312986284551,
+      "sample_sd": 0.0022694959750837853
+    },
+    "onnx_mib": {
+      "mean": 4.81561279296875,
+      "sample_sd": 0.0
+    },
+    "pure_ms": {
+      "mean": 31.549437162933334,
+      "sample_sd": 0.3157736594839206
+    },
+    "e2e_ms": {
+      "mean": 37.836632622021504,
+      "sample_sd": 0.20941556593676824
+    },
+    "peak_rss_mib": {
+      "mean": 108.20625,
+      "sample_sd": 0.3304234971971576
+    }
+  },
+  {
+    "variant": "method3",
+    "name": "Method 3: Attention operator fusion",
+    "n": 5,
+    "accuracy": {
+      "mean": 0.9449462365591398,
+      "sample_sd": 0.0022141140088144224
+    },
+    "macro_f1": {
+      "mean": 0.9454312986284551,
+      "sample_sd": 0.0022694959750837853
+    },
+    "onnx_mib": {
+      "mean": 4.750082015991211,
+      "sample_sd": 0.0
+    },
+    "pure_ms": {
+      "mean": 28.364809708933333,
+      "sample_sd": 0.19018073845143926
+    },
+    "e2e_ms": {
+      "mean": 34.86594356516129,
+      "sample_sd": 0.2542403099361896
+    },
+    "peak_rss_mib": {
+      "mean": 105.16875,
+      "sample_sd": 0.6407583702633154
+    }
+  },
+  {
+    "variant": "method23",
+    "name": "Methods 2+3: Buffer reuse and fusion",
+    "n": 5,
+    "accuracy": {
+      "mean": 0.9449462365591398,
+      "sample_sd": 0.0022141140088144224
+    },
+    "macro_f1": {
+      "mean": 0.9454312986284551,
+      "sample_sd": 0.0022694959750837853
+    },
+    "onnx_mib": {
+      "mean": 4.750082015991211,
+      "sample_sd": 0.0
+    },
+    "pure_ms": {
+      "mean": 28.4557335028,
+      "sample_sd": 0.07731984707515432
+    },
+    "e2e_ms": {
+      "mean": 34.90238837737634,
+      "sample_sd": 0.06807146056912536
+    },
+    "peak_rss_mib": {
+      "mean": 105.775,
+      "sample_sd": 0.00855816496101822
+    }
+  }
+]

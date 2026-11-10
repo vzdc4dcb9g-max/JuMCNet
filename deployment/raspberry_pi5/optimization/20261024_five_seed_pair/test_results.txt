@@ -1,0 +1,24 @@
+JuMCNet on Raspberry Pi 5: Paired Comparison of Original and Fully Optimized Deployment (2026-10-24)
+
+Total per-image latency: 37.313458 ± 0.194737 ms → 22.993426 ± 0.106479 ms.
+Calculated from the five-seed mean latencies, the reduction is 38.377661%, with a speedup of 1.622788 times.
+The mean of the separately calculated per-seed reductions is 38.375480% ± 0.561952 percentage points.
+Inference only: 31.043500 ± 0.178947 ms → 18.645354 ± 0.104298 ms; the reduction calculated from the means is 39.937976%.
+
+Seed | Date | Original total latency (ms) | Optimized total latency (ms) | Total latency reduction (%)
+1111 | 2026-10-24 | 37.398124 | 22.980195 | 38.552545
+2222 | 2026-10-15 | 37.026446 | 23.178087 | 37.401266
+3333 | 2026-10-24 | 37.286495 | 22.917763 | 38.536022
+4444 | 2026-10-24 | 37.295587 | 22.925970 | 38.529001
+5555 | 2026-10-24 | 37.560640 | 22.965113 | 38.858568
+
+Statistical procedure: each seed's original and fully optimized configurations are measured twice in separate processes, in a fixed ABBA order, and all measurements are retained. The two measurements are first averaged arithmetically within each seed, then averaged across five seeds; ± denotes the sample standard deviation among the five seed means. The 500 inference-only timings or 2325 images are not independent training seeds.
+Measurement dates: 1111, 3333, 4444, and 5555 were newly measured on 2026-10-24; 2222 reuses paired records from 2026-10-15 for the currently adopted weights. The five seeds use the same protocol, software versions, and hardware settings, but were not measured on the same day or in the same batch.
+Runtime configuration: Raspberry Pi 5, CPUExecutionProvider, FP32, batch=1, intra=4/inter=1, ORT_SEQUENTIAL, ORT_ENABLE_ALL, and thread spinning disabled. Each run performs 100 warmup iterations, cycles through 48 fixed validation inputs for 500 inference-only measurements, and evaluates all 2325 fixed test images.
+Total per-image latency includes local image reading, decoding, preprocessing, model inference, and argmax/softmax. It excludes camera acquisition, network transfer, model loading, process startup, and result saving. The wall_ms for the complete pass is not used as a substitute for mean per-image latency.
+Cooling follows the 2222 protocol: at least 12 seconds, with execution allowed once the temperature reaches ≤50°C, and a maximum wait of 60 seconds; actual temperatures and throttling flags are recorded in the original records.
+Verification: both configurations produce identical class predictions over the full test set for every seed, and all pass absolute and relative tolerance checks of 2e-4 against the corresponding computer FP32 ONNX outputs. RGB pixels and FP32 inputs from both preprocessing implementations are elementwise identical for all 2325 images. Throttling flags are 0 at the start and end of every run.
+Weights and data: the currently adopted project weights are used; initializer parameters in the original and optimized ONNX models are byte-identical, and dataset order and file hashes are verified. No training, weight selection, or weight replacement is performed in this experiment.
+These new latencies must not be combined end to end with historical component comparisons across measurement batches.
+
+Files: five_seed_paired_summary.json/csv; all_20_measurements.csv; results stores 16 measurement records, historical_seed2222/results stores 4 measurement records; scripts stores native-operator and preprocessing dynamic libraries.

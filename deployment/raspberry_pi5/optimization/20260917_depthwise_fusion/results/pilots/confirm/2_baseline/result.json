@@ -1,0 +1,1066 @@
+{
+  "variant": "baseline",
+  "seed": 5555,
+  "tag": "confirm/2_baseline",
+  "test_count": 144,
+  "unique_images": 48,
+  "full_test": false,
+  "hardware_start": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "1500000",
+    "temperature_c": 49.6,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "hardware_end": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "2400000",
+    "temperature_c": 59.5,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "pure": {
+    "n": 240,
+    "mean_ms": 28.17888895,
+    "sd_ms": 0.6651421590644185,
+    "median_ms": 28.009113499999998,
+    "p95_ms": 29.0888211,
+    "min_ms": 27.748279,
+    "max_ms": 32.559734,
+    "throughput_images_per_s": 35.48755956185419
+  },
+  "pure_raw_ms": [
+    28.003966,
+    28.047891,
+    28.00928,
+    28.00815,
+    27.935317,
+    27.988798,
+    28.099021,
+    28.001687,
+    27.885243,
+    28.023003,
+    27.964928,
+    28.00228,
+    28.013983,
+    28.022854,
+    28.013077,
+    28.004298,
+    27.995168,
+    27.99215,
+    27.97128,
+    28.879893,
+    27.984187,
+    28.050354,
+    27.90015,
+    27.905669,
+    27.831465,
+    27.98391,
+    28.139966,
+    27.946391,
+    27.910539,
+    27.844779,
+    27.932872,
+    27.849835,
+    27.94478,
+    28.012835,
+    28.13465,
+    27.893113,
+    27.94528,
+    27.845743,
+    27.832262,
+    28.15778,
+    27.944724,
+    27.957539,
+    28.049706,
+    28.024317,
+    27.983169,
+    27.971854,
+    27.970725,
+    28.131335,
+    27.910687,
+    28.061169,
+    27.963891,
+    28.013558,
+    28.026966,
+    28.126836,
+    28.181614,
+    28.241002,
+    27.992354,
+    29.087098,
+    28.24228,
+    28.219243,
+    27.930872,
+    28.161225,
+    27.881391,
+    27.984965,
+    27.959225,
+    28.018946,
+    28.000299,
+    27.943058,
+    28.08204,
+    27.884909,
+    28.155891,
+    28.032484,
+    28.198281,
+    27.855558,
+    27.933095,
+    27.961613,
+    28.043872,
+    28.17517,
+    28.076317,
+    32.559734,
+    29.12156,
+    27.954076,
+    27.833668,
+    27.900743,
+    27.958076,
+    28.072113,
+    28.125891,
+    27.904854,
+    28.161465,
+    28.058484,
+    29.36669,
+    28.119095,
+    28.250725,
+    31.860233,
+    28.065743,
+    28.037725,
+    28.006169,
+    28.065984,
+    28.001206,
+    28.24254,
+    28.035391,
+    28.188076,
+    27.888502,
+    27.996613,
+    28.085428,
+    28.149484,
+    27.975836,
+    27.826076,
+    30.710767,
+    28.091687,
+    28.030799,
+    28.008947,
+    28.149929,
+    27.993094,
+    28.010336,
+    28.065095,
+    28.120539,
+    28.034668,
+    27.956854,
+    28.142688,
+    28.133077,
+    28.008039,
+    27.975225,
+    28.226521,
+    28.012298,
+    28.542836,
+    31.884362,
+    28.091595,
+    27.995187,
+    27.979299,
+    27.976965,
+    27.955187,
+    27.928373,
+    27.998391,
+    27.996872,
+    27.985946,
+    28.049002,
+    28.011243,
+    28.113429,
+    27.929242,
+    27.964243,
+    28.202984,
+    28.429151,
+    28.192224,
+    28.126114,
+    28.006243,
+    29.476171,
+    28.167651,
+    28.305984,
+    28.135243,
+    28.077224,
+    28.164095,
+    28.024372,
+    27.870353,
+    27.973835,
+    28.290799,
+    28.045002,
+    28.093262,
+    28.04802,
+    28.06178,
+    27.980817,
+    28.955245,
+    27.753483,
+    28.393337,
+    27.950391,
+    27.96004,
+    28.119391,
+    30.646897,
+    31.762066,
+    28.740596,
+    28.076595,
+    28.093909,
+    27.912631,
+    28.214651,
+    27.940761,
+    27.840038,
+    30.336285,
+    29.070745,
+    27.748279,
+    27.998909,
+    28.04654,
+    28.689874,
+    28.002335,
+    28.369244,
+    31.651139,
+    28.067002,
+    28.123336,
+    27.946706,
+    27.887317,
+    27.922279,
+    28.110299,
+    28.13191,
+    27.931835,
+    27.889576,
+    27.879539,
+    27.904113,
+    29.258838,
+    27.96941,
+    27.976224,
+    27.953558,
+    27.879132,
+    28.011058,
+    28.105576,
+    27.909187,
+    27.991465,
+    27.979965,
+    28.086947,
+    28.018298,
+    27.973336,
+    27.972799,
+    27.997039,
+    28.025817,
+    28.025872,
+    28.067762,
+    27.916076,
+    28.014651,
+    28.353466,
+    27.955484,
+    27.880483,
+    27.958243,
+    28.202632,
+    28.053076,
+    27.78965,
+    27.856947,
+    27.860058,
+    28.034928,
+    27.955039,
+    27.979706,
+    27.905854,
+    27.992336,
+    27.940002,
+    28.470985,
+    28.124298,
+    27.911335,
+    27.957947,
+    27.957076,
+    27.83215,
+    27.944317,
+    27.994817,
+    27.977872
+  ],
+  "full": {
+    "wall_ms": 4778.015896,
+    "images_per_s": 30.138032843413548,
+    "amortized_ms": 33.18066594444444,
+    "latency": {
+      "n": 144,
+      "mean_ms": 33.16703400694445,
+      "sd_ms": 0.8762281601207577,
+      "median_ms": 33.127874,
+      "p95_ms": 33.7163782,
+      "min_ms": 32.242696,
+      "max_ms": 39.461933,
+      "throughput_images_per_s": 30.150419835268416
+    },
+    "preprocess": {
+      "n": 144,
+      "mean_ms": 4.401120895833333,
+      "sd_ms": 0.29144863296572593,
+      "median_ms": 4.591796,
+      "p95_ms": 4.65605935,
+      "min_ms": 3.947823,
+      "max_ms": 4.737713,
+      "throughput_images_per_s": 227.21484450625488
+    },
+    "inference": {
+      "n": 144,
+      "mean_ms": 28.69246270138889,
+      "sd_ms": 0.8553593251342054,
+      "median_ms": 28.5130215,
+      "p95_ms": 29.4859129,
+      "min_ms": 28.066428,
+      "max_ms": 35.35748,
+      "throughput_images_per_s": 34.85235862837225
+    },
+    "records": [
+      {
+        "preprocess_ms": 4.713473,
+        "inference_ms": 28.484355,
+        "latency_ms": 33.323272
+      },
+      {
+        "preprocess_ms": 4.737713,
+        "inference_ms": 28.39754,
+        "latency_ms": 33.212049
+      },
+      {
+        "preprocess_ms": 4.629325,
+        "inference_ms": 28.583299,
+        "latency_ms": 33.285698
+      },
+      {
+        "preprocess_ms": 4.625121,
+        "inference_ms": 28.372355,
+        "latency_ms": 33.070013
+      },
+      {
+        "preprocess_ms": 4.607825,
+        "inference_ms": 28.616318,
+        "latency_ms": 33.297495
+      },
+      {
+        "preprocess_ms": 4.607954,
+        "inference_ms": 28.365428,
+        "latency_ms": 33.046142
+      },
+      {
+        "preprocess_ms": 4.649158,
+        "inference_ms": 28.520669,
+        "latency_ms": 33.242365
+      },
+      {
+        "preprocess_ms": 4.615232,
+        "inference_ms": 28.573003,
+        "latency_ms": 33.260235
+      },
+      {
+        "preprocess_ms": 4.59712,
+        "inference_ms": 28.57617,
+        "latency_ms": 33.24542
+      },
+      {
+        "preprocess_ms": 4.657787,
+        "inference_ms": 28.48267,
+        "latency_ms": 33.213013
+      },
+      {
+        "preprocess_ms": 3.999804,
+        "inference_ms": 28.536837,
+        "latency_ms": 32.610567
+      },
+      {
+        "preprocess_ms": 4.644899,
+        "inference_ms": 28.337725,
+        "latency_ms": 33.056902
+      },
+      {
+        "preprocess_ms": 4.631621,
+        "inference_ms": 28.396521,
+        "latency_ms": 33.101235
+      },
+      {
+        "preprocess_ms": 4.625546,
+        "inference_ms": 28.442577,
+        "latency_ms": 33.140753
+      },
+      {
+        "preprocess_ms": 4.627639,
+        "inference_ms": 28.751448,
+        "latency_ms": 33.451495
+      },
+      {
+        "preprocess_ms": 4.040415,
+        "inference_ms": 28.311059,
+        "latency_ms": 32.424826
+      },
+      {
+        "preprocess_ms": 3.984212,
+        "inference_ms": 28.504133,
+        "latency_ms": 32.561456
+      },
+      {
+        "preprocess_ms": 4.037212,
+        "inference_ms": 28.259595,
+        "latency_ms": 32.369178
+      },
+      {
+        "preprocess_ms": 4.003323,
+        "inference_ms": 28.753819,
+        "latency_ms": 32.829679
+      },
+      {
+        "preprocess_ms": 4.008879,
+        "inference_ms": 28.473022,
+        "latency_ms": 32.554864
+      },
+      {
+        "preprocess_ms": 3.972249,
+        "inference_ms": 28.380466,
+        "latency_ms": 32.424437
+      },
+      {
+        "preprocess_ms": 4.012841,
+        "inference_ms": 28.614133,
+        "latency_ms": 32.698789
+      },
+      {
+        "preprocess_ms": 3.998805,
+        "inference_ms": 28.36791,
+        "latency_ms": 32.439604
+      },
+      {
+        "preprocess_ms": 4.024786,
+        "inference_ms": 32.190789,
+        "latency_ms": 36.286427
+      },
+      {
+        "preprocess_ms": 4.641251,
+        "inference_ms": 31.137693,
+        "latency_ms": 35.851704
+      },
+      {
+        "preprocess_ms": 4.000582,
+        "inference_ms": 28.464466,
+        "latency_ms": 32.537567
+      },
+      {
+        "preprocess_ms": 4.645047,
+        "inference_ms": 28.512521,
+        "latency_ms": 33.232198
+      },
+      {
+        "preprocess_ms": 4.60738,
+        "inference_ms": 28.442503,
+        "latency_ms": 33.121902
+      },
+      {
+        "preprocess_ms": 4.616879,
+        "inference_ms": 28.3983,
+        "latency_ms": 33.08679
+      },
+      {
+        "preprocess_ms": 4.613825,
+        "inference_ms": 28.356836,
+        "latency_ms": 33.065105
+      },
+      {
+        "preprocess_ms": 4.592657,
+        "inference_ms": 28.347725,
+        "latency_ms": 33.012438
+      },
+      {
+        "preprocess_ms": 4.572954,
+        "inference_ms": 28.635411,
+        "latency_ms": 33.280939
+      },
+      {
+        "preprocess_ms": 3.99499,
+        "inference_ms": 28.528336,
+        "latency_ms": 32.597234
+      },
+      {
+        "preprocess_ms": 4.003693,
+        "inference_ms": 28.288373,
+        "latency_ms": 32.363677
+      },
+      {
+        "preprocess_ms": 4.651936,
+        "inference_ms": 28.616503,
+        "latency_ms": 33.342865
+      },
+      {
+        "preprocess_ms": 4.030972,
+        "inference_ms": 28.423466,
+        "latency_ms": 32.526975
+      },
+      {
+        "preprocess_ms": 4.59051,
+        "inference_ms": 31.25599,
+        "latency_ms": 35.916833
+      },
+      {
+        "preprocess_ms": 3.997397,
+        "inference_ms": 28.255188,
+        "latency_ms": 32.325511
+      },
+      {
+        "preprocess_ms": 4.615065,
+        "inference_ms": 32.895419,
+        "latency_ms": 37.582133
+      },
+      {
+        "preprocess_ms": 4.047453,
+        "inference_ms": 28.39004,
+        "latency_ms": 32.510308
+      },
+      {
+        "preprocess_ms": 4.032953,
+        "inference_ms": 35.35748,
+        "latency_ms": 39.461933
+      },
+      {
+        "preprocess_ms": 4.635658,
+        "inference_ms": 28.565762,
+        "latency_ms": 33.275235
+      },
+      {
+        "preprocess_ms": 4.564713,
+        "inference_ms": 28.697689,
+        "latency_ms": 33.336032
+      },
+      {
+        "preprocess_ms": 4.643917,
+        "inference_ms": 28.595726,
+        "latency_ms": 33.312587
+      },
+      {
+        "preprocess_ms": 4.612862,
+        "inference_ms": 28.46441,
+        "latency_ms": 33.150235
+      },
+      {
+        "preprocess_ms": 4.57838,
+        "inference_ms": 28.358762,
+        "latency_ms": 33.00879
+      },
+      {
+        "preprocess_ms": 4.602565,
+        "inference_ms": 28.54841,
+        "latency_ms": 33.223661
+      },
+      {
+        "preprocess_ms": 4.631898,
+        "inference_ms": 28.340781,
+        "latency_ms": 33.04529
+      },
+      {
+        "preprocess_ms": 4.59688,
+        "inference_ms": 28.348114,
+        "latency_ms": 33.018587
+      },
+      {
+        "preprocess_ms": 4.642658,
+        "inference_ms": 28.325114,
+        "latency_ms": 33.040494
+      },
+      {
+        "preprocess_ms": 4.56875,
+        "inference_ms": 28.942356,
+        "latency_ms": 33.583958
+      },
+      {
+        "preprocess_ms": 4.609103,
+        "inference_ms": 28.635929,
+        "latency_ms": 33.317921
+      },
+      {
+        "preprocess_ms": 4.562676,
+        "inference_ms": 28.590355,
+        "latency_ms": 33.227105
+      },
+      {
+        "preprocess_ms": 4.603973,
+        "inference_ms": 28.513522,
+        "latency_ms": 33.190236
+      },
+      {
+        "preprocess_ms": 4.59788,
+        "inference_ms": 29.016893,
+        "latency_ms": 33.686754
+      },
+      {
+        "preprocess_ms": 4.667991,
+        "inference_ms": 28.534263,
+        "latency_ms": 33.273884
+      },
+      {
+        "preprocess_ms": 4.637454,
+        "inference_ms": 28.628429,
+        "latency_ms": 33.338661
+      },
+      {
+        "preprocess_ms": 4.637862,
+        "inference_ms": 28.337428,
+        "latency_ms": 33.050179
+      },
+      {
+        "preprocess_ms": 4.025953,
+        "inference_ms": 28.344484,
+        "latency_ms": 32.443604
+      },
+      {
+        "preprocess_ms": 4.656787,
+        "inference_ms": 28.424429,
+        "latency_ms": 33.154253
+      },
+      {
+        "preprocess_ms": 4.621454,
+        "inference_ms": 28.684781,
+        "latency_ms": 33.37942
+      },
+      {
+        "preprocess_ms": 4.614546,
+        "inference_ms": 28.517244,
+        "latency_ms": 33.204031
+      },
+      {
+        "preprocess_ms": 4.618028,
+        "inference_ms": 28.517003,
+        "latency_ms": 33.207513
+      },
+      {
+        "preprocess_ms": 4.02012,
+        "inference_ms": 28.548947,
+        "latency_ms": 32.64229
+      },
+      {
+        "preprocess_ms": 3.975749,
+        "inference_ms": 28.400706,
+        "latency_ms": 32.448659
+      },
+      {
+        "preprocess_ms": 4.037083,
+        "inference_ms": 28.456318,
+        "latency_ms": 32.566604
+      },
+      {
+        "preprocess_ms": 4.00199,
+        "inference_ms": 28.631874,
+        "latency_ms": 32.706216
+      },
+      {
+        "preprocess_ms": 3.982397,
+        "inference_ms": 28.780023,
+        "latency_ms": 32.835198
+      },
+      {
+        "preprocess_ms": 3.947823,
+        "inference_ms": 28.6043,
+        "latency_ms": 32.625179
+      },
+      {
+        "preprocess_ms": 4.014731,
+        "inference_ms": 28.404428,
+        "latency_ms": 32.490937
+      },
+      {
+        "preprocess_ms": 4.017879,
+        "inference_ms": 28.647651,
+        "latency_ms": 32.738401
+      },
+      {
+        "preprocess_ms": 4.024712,
+        "inference_ms": 28.146262,
+        "latency_ms": 32.242696
+      },
+      {
+        "preprocess_ms": 4.662972,
+        "inference_ms": 28.534207,
+        "latency_ms": 33.271383
+      },
+      {
+        "preprocess_ms": 4.002193,
+        "inference_ms": 28.279392,
+        "latency_ms": 32.353159
+      },
+      {
+        "preprocess_ms": 4.577158,
+        "inference_ms": 28.444355,
+        "latency_ms": 33.09492
+      },
+      {
+        "preprocess_ms": 4.643232,
+        "inference_ms": 28.358984,
+        "latency_ms": 33.075698
+      },
+      {
+        "preprocess_ms": 4.613139,
+        "inference_ms": 28.356762,
+        "latency_ms": 33.041938
+      },
+      {
+        "preprocess_ms": 4.584583,
+        "inference_ms": 28.507207,
+        "latency_ms": 33.164161
+      },
+      {
+        "preprocess_ms": 4.590935,
+        "inference_ms": 28.610781,
+        "latency_ms": 33.274254
+      },
+      {
+        "preprocess_ms": 4.608751,
+        "inference_ms": 28.321613,
+        "latency_ms": 33.002976
+      },
+      {
+        "preprocess_ms": 4.00549,
+        "inference_ms": 28.345447,
+        "latency_ms": 32.422993
+      },
+      {
+        "preprocess_ms": 4.034878,
+        "inference_ms": 29.253579,
+        "latency_ms": 33.36105
+      },
+      {
+        "preprocess_ms": 4.587825,
+        "inference_ms": 29.161171,
+        "latency_ms": 33.82294
+      },
+      {
+        "preprocess_ms": 4.031767,
+        "inference_ms": 29.131097,
+        "latency_ms": 33.23442
+      },
+      {
+        "preprocess_ms": 4.597676,
+        "inference_ms": 28.555781,
+        "latency_ms": 33.224791
+      },
+      {
+        "preprocess_ms": 4.024952,
+        "inference_ms": 29.526913,
+        "latency_ms": 33.624773
+      },
+      {
+        "preprocess_ms": 4.674343,
+        "inference_ms": 28.522152,
+        "latency_ms": 33.26968
+      },
+      {
+        "preprocess_ms": 4.017935,
+        "inference_ms": 28.417003,
+        "latency_ms": 32.506956
+      },
+      {
+        "preprocess_ms": 4.009212,
+        "inference_ms": 28.445854,
+        "latency_ms": 32.527233
+      },
+      {
+        "preprocess_ms": 4.632269,
+        "inference_ms": 28.477762,
+        "latency_ms": 33.182994
+      },
+      {
+        "preprocess_ms": 4.576658,
+        "inference_ms": 28.628281,
+        "latency_ms": 33.278161
+      },
+      {
+        "preprocess_ms": 4.59875,
+        "inference_ms": 28.569207,
+        "latency_ms": 33.241957
+      },
+      {
+        "preprocess_ms": 4.622769,
+        "inference_ms": 28.610374,
+        "latency_ms": 33.306347
+      },
+      {
+        "preprocess_ms": 4.598491,
+        "inference_ms": 28.400669,
+        "latency_ms": 33.071864
+      },
+      {
+        "preprocess_ms": 4.596584,
+        "inference_ms": 28.475095,
+        "latency_ms": 33.14492
+      },
+      {
+        "preprocess_ms": 4.62364,
+        "inference_ms": 28.588133,
+        "latency_ms": 33.284384
+      },
+      {
+        "preprocess_ms": 4.568306,
+        "inference_ms": 28.579651,
+        "latency_ms": 33.220865
+      },
+      {
+        "preprocess_ms": 4.646621,
+        "inference_ms": 28.597615,
+        "latency_ms": 33.317217
+      },
+      {
+        "preprocess_ms": 4.547287,
+        "inference_ms": 28.647985,
+        "latency_ms": 33.267976
+      },
+      {
+        "preprocess_ms": 4.612324,
+        "inference_ms": 28.441762,
+        "latency_ms": 33.12705
+      },
+      {
+        "preprocess_ms": 4.617547,
+        "inference_ms": 28.657225,
+        "latency_ms": 33.346995
+      },
+      {
+        "preprocess_ms": 4.57149,
+        "inference_ms": 28.312355,
+        "latency_ms": 32.956549
+      },
+      {
+        "preprocess_ms": 4.611769,
+        "inference_ms": 28.412725,
+        "latency_ms": 33.096883
+      },
+      {
+        "preprocess_ms": 4.636361,
+        "inference_ms": 28.338892,
+        "latency_ms": 33.047605
+      },
+      {
+        "preprocess_ms": 4.639176,
+        "inference_ms": 28.347114,
+        "latency_ms": 33.057161
+      },
+      {
+        "preprocess_ms": 4.587269,
+        "inference_ms": 28.525448,
+        "latency_ms": 33.186069
+      },
+      {
+        "preprocess_ms": 4.028268,
+        "inference_ms": 28.563577,
+        "latency_ms": 32.665345
+      },
+      {
+        "preprocess_ms": 4.664584,
+        "inference_ms": 28.451688,
+        "latency_ms": 33.206958
+      },
+      {
+        "preprocess_ms": 4.59864,
+        "inference_ms": 28.457225,
+        "latency_ms": 33.128698
+      },
+      {
+        "preprocess_ms": 4.587102,
+        "inference_ms": 28.57741,
+        "latency_ms": 33.237401
+      },
+      {
+        "preprocess_ms": 4.611676,
+        "inference_ms": 28.549596,
+        "latency_ms": 33.233383
+      },
+      {
+        "preprocess_ms": 4.04623,
+        "inference_ms": 28.547467,
+        "latency_ms": 32.66666
+      },
+      {
+        "preprocess_ms": 3.969453,
+        "inference_ms": 28.429262,
+        "latency_ms": 32.470919
+      },
+      {
+        "preprocess_ms": 4.046249,
+        "inference_ms": 31.414565,
+        "latency_ms": 35.530165
+      },
+      {
+        "preprocess_ms": 3.986545,
+        "inference_ms": 29.663524,
+        "latency_ms": 33.721606
+      },
+      {
+        "preprocess_ms": 4.00023,
+        "inference_ms": 28.392244,
+        "latency_ms": 32.465066
+      },
+      {
+        "preprocess_ms": 3.955248,
+        "inference_ms": 28.844893,
+        "latency_ms": 32.872364
+      },
+      {
+        "preprocess_ms": 4.020342,
+        "inference_ms": 28.734152,
+        "latency_ms": 32.827512
+      },
+      {
+        "preprocess_ms": 3.999804,
+        "inference_ms": 28.540226,
+        "latency_ms": 32.61203
+      },
+      {
+        "preprocess_ms": 4.016027,
+        "inference_ms": 28.387447,
+        "latency_ms": 32.474882
+      },
+      {
+        "preprocess_ms": 4.614695,
+        "inference_ms": 28.693725,
+        "latency_ms": 33.381958
+      },
+      {
+        "preprocess_ms": 4.012397,
+        "inference_ms": 28.464151,
+        "latency_ms": 32.548178
+      },
+      {
+        "preprocess_ms": 4.603287,
+        "inference_ms": 28.618541,
+        "latency_ms": 33.294068
+      },
+      {
+        "preprocess_ms": 4.628788,
+        "inference_ms": 28.468003,
+        "latency_ms": 33.169291
+      },
+      {
+        "preprocess_ms": 4.600899,
+        "inference_ms": 28.55917,
+        "latency_ms": 33.233439
+      },
+      {
+        "preprocess_ms": 4.626509,
+        "inference_ms": 28.500966,
+        "latency_ms": 33.199438
+      },
+      {
+        "preprocess_ms": 4.568991,
+        "inference_ms": 28.986078,
+        "latency_ms": 33.62718
+      },
+      {
+        "preprocess_ms": 4.604861,
+        "inference_ms": 28.066428,
+        "latency_ms": 32.743049
+      },
+      {
+        "preprocess_ms": 4.02486,
+        "inference_ms": 28.572374,
+        "latency_ms": 32.670326
+      },
+      {
+        "preprocess_ms": 4.010898,
+        "inference_ms": 28.42828,
+        "latency_ms": 32.531734
+      },
+      {
+        "preprocess_ms": 4.625362,
+        "inference_ms": 28.505058,
+        "latency_ms": 33.203532
+      },
+      {
+        "preprocess_ms": 4.044434,
+        "inference_ms": 28.461744,
+        "latency_ms": 32.579067
+      },
+      {
+        "preprocess_ms": 4.597973,
+        "inference_ms": 28.506522,
+        "latency_ms": 33.177217
+      },
+      {
+        "preprocess_ms": 3.998323,
+        "inference_ms": 28.425726,
+        "latency_ms": 32.496364
+      },
+      {
+        "preprocess_ms": 4.636214,
+        "inference_ms": 28.654614,
+        "latency_ms": 33.364162
+      },
+      {
+        "preprocess_ms": 4.011472,
+        "inference_ms": 28.413114,
+        "latency_ms": 32.497401
+      },
+      {
+        "preprocess_ms": 4.014897,
+        "inference_ms": 28.581337,
+        "latency_ms": 32.668494
+      },
+      {
+        "preprocess_ms": 4.641769,
+        "inference_ms": 28.36641,
+        "latency_ms": 33.080346
+      },
+      {
+        "preprocess_ms": 4.595991,
+        "inference_ms": 28.438354,
+        "latency_ms": 33.106846
+      },
+      {
+        "preprocess_ms": 4.582713,
+        "inference_ms": 28.294984,
+        "latency_ms": 32.950642
+      },
+      {
+        "preprocess_ms": 4.586046,
+        "inference_ms": 28.574578,
+        "latency_ms": 33.233087
+      },
+      {
+        "preprocess_ms": 4.57901,
+        "inference_ms": 28.385595,
+        "latency_ms": 33.038142
+      },
+      {
+        "preprocess_ms": 4.590176,
+        "inference_ms": 28.666966,
+        "latency_ms": 33.330105
+      },
+      {
+        "preprocess_ms": 4.613139,
+        "inference_ms": 28.99556,
+        "latency_ms": 33.680884
+      }
+    ]
+  },
+  "consistency": {
+    "max_abs": 0.0,
+    "mean_abs": 0.0,
+    "allclose": true,
+    "bit_equal": true,
+    "finite": true,
+    "prediction_mismatch_indices": []
+  },
+  "peak_rss_mib": 115.59375
+}

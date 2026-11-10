@@ -1,0 +1,12 @@
+{
+  "checkpoint_sha256": "e180fe8e2e0bca3ec4d4a3b47cbd2f6c1efab9e45ff912d4b92336903cec8fc1",
+  "plain_source": "../../20261015_seed2222_pair/models/seed2222_current_plain.onnx",
+  "optimized_graph_template": "../../20260918_crop_resize/models/seed2222_latest.onnx",
+  "template_sha256": "bcac64c13539fff52174e97723f141de6a2989a689b2f3c7fc270089f9ecbccc",
+  "plain_graph_matches_historical": true,
+  "initializer_count": 204,
+  "all_optimized_initializers_byte_identical_to_new_export": true,
+  "final_graph_nodes_unchanged": true,
+  "plain_sha256": "beff8899cfe785472f310a9469909553890936779b79cdabbf80aba535def263",
+  "optimized_sha256": "9b81e9535cf5bec0be15f9cf5e625d8402603146f18809d3d4d5f7c6c968a346"
+}

@@ -1,0 +1,9 @@
+{
+  "initial_confirmation_passed": true,
+  "full_correctness_passed": true,
+  "isolated_confirmation_passed": true,
+  "accepted_components": [
+    "fc"
+  ],
+  "official_results_changed": false
+}

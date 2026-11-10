@@ -1,0 +1,34 @@
+{
+  "seed": 2222,
+  "checkpoint_sha256": "e180fe8e2e0bca3ec4d4a3b47cbd2f6c1efab9e45ff912d4b92336903cec8fc1",
+  "order": [
+    [
+      "plain",
+      1
+    ],
+    [
+      "optimized",
+      1
+    ],
+    [
+      "optimized",
+      2
+    ],
+    [
+      "plain",
+      2
+    ]
+  ],
+  "repeats": 2,
+  "precision": "FP32",
+  "intra_threads": 4,
+  "inter_threads": 1,
+  "warmup": 100,
+  "pure_iterations_per_run": 500,
+  "fixed_validation_inputs": 48,
+  "test_images": 2325,
+  "cooldown": "at least 12 s, temperature <=50 C, maximum 60 s",
+  "correctness": "all 2325 predictions identical to current PC FP32; logits atol=rtol=2e-4; identical RGB/FP32 preprocessing",
+  "timing": "offline file read/decode/preprocess + inference + softmax/argmax, warmed cache; no camera/network/load/startup",
+  "scope": "new seed2222 only; report all four runs without selection; no cross-batch timing pooling"
+}

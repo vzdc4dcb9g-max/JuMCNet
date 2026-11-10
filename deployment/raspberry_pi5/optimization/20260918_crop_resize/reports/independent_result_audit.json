@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "verified_runs": 20,
+  "unique_images": 2325,
+  "all_graph_hashes_verified": true,
+  "all_transfer_hashes_verified": true,
+  "metrics_recomputed": true,
+  "all_inputs_and_paired_logits_bitwise_equal": true,
+  "all_original_classes_unchanged": true,
+  "no_recorded_throttling": true
+}

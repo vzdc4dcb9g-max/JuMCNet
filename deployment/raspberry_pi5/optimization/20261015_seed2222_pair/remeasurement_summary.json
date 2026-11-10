@@ -1,0 +1,89 @@
+{
+  "seed": 2222,
+  "checkpoint_sha256": "e180fe8e2e0bca3ec4d4a3b47cbd2f6c1efab9e45ff912d4b92336903cec8fc1",
+  "old_device_accuracy_pct": 94.19354838709677,
+  "old_device_macro_f1_pct": 94.23336953401228,
+  "new_results": {
+    "plain": {
+      "accuracy_pct": 94.27956989247312,
+      "macro_f1_pct": 94.32633804182517,
+      "pure_ms": 30.791426342,
+      "preprocess_ms": 5.504325431612903,
+      "total_ms": 37.02644613247311,
+      "peak_rss_mib": 122.25
+    },
+    "optimized": {
+      "accuracy_pct": 94.27956989247312,
+      "macro_f1_pct": 94.32633804182517,
+      "pure_ms": 18.739141692,
+      "preprocess_ms": 3.938689489032258,
+      "total_ms": 23.17808667483871,
+      "peak_rss_mib": 115.5546875
+    }
+  },
+  "accuracy_delta_pp": 0.08602150537635112,
+  "macro_f1_delta_pp": 0.09296850781288413,
+  "old_correct_count": 2190,
+  "new_correct_count": 2192,
+  "new_same_batch_total_reduction_pct": 37.40126559294343,
+  "new_same_batch_pure_reduction_pct": 39.141690015056206,
+  "all_four_class_predictions_identical": true,
+  "all_four_pass_PC_FP32_tolerance": true,
+  "all_throttle_flags_zero": true,
+  "preprocessing": {
+    "images": 2325,
+    "rgb_pixels_bitwise_equal": true,
+    "fp32_inputs_bitwise_equal": true
+  },
+  "historical_five_seed_classification": {
+    "accuracy": {
+      "mean_pct": 94.49462365591398,
+      "sample_sd_pct": 0.22141140088144223
+    },
+    "macro_f1": {
+      "mean_pct": 94.5431298628455,
+      "sample_sd_pct": 0.22694959750837854
+    }
+  },
+  "classification_if_replace_only2222": {
+    "accuracy": {
+      "mean_pct": 94.51182795698925,
+      "sample_sd_pct": 0.1937871884054862
+    },
+    "macro_f1": {
+      "mean_pct": 94.56172356440808,
+      "sample_sd_pct": 0.19706793428302527
+    }
+  },
+  "timing_pooling": "No cross-date pooling of latency; new values are seed2222 means of two runs.",
+  "hardware": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "1500000",
+    "temperature_c": 40.25,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "finished": {
+    "status": "complete",
+    "completed": [
+      "plain_1",
+      "optimized_1",
+      "optimized_2",
+      "plain_2"
+    ],
+    "finished_utc": "2026-10-15T13:50:50Z"
+  }
+}

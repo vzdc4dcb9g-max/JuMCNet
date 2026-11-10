@@ -1,0 +1,282 @@
+{
+  "created_at": "2026-09-17T05:05:43.935242",
+  "method": "Seven FP32 depthwise-convolution + SiLU fused NEON kernels, retaining attention fusion and native LUT preprocessing",
+  "seeds": [
+    1111,
+    2222,
+    3333,
+    4444,
+    5555
+  ],
+  "unique_test_images": 2325,
+  "baseline": "Previous best validated attention fusion + native LUT preprocessing; same-batch control",
+  "variants": {
+    "baseline": {
+      "pure_ms": {
+        "mean": 28.0093047448,
+        "sample_sd": 0.148847731761954,
+        "per_seed": [
+          28.061836548,
+          28.020677872,
+          27.807008174000003,
+          27.945772224,
+          28.211228906
+        ]
+      },
+      "total_ms": {
+        "mean": 33.140850030795704,
+        "sample_sd": 0.1637379358084015,
+        "per_seed": [
+          33.24692416602151,
+          33.084486098064524,
+          32.954129996989245,
+          33.0535319483871,
+          33.36517794451613
+        ]
+      },
+      "preprocess_ms": {
+        "mean": 4.442972592,
+        "sample_sd": 0.0062337469501676625,
+        "per_seed": [
+          4.444944210752688,
+          4.448744660645161,
+          4.432347726021506,
+          4.443639884731183,
+          4.445186477849462
+        ]
+      },
+      "in_path_inference_ms": {
+        "mean": 28.62541238245161,
+        "sample_sd": 0.16055572970940718,
+        "per_seed": [
+          28.72952859827957,
+          28.5626676855914,
+          28.449306357419356,
+          28.53746469677419,
+          28.848094574193546
+        ]
+      },
+      "images_per_s": {
+        "mean": 30.16287105771994,
+        "sample_sd": 0.14875689085855862,
+        "per_seed": [
+          30.066092646169896,
+          30.2138214856436,
+          30.33327387739415,
+          30.24157278364473,
+          29.95959449574733
+        ]
+      },
+      "accuracy_pct": {
+        "mean": 94.49462365591398,
+        "sample_sd": 0.2214114008814438,
+        "per_seed": [
+          94.66666666666667,
+          94.19354838709677,
+          94.6236559139785,
+          94.3225806451613,
+          94.66666666666667
+        ]
+      },
+      "macro_f1_pct": {
+        "mean": 94.54312986284552,
+        "sample_sd": 0.2269495975083776,
+        "per_seed": [
+          94.73234416170088,
+          94.23336953401228,
+          94.66181097891803,
+          94.37059183129581,
+          94.71753280830056
+        ]
+      },
+      "peak_process_rss_mib": {
+        "mean": 118.103125,
+        "sample_sd": 0.00855816496101822,
+        "per_seed": [
+          118.109375,
+          118.09375,
+          118.109375,
+          118.09375,
+          118.109375
+        ]
+      },
+      "max_abs_logit_error": 0.0,
+      "prediction_mismatch_count": 0,
+      "allclose": true,
+      "bit_equal": true
+    },
+    "fusion": {
+      "pure_ms": {
+        "mean": 27.1764601064,
+        "sample_sd": 0.16250096756980528,
+        "per_seed": [
+          27.257304733999998,
+          27.289643716000004,
+          27.000806636,
+          27.333490828000002,
+          27.001054618
+        ]
+      },
+      "total_ms": {
+        "mean": 32.146258440860215,
+        "sample_sd": 0.19118327568268292,
+        "per_seed": [
+          32.299528439139785,
+          32.394646323010754,
+          31.95388598580645,
+          32.00914581032258,
+          32.0740856460215
+        ]
+      },
+      "preprocess_ms": {
+        "mean": 4.435405455569892,
+        "sample_sd": 0.010135201496433011,
+        "per_seed": [
+          4.427075079139785,
+          4.4327595440860215,
+          4.425065533333332,
+          4.44562264172043,
+          4.446504479569892
+        ]
+      },
+      "in_path_inference_ms": {
+        "mean": 27.639014394064514,
+        "sample_sd": 0.19418185920255127,
+        "per_seed": [
+          27.800140998709676,
+          27.890383046881716,
+          27.457488059784946,
+          27.49148883655914,
+          27.555571028387096
+        ]
+      },
+      "images_per_s": {
+        "mean": 31.096080454571695,
+        "sample_sd": 0.1846005209673297,
+        "per_seed": [
+          30.947640331446777,
+          30.85686377394767,
+          31.28288466127956,
+          31.22799980320407,
+          31.165013702980392
+        ]
+      },
+      "accuracy_pct": {
+        "mean": 94.49462365591398,
+        "sample_sd": 0.2214114008814438,
+        "per_seed": [
+          94.66666666666667,
+          94.19354838709677,
+          94.6236559139785,
+          94.3225806451613,
+          94.66666666666667
+        ]
+      },
+      "macro_f1_pct": {
+        "mean": 94.54312986284552,
+        "sample_sd": 0.2269495975083776,
+        "per_seed": [
+          94.73234416170088,
+          94.23336953401228,
+          94.66181097891803,
+          94.37059183129581,
+          94.71753280830056
+        ]
+      },
+      "peak_process_rss_mib": {
+        "mean": 118.43125,
+        "sample_sd": 0.2698650559770568,
+        "per_seed": [
+          118.25,
+          118.21875,
+          118.734375,
+          118.71875,
+          118.234375
+        ]
+      },
+      "max_abs_logit_error": 1.4543533325195312e-05,
+      "prediction_mismatch_count": 0,
+      "allclose": true,
+      "bit_equal": false
+    }
+  },
+  "pure_ms_reduction_pct": 2.973457020758863,
+  "total_ms_reduction_pct": 3.00110464581107,
+  "per_seed": [
+    {
+      "seed": 1111,
+      "baseline_pure_ms": 28.061836548,
+      "fusion_pure_ms": 27.257304733999998,
+      "baseline_total_ms": 33.24692416602151,
+      "fusion_total_ms": 32.299528439139785,
+      "pure_gain_percent": 2.86699629450069,
+      "total_gain_percent": 2.8495740602974773,
+      "accuracy": 0.9466666666666667,
+      "macro_f1": 0.9473234416170088,
+      "max_abs": 1.1444091796875e-05
+    },
+    {
+      "seed": 2222,
+      "baseline_pure_ms": 28.020677872,
+      "fusion_pure_ms": 27.289643716000004,
+      "baseline_total_ms": 33.084486098064524,
+      "fusion_total_ms": 32.394646323010754,
+      "pure_gain_percent": 2.60890960361273,
+      "total_gain_percent": 2.0850853569526206,
+      "accuracy": 0.9419354838709677,
+      "macro_f1": 0.9423336953401228,
+      "max_abs": 6.67572021484375e-06
+    },
+    {
+      "seed": 3333,
+      "baseline_pure_ms": 27.807008174000003,
+      "fusion_pure_ms": 27.000806636,
+      "baseline_total_ms": 32.954129996989245,
+      "fusion_total_ms": 31.95388598580645,
+      "pure_gain_percent": 2.8992746467195074,
+      "total_gain_percent": 3.0352614718524795,
+      "accuracy": 0.946236559139785,
+      "macro_f1": 0.9466181097891803,
+      "max_abs": 1.4543533325195312e-05
+    },
+    {
+      "seed": 4444,
+      "baseline_pure_ms": 27.945772224,
+      "fusion_pure_ms": 27.333490828000002,
+      "baseline_total_ms": 33.0535319483871,
+      "fusion_total_ms": 32.00914581032258,
+      "pure_gain_percent": 2.190962522317297,
+      "total_gain_percent": 3.1596809070066345,
+      "accuracy": 0.9432258064516129,
+      "macro_f1": 0.9437059183129581,
+      "max_abs": 5.7220458984375e-06
+    },
+    {
+      "seed": 5555,
+      "baseline_pure_ms": 28.211228906,
+      "fusion_pure_ms": 27.001054618,
+      "baseline_total_ms": 33.36517794451613,
+      "fusion_total_ms": 32.0740856460215,
+      "pure_gain_percent": 4.289690080614017,
+      "total_gain_percent": 3.86958013723655,
+      "accuracy": 0.9466666666666667,
+      "macro_f1": 0.9471753280830056,
+      "max_abs": 5.7220458984375e-06
+    }
+  ],
+  "mnn_validation_screen": {
+    "seed": 5555,
+    "validation_images": 48,
+    "pure_mean_ms": 27.49124959583333,
+    "total_mean_ms": 32.67972408101852,
+    "baseline_pure_ms": 27.987889991666666,
+    "baseline_total_ms": 33.016745319444446,
+    "max_abs": 0.0005431175231933594,
+    "allclose": false,
+    "predictions_match": true,
+    "accepted": false,
+    "reason": "Exceeds predeclared logit allclose tolerance atol=rtol=2e-4 despite matching 48 validation predictions; not promoted to full five-seed testing",
+    "logits_compared": 288,
+    "elements_outside_tolerance": 1
+  }
+}

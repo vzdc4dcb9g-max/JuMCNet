@@ -1,0 +1,102 @@
+{
+  "seeds": [
+    1111,
+    3333,
+    4444,
+    5555
+  ],
+  "order": [
+    [
+      1111,
+      "plain",
+      1
+    ],
+    [
+      1111,
+      "optimized",
+      1
+    ],
+    [
+      1111,
+      "optimized",
+      2
+    ],
+    [
+      1111,
+      "plain",
+      2
+    ],
+    [
+      3333,
+      "plain",
+      1
+    ],
+    [
+      3333,
+      "optimized",
+      1
+    ],
+    [
+      3333,
+      "optimized",
+      2
+    ],
+    [
+      3333,
+      "plain",
+      2
+    ],
+    [
+      4444,
+      "plain",
+      1
+    ],
+    [
+      4444,
+      "optimized",
+      1
+    ],
+    [
+      4444,
+      "optimized",
+      2
+    ],
+    [
+      4444,
+      "plain",
+      2
+    ],
+    [
+      5555,
+      "plain",
+      1
+    ],
+    [
+      5555,
+      "optimized",
+      1
+    ],
+    [
+      5555,
+      "optimized",
+      2
+    ],
+    [
+      5555,
+      "plain",
+      2
+    ]
+  ],
+  "repeats": 2,
+  "precision": "FP32",
+  "intra_threads": 4,
+  "inter_threads": 1,
+  "warmup": 100,
+  "pure_iterations_per_run": 500,
+  "fixed_validation_inputs": 48,
+  "test_images": 2325,
+  "cooldown": "wait >=12 s then exit if <=50 C; stop waiting at 60 s, preserve actual temperature",
+  "correctness": "2325 predictions identical to adopted checkpoint PC FP32; logits atol=rtol=2e-4; RGB/FP32 preprocessing bitwise equal",
+  "timing": "offline file read/decode/preprocess + inference + softmax/argmax; warmed cache; no camera/network/model-load/startup",
+  "scope": "Four new seeds, each plain/optimized paired ABBA; all runs retained. Five-seed summary additionally uses historical 2026-10-15 seed2222 ABBA. Not a single batch across all five seeds. No training or weight selection."
+}

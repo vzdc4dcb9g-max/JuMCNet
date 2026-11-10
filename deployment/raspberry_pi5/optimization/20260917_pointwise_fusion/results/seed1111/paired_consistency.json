@@ -1,0 +1,7 @@
+{
+  "seed": 1111,
+  "max_abs": 9.5367431640625e-06,
+  "allclose": true,
+  "classes_equal": true,
+  "bit_equal": false
+}

@@ -1,0 +1,163 @@
+{
+  "seeds": [
+    1111,
+    2222,
+    3333,
+    4444,
+    5555
+  ],
+  "unique_test_images": 2325,
+  "full_runs": 20,
+  "per_seed": [
+    {
+      "seed": 1111,
+      "accuracy_pct": 94.66666666666667,
+      "macro_f1_pct": 94.73234416170088,
+      "baseline_pure_ms": 18.605478639,
+      "resize_pure_ms": 18.675549424999996,
+      "baseline_total_ms": 23.3356179888172,
+      "resize_total_ms": 23.021961185591397,
+      "baseline_preprocess_ms": 4.413185937419355,
+      "resize_preprocess_ms": 3.980989766881721,
+      "total_reduction_pct": 1.3441118352902182,
+      "original_max_abs": 9.5367431640625e-06,
+      "prior_graph_max_abs": 9.5367431640625e-06,
+      "paired_logits_bitwise_equal": true
+    },
+    {
+      "seed": 2222,
+      "accuracy_pct": 94.19354838709677,
+      "macro_f1_pct": 94.23336953401228,
+      "baseline_pure_ms": 18.566521021,
+      "resize_pure_ms": 18.983036887,
+      "baseline_total_ms": 23.347100709462364,
+      "resize_total_ms": 23.31301446903226,
+      "baseline_preprocess_ms": 4.415644917204301,
+      "resize_preprocess_ms": 3.970350053333334,
+      "total_reduction_pct": 0.1459977444492222,
+      "original_max_abs": 6.67572021484375e-06,
+      "prior_graph_max_abs": 5.7220458984375e-06,
+      "paired_logits_bitwise_equal": true
+    },
+    {
+      "seed": 3333,
+      "accuracy_pct": 94.6236559139785,
+      "macro_f1_pct": 94.66181097891803,
+      "baseline_pure_ms": 18.552187676000003,
+      "resize_pure_ms": 18.80659048,
+      "baseline_total_ms": 23.43977430774194,
+      "resize_total_ms": 23.0364485227957,
+      "baseline_preprocess_ms": 4.429934970537635,
+      "resize_preprocess_ms": 3.9764710361290327,
+      "total_reduction_pct": 1.7206897116454956,
+      "original_max_abs": 1.1444091796875e-05,
+      "prior_graph_max_abs": 8.58306884765625e-06,
+      "paired_logits_bitwise_equal": true
+    },
+    {
+      "seed": 4444,
+      "accuracy_pct": 94.3225806451613,
+      "macro_f1_pct": 94.37059183129581,
+      "baseline_pure_ms": 18.754837784,
+      "resize_pure_ms": 18.644814490999998,
+      "baseline_total_ms": 23.54408446301075,
+      "resize_total_ms": 22.974281899999998,
+      "baseline_preprocess_ms": 4.421777033548387,
+      "resize_preprocess_ms": 3.977155378924731,
+      "total_reduction_pct": 2.420151711169527,
+      "original_max_abs": 5.7220458984375e-06,
+      "prior_graph_max_abs": 5.7220458984375e-06,
+      "paired_logits_bitwise_equal": true
+    },
+    {
+      "seed": 5555,
+      "accuracy_pct": 94.66666666666667,
+      "macro_f1_pct": 94.71753280830056,
+      "baseline_pure_ms": 18.598853593,
+      "resize_pure_ms": 18.720244699999995,
+      "baseline_total_ms": 23.487028283870963,
+      "resize_total_ms": 23.030293586236557,
+      "baseline_preprocess_ms": 4.425647225376343,
+      "resize_preprocess_ms": 3.984370694623656,
+      "total_reduction_pct": 1.9446253145105397,
+      "original_max_abs": 8.58306884765625e-06,
+      "prior_graph_max_abs": 6.67572021484375e-06,
+      "paired_logits_bitwise_equal": true
+    }
+  ],
+  "variants": {
+    "baseline": {
+      "accuracy_pct": {
+        "mean": 94.49462365591398,
+        "sd": 0.2214114008814438
+      },
+      "macro_f1_pct": {
+        "mean": 94.54312986284552,
+        "sd": 0.2269495975083776
+      },
+      "onnx_mib": {
+        "mean": 4.741616249084473,
+        "sd": 0.0
+      },
+      "pure_ms": {
+        "mean": 18.6155757426,
+        "sd": 0.08093193229774669
+      },
+      "preprocess_ms": {
+        "mean": 4.421238016817204,
+        "sd": 0.00691894878357477
+      },
+      "total_ms": {
+        "mean": 23.430721150580645,
+        "sd": 0.0896391140480904
+      },
+      "peak_rss_mib": {
+        "mean": 115.84375,
+        "sd": 0.2871027316408275
+      }
+    },
+    "resize": {
+      "accuracy_pct": {
+        "mean": 94.49462365591398,
+        "sd": 0.2214114008814438
+      },
+      "macro_f1_pct": {
+        "mean": 94.54312986284552,
+        "sd": 0.2269495975083776
+      },
+      "onnx_mib": {
+        "mean": 4.741616249084473,
+        "sd": 0.0
+      },
+      "pure_ms": {
+        "mean": 18.7660471966,
+        "sd": 0.13575102931027594
+      },
+      "preprocess_ms": {
+        "mean": 3.9778673859784948,
+        "sd": 0.005268048094023137
+      },
+      "total_ms": {
+        "mean": 23.07519993273118,
+        "sd": 0.1351784181470241
+      },
+      "peak_rss_mib": {
+        "mean": 115.834375,
+        "sd": 0.2240839642787386
+      }
+    }
+  },
+  "reduction_pct": {
+    "pure_ms": -0.8083094290533221,
+    "preprocess_ms": 10.028200905543795,
+    "total_ms": 1.5173293880485383
+  },
+  "faster_seed_count": 5,
+  "effective": true,
+  "all_predictions_identical": true,
+  "all_inputs_and_paired_logits_bitwise_equal": true,
+  "no_recorded_throttling": true,
+  "all_checks_passed": true,
+  "mean_definition": "For each variant, average two runs within each seed, then report mean and sample SD across five seed means.",
+  "pure_timing_interpretation": "Same graph for both variants; pure-time differences are timing variability, not preprocessing acceleration."
+}

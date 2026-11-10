@@ -1,0 +1,60 @@
+{
+  "libraries": {
+    "cropresize.so": {
+      "bytes": 70496,
+      "sha256": "9d7d8364ce87ca754f8422dc2e9004374ca4b9695b5a57442bbec282b89acdbf"
+    },
+    "direct.so": {
+      "bytes": 78800,
+      "sha256": "0bd1c2633e1d3db8940a007f76a7a657be010229af828bfdfccd76732f3cc056"
+    },
+    "dw8.so": {
+      "bytes": 76560,
+      "sha256": "942b9c76eca6174d69e6238a8d6c614c287544af5e39a17f9005da710daa07d2"
+    },
+    "dw_silu.so": {
+      "bytes": 76568,
+      "sha256": "28ccbb444210c0a9287f498d5d86b6fa2f4c781552f2f8d28e0e97ea52e849a5"
+    },
+    "fc.so": {
+      "bytes": 75240,
+      "sha256": "a5111a3f345e87f7d15e11d7a74ed0f5396a674122331c9304b640d77da6302d"
+    },
+    "lut.so": {
+      "bytes": 69224,
+      "sha256": "dfad1c3a821bbc711aa1fd434fee0e34bcf84e686358b3f8ffdec3a2ab4a6a8d"
+    },
+    "more_ops.so": {
+      "bytes": 78056,
+      "sha256": "9d3e4a42a0b214da5a8f1751982190cc45e5c208c75207be3ec9bb5c3cfe35aa"
+    },
+    "pw24_silu.so": {
+      "bytes": 75208,
+      "sha256": "b71be829820ffa313fab06b5d768902e851f1d4b3770223378fab0860611fb50"
+    },
+    "pw_silu.so": {
+      "bytes": 75200,
+      "sha256": "94a0e15d72769e46e9e1eee2ca339a193925b864060341fe39e101919d2f9c95"
+    },
+    "stem_silu.so": {
+      "bytes": 75208,
+      "sha256": "a668b1aed71d348c901f2ba7cae86d734fe36607778099c1069c4d7cd36692bc"
+    }
+  },
+  "total_library_bytes": 750560,
+  "model_template_sha256": "bbdb0136f72c59b9609cd49d3b907f4cf31dd15339444f003855c39141d075cc",
+  "precision": "FP32",
+  "preprocessing": "lut_chw plus optional crop_resize",
+  "source_snapshot": "reference_sources",
+  "note": "Some source snapshots document preceding experiments. Only libraries loaded by scripts/runtime.py are used by this run.",
+  "registered_custom_domains": [
+    "jumc.cpu",
+    "jumc.pointwise",
+    "jumc.pointwise24",
+    "jumc.stem",
+    "jumc.more",
+    "jumc.direct",
+    "jumc.fc",
+    "jumc.dw8"
+  ]
+}

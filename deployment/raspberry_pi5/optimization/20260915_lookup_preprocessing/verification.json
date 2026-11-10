@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "verified_variants": 10,
+  "verified_predictions": 23250,
+  "verified_timings": 15000,
+  "original_backup_and_sources_unchanged": true,
+  "errors": [],
+  "checked_at": "2026-09-15T17:25:51+0800",
+  "all_temporary_seed_weights_cleaned": true,
+  "full_test_inputs_byte_identical": true
+}

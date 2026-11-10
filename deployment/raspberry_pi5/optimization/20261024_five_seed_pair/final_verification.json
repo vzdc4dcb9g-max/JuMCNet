@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "new_runs": 16,
+  "historical_2222_runs": 4,
+  "all_runs_retained": 20,
+  "independent_statistics_match": true,
+  "all_model_and_reference_checks_pass": true,
+  "all_predictions_identical_within_seed": true,
+  "transfer_hashes_match": true,
+  "source_weights_unchanged": true,
+  "new_training": false,
+  "new_device_sequence_seconds": 1986.0,
+  "five_seed_total_reduction_pct": 38.37766143573889,
+  "seed_mean_gain_pct": 38.37548023353938,
+  "note": "Five-seed same-protocol cross-date aggregation; 2222 measured 2026-10-15, remaining four 2026-10-24."
+}

@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "verified_variants": 20,
+  "verified_predictions": 46500,
+  "verified_timings": 30000,
+  "original_backup_and_sources_unchanged": true,
+  "errors": [],
+  "checked_at": "2026-09-15T15:13:49+0800",
+  "all_temporary_seed_weights_cleaned": true
+}

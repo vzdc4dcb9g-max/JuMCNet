@@ -1,0 +1,125 @@
+dataset:
+  dataset_name: Jujube12000
+  data_root: "E:\\vsCodeWorkspace\\JujubeDefectBench\\dataSets\\Jujube12000"
+  num_classes: 6
+  class_names:
+  - bianxing
+  - gantiao
+  - haozao
+  - liekou
+  - meibian
+  - niaozhuo
+  class_names_en:
+    bianxing: Deformed
+    gantiao: Shriveled
+    haozao: Normal
+    liekou: Cracked
+    meibian: Moldy
+    niaozhuo: Bird-pecked
+  split:
+    seed: 2222
+    train_ratio: 0.7
+    val_ratio: 0.1
+    test_ratio: 0.2
+    output_dir: "E:\\vsCodeWorkspace\\JujubeDefectBench\\splits\\Jujube12000\\split_seed_2222"
+  image:
+    input_size: 224
+    channels: 3
+  normalization:
+    mean:
+    - 0.485
+    - 0.456
+    - 0.406
+    std:
+    - 0.229
+    - 0.224
+    - 0.225
+  loader:
+    num_workers: 4
+    pin_memory: true
+    persistent_workers: false
+experiment:
+  experiment_name: "Jujube12000_jumcnet_ema_seed_5555"
+  output_namespace: ""
+  output_root: E:\vsCodeWorkspace\JujubeDefectBench\runs
+  epochs: 200
+  batch_size: 32
+  learning_rate: 0.0005
+  weight_decay: 0.05
+  optimizer: adamw
+  warmup_epochs: 1
+  scheduler: cosine
+  label_smoothing: 0.0
+  amp: true
+  train_repeat_factor: 1
+  monitor: macro_f1
+  monitor_mode: max
+  save_last: true
+  topk_ema: 5
+  augmentation:
+    random_resized_crop:
+      scale:
+      - 0.7
+      - 1.0
+      ratio:
+      - 0.8
+      - 1.25
+    horizontal_flip: 0.5
+    vertical_flip: 0.5
+    rotation_degrees: 15
+    shear_degrees: 10
+    color_jitter:
+      brightness: 0.2
+      contrast: 0.2
+      saturation: 0.2
+      hue: 0.0
+    random_erasing:
+      probability: 0.25
+      scale:
+      - 0.02
+      - 0.2
+      value: random
+model:
+  model_name: jumcnet
+  model_source: custom
+  pretrained: false
+  dropout: 0.0
+  use_high_frequency: false
+  use_mff: true
+  mff_variant: default
+  use_stage2_mff: true
+  use_stage3_mff: true
+  use_stage4_mff: true
+  use_local_eca: true
+  eca_kernel: 3
+  use_stage2_local_eca: true
+  use_stage3_local_eca: true
+  use_stage4_local_eca: true
+  use_tail_enhance: false
+  tail_reduction: 4
+  rcaux:
+    enabled: true
+    reduced_channels: 48
+    num_codewords: 4
+    projection_dim: 64
+    assignment_scale: 1.0
+    max_weight: 0.15
+    warmup_end_epoch: 20
+    decay_start_epoch: 160
+    end_epoch: 200
+  ema:
+    enabled: true
+    decay: 0.9998
+    min_decay: 0.0
+    update_after_step: 0
+    use_warmup: true
+    warmup_gamma: 1.0
+    warmup_power: 0.75
+  difficulty_weighted_loss:
+    enabled: false
+  confusion_loss:
+    enabled: false
+  global_aux_loss:
+    enabled: false
+train_seed: 5555
+device: cuda

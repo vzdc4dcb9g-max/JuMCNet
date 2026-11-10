@@ -1,0 +1,253 @@
+{
+  "seed": 3333,
+  "variant": "method3_base",
+  "model": "JuMCNet",
+  "checkpoint_sha256": "e98f1a9a0a0cabd543fec88c9e47fbfc5071b5ee9ad459a4f8191b21fa323f3a",
+  "model_sha256": "c24e6e1a343587f3def7d7d0d5fc82de09cf42fa210fd773e82addd6994f7420",
+  "onnx_bytes": 4980822,
+  "test_count": 2325,
+  "metrics": {
+    "accuracy": 0.946236559139785,
+    "macro_precision": 0.9469269412199197,
+    "macro_recall": 0.9463694767494556,
+    "macro_f1": 0.9466181097891803,
+    "per_class_precision": [
+      0.9296482412060302,
+      0.9583333333333334,
+      0.9596977329974811,
+      0.9551122194513716,
+      0.9135802469135802,
+      0.9651898734177216
+    ],
+    "per_class_recall": [
+      0.9226932668329177,
+      0.9750623441396509,
+      0.9525,
+      0.9551122194513716,
+      0.9226932668329177,
+      0.9501557632398754
+    ],
+    "per_class_f1": [
+      0.9261576971214018,
+      0.9666254635352286,
+      0.9560853199498117,
+      0.9551122194513716,
+      0.9181141439205954,
+      0.9576138147566718
+    ],
+    "per_class_support": [
+      401,
+      401,
+      400,
+      401,
+      401,
+      321
+    ],
+    "confusion_matrix": [
+      [
+        370,
+        5,
+        11,
+        7,
+        6,
+        2
+      ],
+      [
+        7,
+        391,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        9,
+        5,
+        381,
+        2,
+        3,
+        0
+      ],
+      [
+        4,
+        0,
+        3,
+        383,
+        11,
+        0
+      ],
+      [
+        6,
+        7,
+        2,
+        7,
+        370,
+        9
+      ],
+      [
+        2,
+        0,
+        0,
+        2,
+        12,
+        305
+      ]
+    ]
+  },
+  "consistency": {
+    "prediction_mismatches": 0,
+    "predictions_equal": true,
+    "allclose": true,
+    "max_abs": 0.0,
+    "mean_abs": 0.0,
+    "all_logits_bitwise_equal": true,
+    "reference": "Original full-test Raspberry Pi FP32 logits from completed 55-job benchmark",
+    "rtol": 0.0002,
+    "atol": 0.0002
+  },
+  "benchmark": {
+    "pooled": {
+      "n": 1500,
+      "mean_ms": 28.483560447333332,
+      "sd_ms": 0.32133863517357514,
+      "median_ms": 28.453758999999998,
+      "p95_ms": 28.84377185,
+      "min_ms": 27.889905,
+      "max_ms": 33.914007,
+      "throughput_images_per_s": 35.10797050281055
+    },
+    "rounds": [
+      {
+        "n": 500,
+        "mean_ms": 28.422982620000003,
+        "sd_ms": 0.2685669592709641,
+        "median_ms": 28.403636499999998,
+        "p95_ms": 28.82895885,
+        "min_ms": 27.889905,
+        "max_ms": 30.431437,
+        "throughput_images_per_s": 35.182796027055375
+      },
+      {
+        "n": 500,
+        "mean_ms": 28.516533369999998,
+        "sd_ms": 0.40273753981230653,
+        "median_ms": 28.463220999999997,
+        "p95_ms": 28.83175815,
+        "min_ms": 28.04611,
+        "max_ms": 33.914007,
+        "throughput_images_per_s": 35.06737607355954
+      },
+      {
+        "n": 500,
+        "mean_ms": 28.511165352000003,
+        "sd_ms": 0.2652050189318774,
+        "median_ms": 28.474241,
+        "p95_ms": 28.851729900000002,
+        "min_ms": 28.07265,
+        "max_ms": 32.049382,
+        "throughput_images_per_s": 35.07397848014837
+      }
+    ]
+  },
+  "classification_run": {
+    "model_only": {
+      "n": 2325,
+      "mean_ms": 29.129687083010758,
+      "sd_ms": 0.49671191248102564,
+      "median_ms": 29.036807,
+      "p95_ms": 29.6367094,
+      "min_ms": 28.487602,
+      "max_ms": 35.337047,
+      "throughput_images_per_s": 34.32923934782766
+    },
+    "preprocessing": {
+      "n": 2325,
+      "mean_ms": 5.670204640430107,
+      "sd_ms": 0.27375692407789604,
+      "median_ms": 5.821821,
+      "p95_ms": 5.9167894,
+      "min_ms": 5.118118,
+      "max_ms": 6.217542,
+      "throughput_images_per_s": 176.36047786877515
+    },
+    "end_to_end": {
+      "n": 2325,
+      "mean_ms": 34.869200513548385,
+      "sd_ms": 0.5674528780837084,
+      "median_ms": 34.868945,
+      "p95_ms": 35.4304178,
+      "min_ms": 33.85509,
+      "max_ms": 41.199996,
+      "throughput_images_per_s": 28.6786041914397
+    }
+  },
+  "memory": {
+    "process_peak_rss_mib": 105.25,
+    "baseline_rss_mib": 56.71875,
+    "scope": "Whole fresh Python process peak RSS including runtime/model/probes/measurement arrays"
+  },
+  "load_ms": 78.13608499418478,
+  "hardware_start": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "1500000",
+    "temperature_c": 50.15,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "hardware_end": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "2400000",
+    "temperature_c": 66.1,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "max_temperature_c": 67.2,
+  "cooldown_s": 106.021216000001,
+  "settings": {
+    "precision": "FP32",
+    "backend": "CPUExecutionProvider",
+    "input": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "intra_threads": 4,
+    "inter_threads": 1,
+    "spinning": false,
+    "graph_optimization": "all",
+    "warmup": 100,
+    "pure_iterations": 1500,
+    "buffer_input_copy_included": false,
+    "preprocessing_variant": "method3_base",
+    "preprocessing": "PIL RGB, identical resize/crop; normalization via original arithmetic or bit-identical lookup table",
+    "timing_scope": "Identical to original benchmark; buffer copy included; no model load/disk-result writing/network/camera"
+  },
+  "finished_at": "2026-09-15T17:05:39+0800"
+}

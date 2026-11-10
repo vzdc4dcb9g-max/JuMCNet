@@ -1,0 +1,7 @@
+{
+  "aliyun_sdk_installed": false,
+  "onnxruntime": "1.28.0",
+  "numpy": "2.4.4",
+  "pillow": "12.2.0",
+  "note": "MNN isolated in task deps; native converter bypasses optional tools telemetry wrapper"
+}

@@ -1,0 +1,178 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-24T13:01:46.034357+00:00",
+  "new_runs": 16,
+  "historical_runs": 4,
+  "all_runs_used": 20,
+  "seeds": [
+    {
+      "seed": 1111,
+      "date": "2026-10-24",
+      "plain_pure_ms": 31.072424038999998,
+      "optimized_pure_ms": 18.638738293000003,
+      "pure_reduction_pct": 40.01517786444365,
+      "plain_total_ms": 37.39812366924731,
+      "optimized_total_ms": 22.980195377419356,
+      "total_reduction_pct": 38.55254455903064,
+      "plain_preprocess_ms": 5.560978695913978,
+      "optimized_preprocess_ms": 3.9456267550537634,
+      "accuracy_pct": 94.66666666666667,
+      "macro_f1_pct": 94.73234416170088,
+      "repeats_per_variant": 2
+    },
+    {
+      "seed": 2222,
+      "date": "2026-10-15",
+      "plain_pure_ms": 30.791426342,
+      "optimized_pure_ms": 18.739141692,
+      "pure_reduction_pct": 39.141690015056206,
+      "plain_total_ms": 37.02644613247311,
+      "optimized_total_ms": 23.17808667483871,
+      "total_reduction_pct": 37.40126559294343,
+      "plain_preprocess_ms": 5.504325431612903,
+      "optimized_preprocess_ms": 3.938689489032258,
+      "accuracy_pct": 94.27956989247312,
+      "macro_f1_pct": 94.32633804182517,
+      "repeats_per_variant": 2
+    },
+    {
+      "seed": 3333,
+      "date": "2026-10-24",
+      "plain_pure_ms": 31.120434293,
+      "optimized_pure_ms": 18.565777982999997,
+      "pure_reduction_pct": 40.34216293962181,
+      "plain_total_ms": 37.28649473806452,
+      "optimized_total_ms": 22.91776290086021,
+      "total_reduction_pct": 38.53602205877442,
+      "plain_preprocess_ms": 5.507155619139785,
+      "optimized_preprocess_ms": 3.9687174886021506,
+      "accuracy_pct": 94.6236559139785,
+      "macro_f1_pct": 94.66181097891803,
+      "repeats_per_variant": 2
+    },
+    {
+      "seed": 4444,
+      "date": "2026-10-24",
+      "plain_pure_ms": 30.963144001000003,
+      "optimized_pure_ms": 18.522579141999998,
+      "pure_reduction_pct": 40.178622876921736,
+      "plain_total_ms": 37.29558704086021,
+      "optimized_total_ms": 22.925970053333337,
+      "total_reduction_pct": 38.5290006878933,
+      "plain_preprocess_ms": 5.547658924946236,
+      "optimized_preprocess_ms": 3.937400055698925,
+      "accuracy_pct": 94.3225806451613,
+      "macro_f1_pct": 94.37059183129581,
+      "repeats_per_variant": 2
+    },
+    {
+      "seed": 5555,
+      "date": "2026-10-24",
+      "plain_pure_ms": 31.270069783000004,
+      "optimized_pure_ms": 18.760533833000004,
+      "pure_reduction_pct": 40.00482262051368,
+      "plain_total_ms": 37.5606403660215,
+      "optimized_total_ms": 22.965113287096777,
+      "total_reduction_pct": 38.858568269055084,
+      "plain_preprocess_ms": 5.606696199784946,
+      "optimized_preprocess_ms": 3.942902835483871,
+      "accuracy_pct": 94.66666666666667,
+      "macro_f1_pct": 94.71753280830056,
+      "repeats_per_variant": 2
+    }
+  ],
+  "aggregation": "Within each seed/configuration: arithmetic mean of both complete runs; then unweighted mean across 5 seeds. Sample SD ddof=1 across seed means. Percentage from unrounded latency values.",
+  "date_scope": "1111/3333/4444/5555: 2026-10-24; 2222: 2026-10-15, same protocol. Each seed paired within its own date; not five-seed same-batch testing.",
+  "all_predictions_identical_within_seed": true,
+  "all_pc_fp32_tolerance_pass": true,
+  "all_input_equivalence_pass": true,
+  "all_throttle_flags_zero": true,
+  "hardware_and_software_match_across_dates": true,
+  "hardware": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "temperature_start_range_c": [
+    35.85,
+    51.25
+  ],
+  "temperature_end_range_c": [
+    51.25,
+    65.55
+  ],
+  "five_seed": {
+    "plain_pure_ms": {
+      "mean": 31.0434996916,
+      "sample_sd": 0.17894661750956914
+    },
+    "optimized_pure_ms": {
+      "mean": 18.6453541886,
+      "sample_sd": 0.10429801162777884
+    },
+    "pure_reduction_pct": {
+      "mean": 39.936495263311414,
+      "sample_sd": 0.4652330080166571
+    },
+    "plain_total_ms": {
+      "mean": 37.313458389333334,
+      "sample_sd": 0.19473674434757726
+    },
+    "optimized_total_ms": {
+      "mean": 22.99342565870968,
+      "sample_sd": 0.10647937972824861
+    },
+    "total_reduction_pct": {
+      "mean": 38.37548023353938,
+      "sample_sd": 0.5619524443683878
+    },
+    "plain_preprocess_ms": {
+      "mean": 5.54536297427957,
+      "sample_sd": 0.042292932617095116
+    },
+    "optimized_preprocess_ms": {
+      "mean": 3.9466673247741935,
+      "sample_sd": 0.012757272720281073
+    },
+    "accuracy_pct": {
+      "mean": 94.51182795698925,
+      "sample_sd": 0.19378718840548528
+    },
+    "macro_f1_pct": {
+      "mean": 94.56172356440808,
+      "sample_sd": 0.1970679342830249
+    },
+    "pure_reduction_from_group_means_pct": 39.93797615014003,
+    "pure_speedup_from_group_means": 1.6649455611082133,
+    "total_reduction_from_group_means_pct": 38.37766143573889,
+    "total_speedup_from_group_means": 1.6227881370603587
+  },
+  "four_new_seeds": {
+    "plain_total_ms": {
+      "mean": 37.385211453548386,
+      "sample_sd": 0.12743567516120785
+    },
+    "optimized_total_ms": {
+      "mean": 22.947260404677422,
+      "sample_sd": 0.03014862977534371
+    },
+    "mean_paired_total_reduction_pct": {
+      "mean": 38.61903389368836,
+      "sample_sd": 0.1599942618628003
+    },
+    "total_reduction_from_group_means_pct": 38.619417912910045
+  },
+  "source_weights_unchanged": true,
+  "new_training": false
+}

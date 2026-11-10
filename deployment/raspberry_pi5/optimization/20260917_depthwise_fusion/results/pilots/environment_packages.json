@@ -1,0 +1,1 @@
+[{"name": "flatbuffers", "version": "25.12.19"}, {"name": "numpy", "version": "2.4.4"}, {"name": "onnxruntime", "version": "1.28.0"}, {"name": "packaging", "version": "26.3"}, {"name": "pillow", "version": "12.2.0"}, {"name": "pip", "version": "25.1.1"}, {"name": "protobuf", "version": "7.36.1"}, {"name": "psutil", "version": "7.0.0"}]

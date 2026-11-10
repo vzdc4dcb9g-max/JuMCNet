@@ -1,0 +1,11 @@
+{
+  "prediction_mismatches": 0,
+  "predictions_equal": true,
+  "allclose": true,
+  "max_abs": 0.0,
+  "mean_abs": 0.0,
+  "all_logits_bitwise_equal": true,
+  "reference": "Original full-test Raspberry Pi FP32 logits from completed 55-job benchmark",
+  "rtol": 0.0002,
+  "atol": 0.0002
+}

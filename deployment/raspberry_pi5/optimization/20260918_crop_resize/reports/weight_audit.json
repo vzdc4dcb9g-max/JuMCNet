@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 1111,
+    "initializers": 204,
+    "all_initializer_bytes_identical": true,
+    "model_nodes": 293,
+    "weight_payload_sha256": "042822cfde3fec689823c551fa907d6241df87f1205db0d7565224496749c5f7"
+  },
+  {
+    "seed": 2222,
+    "initializers": 204,
+    "all_initializer_bytes_identical": true,
+    "model_nodes": 293,
+    "weight_payload_sha256": "9d82cecf2cc34cfd5f7a0e3da3cc53bddaa3f68e6bfb26419ec37c4e53d7985d"
+  },
+  {
+    "seed": 3333,
+    "initializers": 204,
+    "all_initializer_bytes_identical": true,
+    "model_nodes": 293,
+    "weight_payload_sha256": "d291f7eb510202f59de8fb38aaefe7a38d3bda6020d7b9a06f0719b0aecb65e6"
+  },
+  {
+    "seed": 4444,
+    "initializers": 204,
+    "all_initializer_bytes_identical": true,
+    "model_nodes": 293,
+    "weight_payload_sha256": "572aa14552fbed2bafc29cd4a205e4288111ef5c9b047ceb130bb09925345a70"
+  },
+  {
+    "seed": 5555,
+    "initializers": 204,
+    "all_initializer_bytes_identical": true,
+    "model_nodes": 293,
+    "weight_payload_sha256": "4011f6098f12e900a6b5b280bbc23863a24957a6c1288bfe2fb272d3257b5295"
+  }
+]

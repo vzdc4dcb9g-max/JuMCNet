@@ -1,0 +1,44 @@
+{
+  "seed_order": [
+    1111,
+    2222,
+    3333,
+    4444,
+    5555
+  ],
+  "variant_orders": [
+    [
+      "original",
+      "method2",
+      "method3",
+      "method23"
+    ],
+    [
+      "method23",
+      "method3",
+      "method2",
+      "original"
+    ],
+    [
+      "method2",
+      "original",
+      "method23",
+      "method3"
+    ],
+    [
+      "method3",
+      "method23",
+      "original",
+      "method2"
+    ],
+    [
+      "original",
+      "method3",
+      "method2",
+      "method23"
+    ]
+  ],
+  "scope": "Only JuMCNet. All four variants on all five existing seeds. Timing includes buffer input copy. Full 2325-image prediction invariance and numerical error checks. Fixed 100 warmup + 3x500 measured iterations. No power/frequency/thread changes.",
+  "selection": "No accuracy-based configuration selection; fixed operator fusion and allocation-reuse variants. Raw results retained regardless of performance.",
+  "created_at": "2026-09-15T13:54:46+0800"
+}

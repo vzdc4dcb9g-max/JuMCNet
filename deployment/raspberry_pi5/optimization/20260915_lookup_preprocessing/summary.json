@@ -1,0 +1,68 @@
+[
+  {
+    "variant": "method3_base",
+    "name": "Method 3 + original preprocessing",
+    "n": 5,
+    "accuracy": {
+      "mean": 0.9449462365591398,
+      "sample_sd": 0.0022141140088144224
+    },
+    "macro_f1": {
+      "mean": 0.9454312986284551,
+      "sample_sd": 0.0022694959750837853
+    },
+    "onnx_mib": {
+      "mean": 4.750082015991211,
+      "sample_sd": 0.0
+    },
+    "pure_ms": {
+      "mean": 28.281530650533334,
+      "sample_sd": 0.17708216134272473
+    },
+    "prep_ms": {
+      "mean": 5.628640820387097,
+      "sample_sd": 0.052486950114256484
+    },
+    "e2e_ms": {
+      "mean": 34.76450015810752,
+      "sample_sd": 0.16468748471292566
+    },
+    "peak_rss_mib": {
+      "mean": 105.178125,
+      "sample_sd": 0.22251228898647374
+    }
+  },
+  {
+    "variant": "method3_lookup",
+    "name": "Method 3 + lookup-table preprocessing",
+    "n": 5,
+    "accuracy": {
+      "mean": 0.9449462365591398,
+      "sample_sd": 0.0022141140088144224
+    },
+    "macro_f1": {
+      "mean": 0.9454312986284551,
+      "sample_sd": 0.0022694959750837853
+    },
+    "onnx_mib": {
+      "mean": 4.750082015991211,
+      "sample_sd": 0.0
+    },
+    "pure_ms": {
+      "mean": 28.231481344933332,
+      "sample_sd": 0.12651802185306454
+    },
+    "prep_ms": {
+      "mean": 4.72270891088172,
+      "sample_sd": 0.006242070184356958
+    },
+    "e2e_ms": {
+      "mean": 33.67682490486022,
+      "sample_sd": 0.13830928086149458
+    },
+    "peak_rss_mib": {
+      "mean": 103.571875,
+      "sample_sd": 0.26530311379156485
+    }
+  }
+]

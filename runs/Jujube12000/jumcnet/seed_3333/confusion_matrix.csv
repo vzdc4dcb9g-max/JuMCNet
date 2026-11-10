@@ -1,0 +1,7 @@
+﻿true/pred,Deformed,Shriveled,Normal,Cracked,Moldy,Bird-pecked
+Deformed,370,5,11,7,6,2
+Shriveled,7,391,0,0,3,0
+Normal,9,5,381,2,3,0
+Cracked,4,0,3,383,11,0
+Moldy,6,7,2,7,370,9
+Bird-pecked,2,0,0,2,12,305

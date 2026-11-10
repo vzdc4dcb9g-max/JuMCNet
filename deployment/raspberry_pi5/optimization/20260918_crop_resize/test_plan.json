@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    1111,
+    2222,
+    3333,
+    4444,
+    5555
+  ],
+  "baseline": "Latest FC1+DW8 graph with prior preprocessing",
+  "candidate": "Identical graph and weights with equivalent crop-aware bicubic resize",
+  "repeats": 2,
+  "orders": [
+    "baseline_1,resize_1,resize_2,baseline_2",
+    "resize_1,baseline_1,baseline_2,resize_2"
+  ],
+  "full_test_images": 2325,
+  "pure_iterations": 500,
+  "warmup": 100,
+  "settings": "FP32 CPU, intra=4, inter=1, sequential, graph optimization all, spinning off, existing governor",
+  "correctness": "All five seeds: parameter bytes unchanged, pixels and FP32 input bitwise identical; paired logits bitwise identical; latest graph vs original and prior five-seed references allclose(atol=rtol=2e-4), predictions identical; no nonfinite outputs or throttling",
+  "promotion": "Report all runs. Promote crop resize only if overall five-seed mean total latency improves and at least 4 of 5 paired seed means improve. Do not interpret pure-inference timing change as crop benefit. No significance claim.",
+  "timing": "Two fresh processes per variant per seed; full run then within-seed means; SD across five seed means. Offline warm-cache total includes decode/preprocess, inference, softmax/argmax; excludes camera, network and session initialization."
+}

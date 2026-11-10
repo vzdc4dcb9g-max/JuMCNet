@@ -1,0 +1,173 @@
+{
+  "seed": 4444,
+  "variant": "baseline",
+  "repeats": 2,
+  "test_count": 2325,
+  "unique_images": 2325,
+  "metrics": {
+    "accuracy": 0.9432258064516129,
+    "macro_precision": 0.944576766185376,
+    "macro_recall": 0.9431472558220233,
+    "macro_f1": 0.9437059183129581,
+    "per_class_precision": [
+      0.9395465994962217,
+      0.9563106796116505,
+      0.9546599496221663,
+      0.9641025641025641,
+      0.8848920863309353,
+      0.967948717948718
+    ],
+    "per_class_recall": [
+      0.9301745635910225,
+      0.9825436408977556,
+      0.9475,
+      0.9376558603491272,
+      0.9201995012468828,
+      0.940809968847352
+    ],
+    "per_class_f1": [
+      0.9348370927318296,
+      0.9692496924969248,
+      0.9510664993726474,
+      0.9506953223767383,
+      0.902200488997555,
+      0.9541864139020536
+    ],
+    "per_class_support": [
+      401,
+      401,
+      400,
+      401,
+      401,
+      321
+    ],
+    "confusion_matrix": [
+      [
+        373,
+        4,
+        11,
+        4,
+        8,
+        1
+      ],
+      [
+        4,
+        394,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        6,
+        8,
+        379,
+        1,
+        6,
+        0
+      ],
+      [
+        4,
+        0,
+        5,
+        376,
+        16,
+        0
+      ],
+      [
+        8,
+        5,
+        2,
+        8,
+        369,
+        9
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        15,
+        302
+      ]
+    ]
+  },
+  "model_bytes": 4971945,
+  "model_sha256": "5725665e607f0f497e9e231c6e6d81f82ce1631814516c7cfad683b6e2826643",
+  "pure": {
+    "n": 1000,
+    "mean_ms": 18.754837784,
+    "sd_ms": 0.21827520093394964,
+    "p95_ms": 18.9229216
+  },
+  "full": {
+    "latency": {
+      "n": 4650,
+      "mean_ms": 23.54408446301075,
+      "sd_ms": 0.7185920679516229,
+      "p95_ms": 23.89198855
+    },
+    "preprocess": {
+      "n": 4650,
+      "mean_ms": 4.421777033548387,
+      "sd_ms": 0.2800045009084905,
+      "p95_ms": 4.6499396
+    },
+    "inference": {
+      "n": 4650,
+      "mean_ms": 19.049743329462366,
+      "sd_ms": 0.657486202395777,
+      "p95_ms": 19.264149800000002
+    }
+  },
+  "peak_rss_mib": 115.6953125,
+  "hardware_start": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "1500000",
+    "temperature_c": 49.05,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "hardware_end": {
+    "hostname": "raspberrypi5",
+    "platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "arch": "aarch64",
+    "cpu_count": 4,
+    "ram_total_bytes": 8441544704,
+    "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.5\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+    "board": "Raspberry Pi 5 Model B Rev 1.1",
+    "governor": "ondemand",
+    "frequency_khz": "2400000",
+    "temperature_c": 66.1,
+    "throttled": "throttled=0x0",
+    "versions": {
+      "onnxruntime": "1.28.0",
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "psutil": "7.0.0"
+    },
+    "python": "3.13.5"
+  },
+  "all_checks_passed": true,
+  "completed_at": "2026-09-18T04:13:48+0800",
+  "original_max_abs": 5.7220458984375e-06,
+  "prior_graph_max_abs": 5.7220458984375e-06,
+  "source_runs": [
+    "../baseline_1/result.json",
+    "../baseline_2/result.json"
+  ],
+  "definition": "Arithmetic mean across two equal-length runs. Pure SD and p95 from pooled 1000 timings; process peak RSS is mean of the two process peaks. Unique test images remain 2325."
+}
